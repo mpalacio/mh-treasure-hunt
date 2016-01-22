@@ -60,17 +60,18 @@ angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl', function
 		if(mouse_ids.length > 0)
 			$http.post("http://localhost/mh-treasure-hunt/ajax_catch_mice.php", {'mouse_ids': mouse_ids});
 	}
-}).filter('toArray', function () {
-	return function (obj, addKey) {
+}).filter('toArray', function() {
+	return function(obj, addKey) {
 		if(!(obj instanceof Object)) {
 			return obj;
 		}
 
-		if( addKey === false ) {
+		if(addKey === false) {
 			return Object.values(obj);
-		} else {
-			return Object.keys(obj).map(function (key) {
-				return Object.defineProperty(obj[key], '$key', { enumerable: false, value: key});
+		}
+		else {
+			return Object.keys(obj).map(function(key) {
+				return Object.defineProperty(obj[key], '$key', {enumerable: false, value: key});
 			});
 		}
 	};
