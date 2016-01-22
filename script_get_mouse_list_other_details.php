@@ -1,6 +1,6 @@
 <?php
 	$groups = json_decode(file_get_contents("mice_stat.json"));
-	$mouse_list = json_decode(file_get_contents("mouse_list_temp.json"));
+	$mouse_list = json_decode(file_get_contents("mouse_list.json"));
 	foreach ($groups as $group_tab) {
 		foreach ($group_tab->page->tabs[2]->subtabs[0]->categories as $group) {
 			if(!$group->initialized)
@@ -19,7 +19,7 @@
 		}
 	}
 	echo json_encode($mouse_list);
-	$myfile = fopen("mouse_list_temp.json", "w");
+	$myfile = fopen("mouse_list.json", "w");
 	fwrite($myfile, json_encode($mouse_list));
 	fclose($myfile);
 ?>
