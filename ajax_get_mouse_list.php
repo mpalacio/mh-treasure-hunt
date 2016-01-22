@@ -9,10 +9,16 @@
 	$mouse_group = array();
 	$mouse_location = array();
 
+	$unrecorded_mouse = file_exists("unrecorded.json") ? json_decode(file_get_contents("unrecorded.json"), TRUE) : array();
+
 	foreach($input_arr as $key => $mouse) {
 		$mouse_key = strtolower(str_replace(" ", "_", trim($mouse)));
 
 		if(!isset($mouse_default[$mouse_key])) {
+			if(!isset($mouse_list[$mouse_key])) {
+				$unrecorded_mouse[] = $mouse;
+				continue;
+			}
 			$mouse_default[$mouse_key] = $mouse_list[$mouse_key];
 			$mouse_default[$mouse_key]['caught'] = false;
 		}
@@ -32,7 +38,6 @@
 			$mouse_group[$group] = array();
 		$mouse_group[$group][] = $mouse_key;
 	}
-
 	ksort($mouse_default);
 	ksort($mouse_group);
 	ksort($mouse_location);
@@ -46,5 +51,6 @@
 	$myfile = fopen("map_mouse_json/$map.json", "w");
 	fwrite($myfile, json_encode($mouse_default));
 	fclose($myfile);
+	file_put_contents("unrecorded.json", json_encode($unrecorded_mouse));
 	echo json_encode(array("default" => $mouse_default, "group" => $mouse_group, "location" => $mouse_location));
 ?>
