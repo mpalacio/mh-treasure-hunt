@@ -79,4 +79,13 @@ angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl', function
 	return function(text) {
 		return text.replace(/ /g, "_");
 	};
+}).filter('filterMiceByKey', function() {
+	return function(items, key, value, mice) {
+		var sorted = {};
+		for(var i in items){
+			if(mice[items[i]][key] == value)
+				sorted[i] = items[i];
+		}
+		return sorted;
+	};
 });
