@@ -1,4 +1,4 @@
-angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl', function($scope, $http) {
+var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl', function($scope, $http, $filter) {
 	$scope.group_by = "default";
 	$scope.mouse_default = [];
 	$scope.mouse_group = [];
@@ -84,6 +84,26 @@ angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl', function
 		var sorted = {};
 		for(var i in items){
 			if(mice[items[i]][key] == value)
+				sorted[i] = items[i];
+		}
+		return sorted;
+	};
+}).filter('filterEmptyGroup', function() {
+	return function(items, caught, mice) {
+		var sorted = {};
+		for(var i in items){
+			for(var j in items[i])
+				if(mice[items[i][j]].caught == caught)
+					sorted[i] = items[i];
+		}
+		return sorted;
+	};
+}).filter('filterEmptyRegion', function(filterEmptyGroupFilter, toArrayFilter) {
+	return function(items, caught, mice) {
+		var sorted = {};
+		for(var i in items){
+			var locations = toArrayFilter(filterEmptyGroupFilter(items[i], caught, mice));
+			if(locations.length > 0)
 				sorted[i] = items[i];
 		}
 		return sorted;
