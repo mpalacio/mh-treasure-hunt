@@ -19,7 +19,5 @@
 		}
 	}
 	echo json_encode($mouse_list);
-	$myfile = fopen("mouse_list.json", "w");
-	fwrite($myfile, json_encode($mouse_list));
-	fclose($myfile);
+	file_put_contents("mouse_list.json", json_encode($mouse_list));
 ?>

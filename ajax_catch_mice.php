@@ -9,7 +9,5 @@
 		if(in_array($mouse_id, $mouse_ids))
 			$mouse->caught = true;
 
-	$myfile = fopen("map_mouse_json/$map.json", "w");
-	fwrite($myfile, json_encode($mouse_default));
-	fclose($myfile);
+	file_put_contents("map_mouse_json/$map.json", json_encode($mouse_default));
 ?>

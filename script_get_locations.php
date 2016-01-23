@@ -14,9 +14,7 @@
 	}
 
 	echo json_encode($locations);
-	$myfile = fopen("locations.json", "w");
-	fwrite($myfile, json_encode($locations));
-	fclose($myfile);
+	file_put_contents("locations.json", json_encode($locations));
 
 	function xml2array($xml) {
 		$arr = array();

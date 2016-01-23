@@ -48,9 +48,7 @@
 		}
 	}
 
-	$myfile = fopen("map_mouse_json/$map.json", "w");
-	fwrite($myfile, json_encode($mouse_default));
-	fclose($myfile);
+	file_put_contents("map_mouse_json/$map.json", json_encode($mouse_default));
 	file_put_contents("unrecorded.json", json_encode($unrecorded_mouse));
 	echo json_encode(array("default" => $mouse_default, "group" => $mouse_group, "location" => $mouse_location));
 ?>

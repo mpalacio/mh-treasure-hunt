@@ -8,7 +8,7 @@
 	$mouse_list = array();
 	$dom = new DOMDocument();
 	$wiki = 'http://mhwiki.hitgrab.com/wiki/index.php/Mice';
-	$wiki = 'mice.html';
+	$wiki = 'mouse_list.html';
 	$dom->loadHTMLFile($wiki);
 	$xml = simplexml_import_dom($dom);
 	$table = $xml->xpath('//table/tbody');
@@ -90,9 +90,7 @@
 	}
 
 	echo json_encode($mouse_list);
-	$myfile = fopen("mouse_list.json", "w");
-	fwrite($myfile, json_encode($mouse_list));
-	fclose($myfile);
+	file_put_contents("mouse_list.json", json_encode($mouse_list));
 
 	function xml2array($xml) {
 		$arr = array();
