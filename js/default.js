@@ -81,53 +81,53 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 	};
 }).filter('filterMiceByKey', function() {
 	return function(items, key, value, mice) {
-		var sorted = {};
+		var filtered = {};
 		for(var i in items){
 			if(mice[items[i]][key] == value)
-				sorted[i] = items[i];
+				filtered[i] = items[i];
 		}
-		return sorted;
+		return filtered;
 	};
 }).filter('filterEmptyGroup', function() {
 	return function(items, caught, mice) {
-		var sorted = {};
+		var filtered = {};
 		for(var i in items){
 			for(var j in items[i])
 				if(mice[items[i][j]].caught == caught)
-					sorted[i] = items[i];
+					filtered[i] = items[i];
 		}
-		return sorted;
+		return filtered;
 	};
 }).filter('filterEmptyRegion', function(filterEmptyGroupFilter, searchGroupFilter, toArrayFilter) {
 	return function(items, filter, params) {
-		var sorted = {};
+		var filtered = {};
 		if(filter == "filterEmptyGroup") {
 			for(var i in items){
 				var locations = toArrayFilter(filterEmptyGroupFilter(items[i], params.caught, params.mice));
 				if(locations.length > 0)
-					sorted[i] = items[i];
+					filtered[i] = items[i];
 			}
 		}
 		else if(filter == "searchGroup") {
 			for(var i in items){
 				var locations = toArrayFilter(searchGroupFilter(items[i], params.search));
 				if(locations.length > 0)
-					sorted[i] = items[i];
+					filtered[i] = items[i];
 			}
 		}
 		else
-			sorted = items;
-		return sorted;
+			filtered = items;
+		return filtered;
 	};
 }).filter('searchGroup', function() {
 	return function(items, search) {
-		var sorted = {};
+		var filtered = {};
 		var keys = Object.keys(items).sort();
 		for(var i = 0; i < keys.length; i++){
 			var k = keys[i];
 			if(k.toLowerCase().indexOf(search.toLowerCase()) > -1)
-				sorted[k] = items[k];
+				filtered[k] = items[k];
 		}
-		return sorted;
+		return filtered;
 	};
 });
