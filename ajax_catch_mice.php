@@ -9,5 +9,5 @@
 		if(in_array($mouse_id, $mouse_ids))
 			$mouse->caught = true;
 
-	file_put_contents("map_mouse_json/$map.json", json_encode($mouse_default));
+	file_put_contents("map_mouse_json/$map.json", json_encode($mouse_default, JSON_PRETTY_PRINT));
 ?>

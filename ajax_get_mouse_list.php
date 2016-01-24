@@ -23,6 +23,8 @@
 			$mouse_default[$mouse_key]['caught'] = false;
 		}
 
+		$mouse_default[$mouse_key] = $mouse_list[$mouse_key] + $mouse_default[$mouse_key];
+
 		foreach($mouse_default[$mouse_key]['location']['areas'] as $region => $locations) {
 			if(!isset($mouse_location[$region]))
 				$mouse_location[$region] = array();
@@ -48,7 +50,7 @@
 		}
 	}
 
-	file_put_contents("map_mouse_json/$map.json", json_encode($mouse_default));
-	file_put_contents("unrecorded.json", json_encode($unrecorded_mouse));
-	echo json_encode(array("default" => $mouse_default, "group" => $mouse_group, "location" => $mouse_location));
+	file_put_contents("map_mouse_json/$map.json", json_encode($mouse_default, JSON_PRETTY_PRINT));
+	file_put_contents("unrecorded.json", json_encode($unrecorded_mouse, JSON_PRETTY_PRINT));
+	echo json_encode(array("default" => $mouse_default, "group" => $mouse_group, "location" => $mouse_location), JSON_PRETTY_PRINT);
 ?>
