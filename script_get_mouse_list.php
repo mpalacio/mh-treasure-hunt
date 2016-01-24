@@ -1,4 +1,6 @@
 <?php
+	$NL = PHP_SAPI == "cli" ? "\n" : "<br>";
+
 	$region_locations = json_decode(file_get_contents("locations.json"));
 	$regions = array_keys((array) $region_locations);
 	$locations = array();
@@ -89,7 +91,6 @@
 		$mouse_list[$mouse_json['id']] = $mouse_json;
 	}
 
-	echo json_encode($mouse_list);
 	file_put_contents("mouse_list.json", json_encode($mouse_list));
 
 	function xml2array($xml) {

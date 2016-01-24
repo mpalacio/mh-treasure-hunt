@@ -1,4 +1,6 @@
 <?php
+	$NL = PHP_SAPI == "cli" ? "\n" : "<br>";
+
 	$groups = json_decode(file_get_contents("mice_stat.json"));
 	$mouse_list = json_decode(file_get_contents("mouse_list.json"));
 	foreach ($groups as $group_tab) {
@@ -18,6 +20,5 @@
 			break;
 		}
 	}
-	echo json_encode($mouse_list);
 	file_put_contents("mouse_list.json", json_encode($mouse_list));
 ?>

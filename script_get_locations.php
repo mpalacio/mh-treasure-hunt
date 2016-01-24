@@ -1,4 +1,6 @@
 <?php
+	$NL = PHP_SAPI == "cli" ? "\n" : "<br>";
+
 	$dom = new DOMDocument();
 	$wiki = 'http://mhwiki.hitgrab.com/wiki/index.php/Location_Quick_Reference';
 	$wiki = 'locations.html';
@@ -13,7 +15,6 @@
 		$locations[(string) $row->td[0]->b->a] = xml2array($row->td[1]->a)['a'];
 	}
 
-	echo json_encode($locations);
 	file_put_contents("locations.json", json_encode($locations));
 
 	function xml2array($xml) {
