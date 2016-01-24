@@ -73,6 +73,12 @@
 	overflow: auto;
 	height: calc(100% - 46px);
 }
+.section-body .col-md-6 .mouse-list-container .loading {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
 .section-body .col-md-6 .mouse-list-container .group-container {
 	background: rgb(238,238,238);
 	margin-bottom: 5px;
