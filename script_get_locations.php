@@ -15,7 +15,7 @@
 		$locations[(string) $row->td[0]->b->a] = xml2array($row->td[1]->a)['a'];
 	}
 
-	file_put_contents("locations.json", json_encode($locations));
+	file_put_contents("locations.json", json_encode($locations, JSON_PRETTY_PRINT));
 
 	function xml2array($xml) {
 		$arr = array();

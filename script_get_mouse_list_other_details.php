@@ -20,5 +20,5 @@
 			break;
 		}
 	}
-	file_put_contents("mouse_list.json", json_encode($mouse_list));
+	file_put_contents("mouse_list.json", json_encode($mouse_list, JSON_PRETTY_PRINT));
 ?>
