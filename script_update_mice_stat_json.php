@@ -5,6 +5,8 @@
 	$new_stats = preg_split("/\n/ ", file_get_contents("mice_stat_update.in"));
 
 	foreach ($new_stats as $new_stat) {
+		if($new_stat == "")
+			continue;
 		$group_stat = json_decode($new_stat);
 		$group_stat_name = get_initialized_group($group_stat);
 		$new_group = true;
