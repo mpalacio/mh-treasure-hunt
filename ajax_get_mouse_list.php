@@ -1,5 +1,6 @@
 <?php
-	$map = "map_1";
+	$data = json_decode(file_get_contents("php://input"));
+	$map = $data->map;
 	$input = file_get_contents("map_mouse_list/$map.in");
 	$input_arr = preg_split("/\n/ ", $input);
 

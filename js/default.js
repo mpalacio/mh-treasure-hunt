@@ -6,11 +6,16 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 	$scope.search = "";
 	$scope.current_mouse = null;
 	$scope.mouse_over = false;
+	$scope.maps = [];
+	$scope.current_map = 'none';
 
-	$http.get("http://localhost/mh-treasure-hunt/ajax_get_mouse_list.php").then(function(response) {
-		$scope.mouse_default = response.data.default;
-		$scope.mouse_group = response.data.group;
-		$scope.mouse_location = response.data.location;
+	$http.get("http://localhost/mh-treasure-hunt/ajax_get_maps.php").then(function(response) {
+		$scope.maps = response.data;
+	});
+
+	$http.get("http://localhost/mh-treasure-hunt/ajax_get_current_map.php").then(function(response) {
+		$scope.current_map = response.data == "" ? "none" : response.data;
+		$scope.get_map();
 	});
 
 	$scope.show_mouse = function(mouse, mouse_over) {
@@ -41,10 +46,12 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 		$scope.show_mouse(mouse, false);
 
 		if(send_post == true)
-			$http.post("http://localhost/mh-treasure-hunt/ajax_catch_mice.php", {'mouse_ids': [mouse.id]});
+			$http.post("http://localhost/mh-treasure-hunt/ajax_catch_mice.php", {'map': $scope.current_map, 'mouse_ids': [mouse.id]});
 	}
 
 	$scope.catch_mice = function(mouse_list) {
+		if($.trim(mouse_list) == '')
+			return;
 		mouse_list = mouse_list.split("\n");
 		mouse_ids = [];
 		for(var i in mouse_list) {
@@ -57,8 +64,40 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 				}
 			}
 		}
+		$scope.mice_list = "";
 		if(mouse_ids.length > 0)
-			$http.post("http://localhost/mh-treasure-hunt/ajax_catch_mice.php", {'mouse_ids': mouse_ids});
+			$http.post("http://localhost/mh-treasure-hunt/ajax_catch_mice.php", {'map': $scope.current_map, 'mouse_ids': mouse_ids});
+	}
+
+	$scope.add_map = function(isValid) {
+		if(!isValid)
+			return
+		else {
+			if($.inArray($scope.new_map, $scope.maps) < 0) {
+				$http.post("http://localhost/mh-treasure-hunt/ajax_set_map.php", {'map': $scope.new_map, 'mice_list': $scope.mice_list}).then(function(response) {
+					$scope.maps.push($scope.new_map);
+					$scope.current_map = $scope.new_map;
+					$scope.new_map = $scope.mice_list = "";
+					$scope.get_map();
+				});
+			}
+			else
+				console.log("Map exists");
+		}
+	}
+
+	$scope.get_map = function() {
+		$scope.mouse_default = [];
+		$scope.mouse_group = [];
+		$scope.mouse_location = [];
+		if($scope.current_map != "none") {
+			$http.post("http://localhost/mh-treasure-hunt/ajax_get_mouse_list.php", {'map': $scope.current_map}).then(function(response) {
+				$scope.mouse_default = response.data.default;
+				$scope.mouse_group = response.data.group;
+				$scope.mouse_location = response.data.location;
+			});
+			$http.post("http://localhost/mh-treasure-hunt/ajax_set_current_map.php", {'map': $scope.current_map})
+		}
 	}
 }).filter('toArray', function() {
 	return function(obj, addKey) {

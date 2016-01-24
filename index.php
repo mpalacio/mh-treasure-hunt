@@ -8,18 +8,32 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="js/default.js"></script>
 </head>
 <body ng-app="mh-treasure-hunt" ng-controller="mhTreasureHuntCtrl">
 	<div class="container">
 		<div class="row mh-container">
 			<div class="col-md-3 section-left">
-				<label>List Mouse Names</label>
-				<textarea class="form-control" ng-model="mice_list"></textarea>
-				<center>
-					<button class="btn btn-primary" ng-click="add_mice(mice_list)">Add Mice</button>
-					<button class="btn btn-primary" ng-click="catch_mice(mice_list)">Catch Mice</button>
-					<button class="btn btn-primary" ng-click="mice_list = ''">Clear</button>
-				</center>
+				<form name="add_map_form" novalidate>
+					<div class="form-inline">
+						<label>Map: </label>
+						<select class="form-control input-sm" ng-model="current_map" ng-change="get_map()">
+							<option value="none"></option>
+							<option ng-repeat="map in maps" value="{{map}}">{{map}}</option>
+						</select>
+					</div>
+					<div class="form-inline new-map" ng-show="current_map == 'none'">
+						<label>New Map: </label>
+						<input type="text" class="form-control input-sm" name="new_map" ng-model="new_map" required>
+					</div>
+					<label>List Mouse Names:</label>
+					<textarea class="form-control" ng-model="mice_list" style="height: calc(100% - {{current_map == 'none' ? '144px' : '109px'}})" required></textarea>
+					<center>
+						<button class="btn btn-primary" ng-hide="current_map != 'none'" ng-click="add_map(add_map_form.$valid)">Add Map</button>
+						<button class="btn btn-primary" ng-hide="current_map == 'none'" ng-click="catch_mice(mice_list)">Catch Mice</button>
+						<button class="btn btn-danger" ng-hide="current_map == 'none'" ng-click="delete_map()">Delete Map</button>
+					</center>
+				</form>
 			</div>
 			<div class="col-md-9">
 				<div class="row section-top">
@@ -42,8 +56,8 @@
 				</div>
 				<div class="row section-body">
 					<div class="col-md-6">
-						<h3>Uncaught Mice <i>({{count_mouse(mouse_default, false)}}/{{(mouse_default | toArray).length}} Mice)</i></h3>
-						<div class="row mouse-list-container" ng-show="group_by == 'default'">
+						<h3>Uncaught Mice <i ng-hide="current_map == 'none'">({{count_mouse(mouse_default, false)}}/{{(mouse_default | toArray).length}} Mice)</i></h3>
+						<div class="row mouse-list-container" ng-show="group_by == 'default' && current_map != 'none'">
 							<div ng-show="isEmpty(mouse_default)">Loading...</div>
 							<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_default)">
 								<div class="col-md-4" ng-repeat="mouse in mouse_default | toArray | filter:{name:search} | filter:{caught:false}" ng-click="catch_mouse(mouse)" ng-mouseover="show_mouse(mouse, true)" ng-mouseleave="show_mouse(mouse, false)">
@@ -53,7 +67,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row mouse-list-container" ng-show="group_by == 'group'">
+						<div class="row mouse-list-container" ng-show="group_by == 'group' && current_map != 'none'">
 							<div ng-show="isEmpty(mouse_group)">Loading...</div>
 							<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_group)" ng-repeat="(group_name, group) in mouse_group | filterEmptyGroup:false:mouse_default | searchGroup:search">
 								<label class="group-name">{{group_name}}</label>
@@ -64,7 +78,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row mouse-list-container" ng-show="group_by == 'location'">
+						<div class="row mouse-list-container" ng-show="group_by == 'location' && current_map != 'none'">
 							<div ng-show="isEmpty(mouse_location)">Loading...</div>
 							<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_location)" ng-repeat="(region_name, region) in mouse_location | filterEmptyRegion:'filterEmptyGroup':{caught:false, mice:mouse_default} | filterEmptyRegion:'searchGroup':{search:search}">
 								<label class="location-name">{{region_name}}</label>
@@ -80,8 +94,8 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<h3>Caught Mice <i>({{count_mouse(mouse_default, true)}}/{{(mouse_default | toArray).length}} Mice)</i></h3>
-						<div class="row mouse-list-container" ng-show="group_by == 'default'">
+						<h3>Caught Mice <i ng-hide="current_map == 'none'">({{count_mouse(mouse_default, true)}}/{{(mouse_default | toArray).length}} Mice)</i></h3>
+						<div class="row mouse-list-container" ng-show="group_by == 'default' && current_map != 'none'" ng-hide="">
 							<div ng-show="isEmpty(mouse_default)">Loading...</div>
 							<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_default)">
 								<div class="col-md-4" ng-repeat="mouse in mouse_default | toArray | filter:{name:search} | filter:{caught:true}" ng-mouseover="show_mouse(mouse, true)" ng-mouseleave="show_mouse(mouse, false)">
@@ -91,7 +105,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row mouse-list-container" ng-show="group_by == 'group'">
+						<div class="row mouse-list-container" ng-show="group_by == 'group' && current_map != 'none'">
 							<div ng-show="isEmpty(mouse_group)">Loading...</div>
 							<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_group)" ng-repeat="(group_name, group) in mouse_group | filterEmptyGroup:true:mouse_default | searchGroup:search">
 								<label class="group-name">{{group_name}}</label>
@@ -102,7 +116,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row mouse-list-container" ng-show="group_by == 'location'">
+						<div class="row mouse-list-container" ng-show="group_by == 'location' && current_map != 'none'">
 							<div ng-show="isEmpty(mouse_location)">Loading...</div>
 							<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_location)" ng-repeat="(region_name, region) in mouse_location | filterEmptyRegion:'filterEmptyGroup':{caught:true, mice:mouse_default} | filterEmptyRegion:'searchGroup':{search:search}">
 								<label class="location-name">{{region_name}}</label>
@@ -134,5 +148,4 @@
 		</div>
 	</div>
 </body>
-<script src="js/default.js"></script>
 </html>

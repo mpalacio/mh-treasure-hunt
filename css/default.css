@@ -11,11 +11,22 @@
 .section-left {
 	padding-top: 15px;
 }
-.section-left textarea {
-	height: calc(100% - 104px);
+.section-left form {
+	height: 100%;
+}
+.section-left form .form-inline {
+	margin-bottom: 5px;
+}
+.section-left form .form-inline select {
+	width: calc(100% - 40px);
+}
+.section-left form .form-inline input {
+	width: calc(100% - 75px);
+}
+.section-left form textarea {
 	resize: none;
 }
-.section-left center {
+.section-left form center {
 	margin-top: 5px;
 	margin-bottom: 10px;
 }
