@@ -96,8 +96,20 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 				$scope.mouse_group = response.data.group;
 				$scope.mouse_location = response.data.location;
 			});
-			$http.post("http://localhost/mh-treasure-hunt/ajax_set_current_map.php", {'map': $scope.current_map})
 		}
+		$http.post("http://localhost/mh-treasure-hunt/ajax_set_current_map.php", {'map': $scope.current_map});
+	}
+
+	$scope.delete_map = function() {
+		$http.post("http://localhost/mh-treasure-hunt/ajax_delete_map.php", {'map': $scope.current_map}).then(function(response) {
+			if(response.data == 'true') {
+				$scope.current_map = "none";
+				$http.get("http://localhost/mh-treasure-hunt/ajax_get_maps.php").then(function(response) {
+					$scope.maps = response.data;
+				});
+				$scope.get_map();
+			}
+		});
 	}
 }).filter('toArray', function() {
 	return function(obj, addKey) {

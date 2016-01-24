@@ -95,7 +95,7 @@
 					</div>
 					<div class="col-md-6">
 						<h3>Caught Mice <i ng-hide="current_map == 'none'">({{count_mouse(mouse_default, true)}}/{{(mouse_default | toArray).length}} Mice)</i></h3>
-						<div class="row mouse-list-container" ng-show="group_by == 'default' && current_map != 'none'" ng-hide="">
+						<div class="row mouse-list-container" ng-show="group_by == 'default' && current_map != 'none'">
 							<div ng-show="isEmpty(mouse_default)">Loading...</div>
 							<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_default)">
 								<div class="col-md-4" ng-repeat="mouse in mouse_default | toArray | filter:{name:search} | filter:{caught:true}" ng-mouseover="show_mouse(mouse, true)" ng-mouseleave="show_mouse(mouse, false)">
