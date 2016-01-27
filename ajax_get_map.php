@@ -30,6 +30,7 @@
 				}
 				$mouse_default[$mouse_key] = $mouse_list[$mouse_key];
 				$mouse_default[$mouse_key]['caught'] = false;
+				$mouse_default[$mouse_key]['hunter'] = "";
 			}
 
 			$mouse_default[$mouse_key] = $mouse_list[$mouse_key] + $mouse_default[$mouse_key];
