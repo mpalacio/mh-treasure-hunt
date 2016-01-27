@@ -13,6 +13,7 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 		$scope.mouse_default = [];
 		$scope.mouse_group = [];
 		$scope.mouse_location = [];
+		$scope.mouse_by_hunters = [];
 		$scope.mouse_hunters = [];
 	}
 	$scope.init_vars();
@@ -60,6 +61,7 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 				$scope.mouse_default = response.data.default;
 				$scope.mouse_group = response.data.group;
 				$scope.mouse_location = response.data.location;
+				$scope.mouse_by_hunters = response.data.mouse_by_hunters;
 				$scope.mouse_hunters = response.data.hunters;
 				$scope.current_hunter = $scope.mouse_hunters[0];
 			}
@@ -152,9 +154,17 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 }).filter('filterMiceByKey', function() {
 	return function(items, key, value, mice) {
 		var filtered = {};
-		for(var i in items){
-			if(mice[items[i]][key] == value)
-				filtered[i] = items[i];
+		if(typeof(value) === "boolean") {
+			for(var i in items){
+				if(mice[items[i]][key] == value)
+					filtered[i] = items[i];
+			}
+		}
+		else {
+			for(var i in items){
+				if(mice[items[i]][key].toLowerCase().indexOf(value.toLowerCase()) > -1)
+					filtered[i] = items[i];
+			}
 		}
 		return filtered;
 	};

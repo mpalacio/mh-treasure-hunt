@@ -5,6 +5,7 @@
 	$mouse_default = array();
 	$mouse_group = array();
 	$mouse_location = array();
+	$mouse_hunter = array();
 	$hunters = array();
 
 	/*Get mouse list*/
@@ -35,6 +36,12 @@
 
 			$mouse_default[$mouse_key] = $mouse_list[$mouse_key] + $mouse_default[$mouse_key];
 
+			if($mouse_default[$mouse_key]['hunter'] != "") {
+				if(!isset($mouse_hunter[$mouse_default[$mouse_key]['hunter']]))
+					$mouse_hunter[$mouse_default[$mouse_key]['hunter']] = array();
+				$mouse_hunter[$mouse_default[$mouse_key]['hunter']][] = $mouse_key;
+			}
+
 			foreach($mouse_default[$mouse_key]['location']['areas'] as $region => $locations) {
 				if(!isset($mouse_location[$region]))
 					$mouse_location[$region] = array();
@@ -53,6 +60,7 @@
 		ksort($mouse_default);
 		ksort($mouse_group);
 		ksort($mouse_location);
+		ksort($mouse_hunter);
 		foreach ($mouse_location as $region => $locations) {
 			ksort($mouse_location[$region]);
 			foreach ($locations as $location => $values) {
@@ -68,5 +76,5 @@
 	file_put_contents("current_map.in", $map);
 
 	/*Response*/
-	echo json_encode(array("map_found" => ($map != "none"), "default" => $mouse_default, "group" => $mouse_group, "location" => $mouse_location, "hunters" => $hunters), JSON_PRETTY_PRINT);
+	echo json_encode(array("map_found" => ($map != "none"), "default" => $mouse_default, "group" => $mouse_group, "location" => $mouse_location, "hunters" => $hunters, "mouse_by_hunters" => $mouse_hunter), JSON_PRETTY_PRINT);
 ?>

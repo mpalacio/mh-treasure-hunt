@@ -104,11 +104,12 @@
 					<div class="col-md-6">
 						<h3>Caught Mice <i ng-hide="current_map == 'none'">({{count_mouse(mouse_default, true)}}/{{(mouse_default | toArray).length}} Mice)</i></h3>
 						<div class="row mouse-list-container" ng-show="group_by == 'default' && current_map != 'none'">
-							<div class="loading" ng-show="isEmpty(mouse_default)">Loading...</div>
-							<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_default)">
-								<div class="col-md-4" ng-repeat="mouse in mouse_default | toArray | filter:{name:search} | filter:{caught:true}" ng-mouseover="show_mouse(mouse, true)" ng-mouseleave="show_mouse(mouse, false)">
-									<div class="mouse-name" ng-style="{'background-image': 'url({{mouse.thumb}})'}">
-										{{mouse.name.replace(" Mouse", "")}}
+							<div class="loading" ng-show="isEmpty(mouse_by_hunters)">Loading...</div>
+							<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_by_hunters)" ng-repeat="(hunter_name, group) in mouse_by_hunters | filterEmptyGroup:true:mouse_default">
+								<label class="group-name">{{hunter_name}}</label>
+								<div class="col-md-4" ng-repeat="mouse in group | filterMiceByKey:'name':search:mouse_default | filterMiceByKey:'caught':true:mouse_default" ng-mouseover="show_mouse(mouse_default[mouse], true)" ng-mouseleave="show_mouse(mouse_default[mouse], false)">
+									<div class="mouse-name" ng-style="{'background-image': 'url({{mouse_default[mouse].thumb}})'}">
+										{{mouse_default[mouse].name.replace(" Mouse", "")}}
 									</div>
 								</div>
 							</div>
