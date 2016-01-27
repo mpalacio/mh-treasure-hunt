@@ -20,6 +20,9 @@
 .section-left form .form-inline select {
 	width: calc(100% - 40px);
 }
+.section-left form .form-inline select.hunters {
+	width: calc(100% - 60px);
+}
 .section-left form .form-inline input {
 	width: calc(100% - 75px);
 }

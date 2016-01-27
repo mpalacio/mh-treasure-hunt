@@ -24,13 +24,21 @@
 					</div>
 					<div class="form-inline new-map" ng-show="current_map == 'none'">
 						<label>New Map: </label>
-						<input type="text" class="form-control input-sm" name="new_map" ng-model="new_map" required>
+						<input type="text" class="form-control input-sm" name="new_map" ng-model="input_map" required>
+					</div>
+					<label ng-show="current_map == 'none'">Mousehunters:</label>
+					<textarea class="form-control" ng-model="input_hunters" ng-show="current_map == 'none'" style="height: 75px" data-limit-rows="true" required></textarea>
+					<div class="form-inline" ng-show="current_map != 'none'">
+						<label>Hunter: </label>
+						<select class="form-control input-sm hunters" ng-model="current_hunter">
+							<option ng-repeat="hunter in mouse_hunters" value="{{hunter}}">{{hunter}}</option>
+						</select>
 					</div>
 					<label>List Mouse Names:</label>
-					<textarea class="form-control" ng-model="mice_list" style="height: calc(100% - {{current_map == 'none' ? '144px' : '109px'}})" required></textarea>
+					<textarea class="form-control" ng-model="input_mice_list" style="height: calc(100% - {{current_map == 'none' ? '245px' : '145px'}})" required></textarea>
 					<center>
 						<button class="btn btn-primary" ng-hide="current_map != 'none'" ng-click="add_map(add_map_form.$valid)">Add Map</button>
-						<button class="btn btn-primary" ng-hide="current_map == 'none'" ng-click="catch_mice(mice_list)">Catch Mice</button>
+						<button class="btn btn-primary" ng-hide="current_map == 'none'" ng-click="catch_mice(input_mice_list)">Catch Mice</button>
 						<button class="btn btn-danger" ng-hide="current_map == 'none'" ng-click="delete_map()">Delete Map</button>
 					</center>
 				</form>
@@ -148,4 +156,17 @@
 		</div>
 	</div>
 </body>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$('textarea[data-limit-rows=true]').on('keypress', function (event) {
+			var textarea = $(this),
+					numberOfLines = (textarea.val().match(/\n/g) || []).length + 1,
+					maxRows = 5;
+
+			if (event.which === 13 && numberOfLines === maxRows ) {
+				return false;
+			}
+		});
+	});
+</script>
 </html>
