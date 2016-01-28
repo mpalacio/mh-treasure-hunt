@@ -107,6 +107,11 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 			send_post = true;
 
 		$scope.mouse_default[mouse.id].caught = true;
+		$scope.mouse_default[mouse.id].hunter = $scope.current_hunter;
+		if($scope.mouse_by_hunters[$scope.current_hunter] == null)
+			$scope.mouse_by_hunters[$scope.current_hunter] = [];
+		$scope.mouse_by_hunters[$scope.current_hunter].push(mouse.id);
+		$scope.mouse_by_hunters[$scope.current_hunter].sort();
 		$scope.show_mouse(mouse, false);
 
 		if(send_post == true)
@@ -169,21 +174,21 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 		return filtered;
 	};
 }).filter('filterEmptyGroup', function() {
-	return function(items, caught, mice) {
+	return function(items, key, val, mice) {
 		var filtered = {};
 		for(var i in items){
 			for(var j in items[i])
-				if(mice[items[i][j]].caught == caught)
+				if(mice[items[i][j]][key] == val)
 					filtered[i] = items[i];
 		}
 		return filtered;
 	};
-}).filter('filterEmptyRegion', function(filterEmptyGroupFilter, searchGroupFilter, toArrayFilter) {
+}).filter('filterEmptyRegion', function(filterEmptyGroupFilter, searchGroupFilter, filterMiceByKeyFilter, toArrayFilter) {
 	return function(items, filter, params) {
 		var filtered = {};
 		if(filter == "filterEmptyGroup") {
 			for(var i in items){
-				var locations = toArrayFilter(filterEmptyGroupFilter(items[i], params.caught, params.mice));
+				var locations = toArrayFilter(filterEmptyGroupFilter(items[i], params.key, params.val, params.mice));
 				if(locations.length > 0)
 					filtered[i] = items[i];
 			}
@@ -192,6 +197,15 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 			for(var i in items){
 				var locations = toArrayFilter(searchGroupFilter(items[i], params.search));
 				if(locations.length > 0)
+					filtered[i] = items[i];
+			}
+		}
+		else if(filter == "filterMiceByKey") {
+			for(var i in items){
+				var hunter_mice = $.map(filterMiceByKeyFilter(items[i], params.key, params.val, params.mice, true), function(value, index) {
+					return [value];
+				});
+				if(hunter_mice.length > 0)
 					filtered[i] = items[i];
 			}
 		}
