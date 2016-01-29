@@ -1,6 +1,6 @@
 var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl', function($scope, $http, $sce) {
 	$scope.current_mouse = null;
-	$scope.mouse_over = false;
+	$scope.locked_mouse = null;
 
 	$scope.group_by = "default";
 	$scope.search = "";
@@ -56,6 +56,7 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 	$scope.get_map = function() {
 		$scope.init_vars();
 		$scope.clean_input_fields();
+		$scope.show_mouse(null, true);
 		$http.post("http://localhost/mh-treasure-hunt/ajax_get_map.php", {'map': $scope.current_map}).then(function(response) {
 			if(response.data.map_found) {
 				$scope.mouse_default = response.data.default;
@@ -82,9 +83,14 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 		}
 	}
 
-	$scope.show_mouse = function(mouse, mouse_over) {
+	$scope.show_mouse = function(mouse, locked) {
 		$scope.current_mouse = mouse;
-		$scope.mouse_over = mouse_over;
+		if(locked)
+			$scope.locked_mouse = mouse;
+		else {
+			if(mouse == null)
+				$scope.current_mouse = $scope.locked_mouse;
+		}
 	}
 
 	$scope.count_mouse = function(mice, caught) {
@@ -112,7 +118,6 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 			$scope.mouse_by_hunters[$scope.current_hunter] = [];
 		$scope.mouse_by_hunters[$scope.current_hunter].push(mouse.id);
 		$scope.mouse_by_hunters[$scope.current_hunter].sort();
-		$scope.show_mouse(mouse, false);
 
 		if(send_post == true)
 			$http.post("http://localhost/mh-treasure-hunt/ajax_catch_mice.php", {'map': $scope.current_map, 'mouse_ids': [mouse.id], 'hunter': $scope.current_hunter});
