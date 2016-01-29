@@ -1,4 +1,4 @@
-var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl', function($scope, $http) {
+var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl', function($scope, $http, $sce) {
 	$scope.current_mouse = null;
 	$scope.mouse_over = false;
 
@@ -137,6 +137,11 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 		if(mouse_ids.length > 0)
 			$http.post("http://localhost/mh-treasure-hunt/ajax_catch_mice.php", {'map': $scope.current_map, 'mouse_ids': mouse_ids, 'hunter': $scope.current_hunter});
 	}
+
+	$scope.renderHtml = function (htmlCode) {
+		return $sce.trustAsHtml(htmlCode);
+	};
+
 }).filter('toArray', function() {
 	return function(obj, addKey) {
 		if(!(obj instanceof Object)) {
@@ -223,5 +228,22 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 				filtered[k] = items[k];
 		}
 		return filtered;
+	};
+}).filter('cleanHtml', function() {
+	return function(text) {
+		var texts;
+		try{
+			texts = text.split(/<br \/>|<br>/);
+		}
+		catch(err){
+			texts = [];
+			console.log(text);
+		}
+		filtered = [];
+		for(var i in texts) {
+			if($.trim(texts[i]) != "")
+				filtered.push($.trim(texts[i]));
+		}
+		return "<p>" + filtered.join("</p><p>") + "</p>";
 	};
 });
