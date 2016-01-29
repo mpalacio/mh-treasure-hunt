@@ -188,7 +188,7 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 		}
 		return filtered;
 	};
-}).filter('filterEmptyRegion', function(filterEmptyGroupFilter, searchGroupFilter, filterMiceByKeyFilter, toArrayFilter) {
+}).filter('filterEmptyRegion', function(filterEmptyGroupFilter, searchGroupFilter, filterMiceByKeyFilter, toArrayFilter, jqueryToArrayFilter) {
 	return function(items, filter, params) {
 		var filtered = {};
 		if(filter == "filterEmptyGroup") {
@@ -207,9 +207,7 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 		}
 		else if(filter == "filterMiceByKey") {
 			for(var i in items){
-				var hunter_mice = $.map(filterMiceByKeyFilter(items[i], params.key, params.val, params.mice, true), function(value, index) {
-					return [value];
-				});
+				var hunter_mice = jqueryToArrayFilter(filterMiceByKeyFilter(items[i], params.key, params.val, params.mice, true));
 				if(hunter_mice.length > 0)
 					filtered[i] = items[i];
 			}
@@ -237,7 +235,6 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 		}
 		catch(err){
 			texts = [];
-			console.log(text);
 		}
 		filtered = [];
 		for(var i in texts) {
@@ -245,5 +242,11 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 				filtered.push($.trim(texts[i]));
 		}
 		return "<p>" + filtered.join("</p><p>") + "</p>";
+	};
+}).filter('jqueryToArray', function() {
+	return function(arr) {
+		return $.map(arr, function(value, index) {
+			return [value];
+		});
 	};
 });
