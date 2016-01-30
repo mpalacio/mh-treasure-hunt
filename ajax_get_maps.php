@@ -1,10 +1,13 @@
 <?php
 	/*Get all maps*/
-	$maps = scandir('map_mouse_list');
-	array_shift($maps);
-	array_shift($maps);
+	$maps = glob('map_mouse_list/*.*');
+
+	usort($maps, function($a, $b) {
+		return filemtime($a) > filemtime($b);
+	});
+
 	array_walk($maps, function(&$item, $key) {
-		$item = str_replace(".in", "", $item);
+		$item = str_replace(".in", "", str_replace("map_mouse_list/", "", $item));
 	});
 
 	/*Get current map*/
