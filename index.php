@@ -152,8 +152,6 @@
 									<div class="col-md-12 preview-cheese">{{current_mouse.cheese}}</div>
 									<div class="col-md-12 preview-label">Location:</div>
 									<div class="col-md-12 preview-location">{{current_mouse.location.location_text}}</div>
-									<div class="col-md-12 preview-label">Description:</div>
-									<div class="col-md-12 preview-description" ng-bind-html="renderHtml((current_mouse.description | cleanHtml))"></div>
 								</div>
 							</div>
 						</div>
