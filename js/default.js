@@ -119,14 +119,15 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 		$scope.mouse_by_hunters[$scope.current_hunter].push(mouse.id);
 		$scope.mouse_by_hunters[$scope.current_hunter].sort();
 
-		if($scope.group_by == 'default') {
-			setTimeout(function() {
-				var catcher = $(".mouse-list-container:not(.ng-hide) .mouse-name.active").parents(".group-container").position().top;
-				$(".mouse-list-container:not(.ng-hide)").animate({scrollTop: catcher}, "fast");
-			}, 100);
-		}
-		if(send_post == true)
+		if(send_post == true) {
+			if($scope.group_by == 'default') {
+				setTimeout(function() {
+					var catcher = $(".mouse-list-container:not(.ng-hide) .mouse-name.active").parents(".group-container").position().top;
+					$(".mouse-list-container:not(.ng-hide)").animate({scrollTop: catcher}, "fast");
+				}, 100);
+			}
 			$http.post("http://localhost/mh-treasure-hunt/ajax_catch_mice.php", {'map': $scope.current_map, 'mouse_ids': [mouse.id], 'hunter': $scope.current_hunter});
+		}
 	}
 
 	$scope.catch_mice = function(mouse_list) {
