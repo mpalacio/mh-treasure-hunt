@@ -74,6 +74,7 @@
 .section-body .col-md-12 .mouse-list-container {
 	overflow: auto;
 	height: calc(100% - 46px);
+	position: relative;
 }
 .section-body .col-md-12 .mouse-list-container .loading {
 	position: relative;
