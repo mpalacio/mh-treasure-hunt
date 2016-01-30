@@ -61,6 +61,12 @@
 						<div class="form-inline group-by">
 							<label class="custom-label">Search: </label>
 							<input type="text" class="form-control input-sm" ng-model="search">
+							<label class="custom-label">Show: </label>
+							<select class="form-control input-sm" ng-model="show">
+								<option value="all">All</option>
+								<option value="true">Caught</option>
+								<option value="false">Uncaught</option>
+							</select>
 						</div>
 					</div>
 				</div>
@@ -70,7 +76,7 @@
 							<div class="col-md-12">
 								<div class="row mouse-list-container" ng-show="group_by == 'default' && current_map != 'none'">
 									<div class="loading" ng-show="isEmpty(mouse_default)">Loading...</div>
-									<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_default)">
+									<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_default)" ng-show="(show == 'all') || (show == 'false')">
 										<label class="group-name">Uncaught Mice <i ng-hide="current_map == 'none'">({{count_mouse(mouse_default, false)}}/{{(mouse_default | toArray).length}} Mice)</i></label>
 										<div class="col-md-4" ng-repeat="mouse in mouse_default | toArray | filter:{name:search} | filter:{caught:false}">
 											<div class="mouse-name uncaught" ng-class="{active: locked_mouse==mouse}" ng-style="{'background-image': 'url(' + mouse.thumb + ')'}" ng-click="show_mouse(mouse, true)" ng-mouseover="show_mouse(mouse, false)" ng-mouseleave="show_mouse(null, false)">
@@ -78,7 +84,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_default)" ng-repeat="(hunter_name, group) in mouse_by_hunters | filterEmptyRegion:'filterMiceByKey':{key:'name', val:search, mice:mouse_default}">
+									<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_default)" ng-show="(show == 'all') || (show == 'true')" ng-repeat="(hunter_name, group) in mouse_by_hunters | filterEmptyRegion:'filterMiceByKey':{key:'name', val:search, mice:mouse_default}">
 										<label class="group-name">{{hunter_name}} caught these mice: <i>({{group.length}} Mice)</i></label>
 										<div class="col-md-4" ng-repeat="mouse in group | filterMiceByKey:'name':search:mouse_default | filterMiceByKey:'caught':true:mouse_default">
 											<div class="mouse-name caught" ng-class="{active: locked_mouse==mouse_default[mouse]}" ng-style="{'background-image': 'url(' + mouse_default[mouse].thumb + ')'}" ng-click="show_mouse(mouse_default[mouse], true)" ng-mouseover="show_mouse(mouse_default[mouse], false)" ng-mouseleave="show_mouse(null, false)">
@@ -89,14 +95,14 @@
 								</div>
 								<div class="row mouse-list-container" ng-show="group_by == 'group' && current_map != 'none'">
 									<div class="loading" ng-show="isEmpty(mouse_group)">Loading...</div>
-									<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_group)" ng-repeat="(group_name, group) in mouse_group | searchGroup:search">
+									<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_group)" ng-repeat="(group_name, group) in mouse_group | filterEmptyGroup:'caught':show:mouse_default | searchGroup:search">
 										<label class="group-name">{{group_name}} <i>({{(group | filterMiceByKey:'caught':true:mouse_default | jqueryToArray).length}}/{{group.length}} Mice caught)</i></label>
-										<div class="col-md-4" ng-repeat="mouse in group | filterMiceByKey:'caught':false:mouse_default">
+										<div class="col-md-4" ng-show="(show == 'all') || (show == 'false')" ng-repeat="mouse in group | filterMiceByKey:'caught':false:mouse_default">
 											<div class="mouse-name uncaught" ng-class="{active: locked_mouse==mouse_default[mouse]}" ng-style="{'background-image': 'url(' + mouse_default[mouse].thumb + ')'}" ng-click="show_mouse(mouse_default[mouse], true)" ng-mouseover="show_mouse(mouse_default[mouse], false)" ng-mouseleave="show_mouse(null, false)">
 												{{mouse_default[mouse].name.replace(" Mouse", "")}}
 											</div>
 										</div>
-										<div class="col-md-4" ng-repeat="mouse in group | filterMiceByKey:'caught':true:mouse_default">
+										<div class="col-md-4" ng-show="(show == 'all') || (show == 'true')" ng-repeat="mouse in group | filterMiceByKey:'caught':true:mouse_default">
 											<div class="mouse-name caught" ng-class="{active: locked_mouse==mouse_default[mouse]}" ng-style="{'background-image': 'url(' + mouse_default[mouse].thumb + ')'}" ng-click="show_mouse(mouse_default[mouse], true)" ng-mouseover="show_mouse(mouse_default[mouse], false)" ng-mouseleave="show_mouse(null, false)">
 												{{mouse_default[mouse].name.replace(" Mouse", "")}}
 											</div>
@@ -105,16 +111,16 @@
 								</div>
 								<div class="row mouse-list-container" ng-show="group_by == 'location' && current_map != 'none'">
 									<div class="loading" ng-show="isEmpty(mouse_location)">Loading...</div>
-									<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_location)" ng-repeat="(region_name, region) in mouse_location | filterEmptyRegion:'searchGroup':{search:search}">
+									<div class="col-md-12 group-container" ng-hide="isEmpty(mouse_location)" ng-repeat="(region_name, region) in mouse_location | filterEmptyRegion:'filterEmptyGroup':{key:'caught', val:show, mice:mouse_default} | filterEmptyRegion:'searchGroup':{search:search}">
 										<label class="location-name">{{region_name}}</label>
-										<div class="col-md-12 group-container" ng-repeat="(location_name, location) in region | searchGroup:search">
+										<div class="col-md-12 group-container" ng-repeat="(location_name, location) in region | filterEmptyGroup:'caught':show:mouse_default | searchGroup:search">
 											<label class="location-name"><a href="http://mhwiki.hitgrab.com/wiki/index.php/{{location_name | underscore}}" target="_blank">{{location_name}}</a> <i>({{(location | filterMiceByKey:'caught':true:mouse_default | jqueryToArray).length}}/{{location.length}} Mice caught)</i></label>
-											<div class="col-md-4" ng-repeat="mouse in location | filterMiceByKey:'caught':false:mouse_default">
+											<div class="col-md-4" ng-show="(show == 'all') || (show == 'false')" ng-repeat="mouse in location | filterMiceByKey:'caught':false:mouse_default">
 												<div class="mouse-name uncaught" ng-class="{active: locked_mouse==mouse_default[mouse]}" ng-style="{'background-image': 'url(' + mouse_default[mouse].thumb + ')'}" ng-click="show_mouse(mouse_default[mouse], true)" ng-mouseover="show_mouse(mouse_default[mouse], false)" ng-mouseleave="show_mouse(null, false)">
 													{{mouse_default[mouse].name.replace(" Mouse", "")}}
 												</div>
 											</div>
-											<div class="col-md-4" ng-repeat="mouse in location | filterMiceByKey:'caught':true:mouse_default">
+											<div class="col-md-4" ng-show="(show == 'all') || (show == 'true')" ng-repeat="mouse in location | filterMiceByKey:'caught':true:mouse_default">
 												<div class="mouse-name caught" ng-class="{active: locked_mouse==mouse_default[mouse]}" ng-style="{'background-image': 'url(' + mouse_default[mouse].thumb + ')'}" ng-click="show_mouse(mouse_default[mouse], true)" ng-mouseover="show_mouse(mouse_default[mouse], false)" ng-mouseleave="show_mouse(null, false)">
 													{{mouse_default[mouse].name.replace(" Mouse", "")}}
 												</div>

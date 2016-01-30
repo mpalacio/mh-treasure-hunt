@@ -9,6 +9,8 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 	$scope.current_map = "none";
 	$scope.current_hunter = "";
 
+	$scope.show = "all";
+
 	$scope.init_vars = function() {
 		$scope.mouse_default = [];
 		$scope.mouse_group = [];
@@ -191,6 +193,11 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 	};
 }).filter('filterEmptyGroup', function() {
 	return function(items, key, val, mice) {
+		if(key == "caught")
+			if(val == "all")
+				return items;
+			else
+				val = JSON.parse(val);
 		var filtered = {};
 		for(var i in items){
 			for(var j in items[i])
