@@ -137,7 +137,7 @@
 								<div class="arrow"></div>
 								<div class="preview-container">
 									<a title="Close" class="preview-close" ng-click="show_mouse(null, true)">X</a>
-									<div class="col-md-12 preview-name">{{current_mouse.name}}</div>
+									<div class="col-md-12 preview-name"><a ng-href="http://mhwiki.hitgrab.com/wiki/index.php/{{current_mouse.name | underscore}}_Mouse" target="_blank">{{current_mouse.name}}</a></div>
 									<div class="col-md-12 preview-group">{{current_mouse.group}} {{current_mouse.sub_group != "" ? "(" + current_mouse.sub_group + ")" : ""}}</div>
 									<div class="col-md-12 preview-gold-points">{{current_mouse.gold}} gold / {{current_mouse.points}} points</div>
 									<div class="col-md-12 preview-image">

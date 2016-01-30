@@ -172,7 +172,8 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 	};
 }).filter('underscore', function() {
 	return function(text) {
-		return text.replace(/ /g, "_");
+		if(text != null)
+			return text.replace(/ /g, "_");
 	};
 }).filter('filterMiceByKey', function() {
 	return function(items, key, value, mice) {

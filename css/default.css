@@ -204,6 +204,10 @@
 	font-size: 14px;
 	font-weight: bold;
 }
+.section-mouse-detail .mouse-preview .preview-container .preview-name a {
+	cursor: pointer;
+	color: black;
+}
 .section-mouse-detail .mouse-preview .preview-container .preview-group {
 	font-size: 10px;
 	font-style: italic;
