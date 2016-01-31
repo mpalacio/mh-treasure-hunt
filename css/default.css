@@ -120,7 +120,7 @@
 	cursor: pointer;
 }
 .section-body .col-md-12 .mouse-list-container .group-container .col-md-4 .mouse-name.active {
-	border: 1px solid #e70;
+	box-shadow: #e70 0px 0px 5px 0px;
 }
 .section-body .col-md-12 .mouse-list-container .group-container .col-md-4 .mouse-name.caught {
 	text-decoration: line-through;
