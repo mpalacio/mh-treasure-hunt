@@ -1,4 +1,5 @@
 <?php
+	include_once dirname(__FILE__) . '/config.php';
 	/*Get all maps*/
 	$maps = glob('map_mouse_list/*.*');
 

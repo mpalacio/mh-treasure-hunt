@@ -1,4 +1,5 @@
 <?php
+	include_once dirname(__FILE__) . '/config.php';
 	$data = json_decode(file_get_contents("php://input"));
 	$map = $data->map;
 	$mouse_ids = $data->mouse_ids;
