@@ -24,7 +24,7 @@
 	width: calc(100% - 60px);
 }
 .section-left form .form-inline input {
-	width: calc(100% - 75px);
+	width: calc(100% - 85px);
 }
 .section-left form textarea {
 	resize: none;

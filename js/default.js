@@ -9,6 +9,9 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 	$scope.current_map = "none";
 	$scope.current_hunter = "";
 
+	$scope.edit_map_flag = false;
+	$scope.map_list = "";
+
 	$scope.show = "all";
 
 	$scope.init_vars = function() {
@@ -67,6 +70,7 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 				$scope.mouse_by_hunters = response.data.mouse_by_hunters;
 				$scope.mouse_hunters = response.data.hunters;
 				$scope.current_hunter = $scope.mouse_hunters[0];
+				$scope.map_list = response.data.map_list;
 			}
 		});
 	}
@@ -78,6 +82,7 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 					$scope.current_map = "none";
 					$scope.get_map();
 					$scope.get_maps();
+					$scope.edit_map_flag = false;
 				}
 				else
 					alert("Failed to delete map.");
@@ -155,6 +160,46 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 	$scope.renderHtml = function(htmlCode) {
 		return $sce.trustAsHtml(htmlCode);
 	};
+
+	$scope.edit_map = function() {
+		$scope.edit_map_flag = true;
+		$scope.input_hunters = $scope.mouse_hunters.join("\n");
+		$scope.input_mice_list = $scope.map_list.join("\n");
+		$scope.input_map = $scope.current_map;
+	};
+
+	$scope.cancel_edit_map = function() {
+		$scope.edit_map_flag = false;
+		$scope.clean_input_fields();
+	}
+
+	$scope.update_map = function(isValid) {
+		if(!isValid) {
+			alert('Missing fields.');
+			return
+		}
+		else {
+			if(($.inArray($scope.input_map, $scope.maps) >= 0 && $scope.input_map == $scope.current_map) || $.inArray($scope.input_map, $scope.maps) < 0) {
+				$http.post("http://192.168.254.102/mh-treasure-hunt/ajax_update_map.php", {'old_map': $scope.current_map, 'new_map': $scope.input_map, 'hunters': $scope.input_hunters, 'mice_list': $scope.input_mice_list}).then(function(response) {
+					if($scope.current_map != $scope.input_map) {
+						$scope.maps = $scope.updateEl($scope.maps, $scope.current_map, $scope.input_map);
+						$scope.current_map = $scope.input_map;
+					}
+					$scope.cancel_edit_map();
+					$scope.get_map();
+				});
+			}
+			else
+				alert("Map exists.");
+		}
+	}
+
+	$scope.updateEl = function(arr, old_val, new_val) {
+		for(var i in arr)
+			if(arr[i] == old_val)
+				arr[i] = new_val;
+		return arr;
+	}
 }).filter('toArray', function() {
 	return function(obj, addKey) {
 		if(!(obj instanceof Object)) {

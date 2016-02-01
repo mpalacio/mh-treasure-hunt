@@ -8,6 +8,7 @@
 	$mouse_location = array();
 	$mouse_hunter = array();
 	$hunters = array();
+	$valid_mice = array();
 
 	/*Get mouse list*/
 	if($map != "none"){
@@ -27,22 +28,37 @@
 
 			if(!isset($mouse_default[$mouse_key])) {
 				if(!isset($mouse_list[$mouse_key])) {
-					$unrecorded_mouse[] = $mouse;
+					/*Mouse does not exist*/
+					$unrecorded_mouse[] = array("mouse" => $mouse, "map" => $map);
 					continue;
 				}
+				/*Store mouse to mouse_default*/
 				$mouse_default[$mouse_key] = $mouse_list[$mouse_key];
 				$mouse_default[$mouse_key]['caught'] = false;
 				$mouse_default[$mouse_key]['hunter'] = "";
 			}
 
+			/*For updating images*/
 			$mouse_default[$mouse_key] = $mouse_list[$mouse_key] + $mouse_default[$mouse_key];
+			/*Mouse is valid*/
+			$valid_mice[$mouse_key] = $mouse;
+		}
 
+		foreach($mouse_default as $mouse_key => $mouse) {
+			/*Check if mouse is removed*/
+			if(!in_array($mouse_key, array_keys($valid_mice))) {
+				unset($mouse_default[$mouse_key]);
+				continue;
+			}
+
+			/*Store mouse to mouse_hunter*/
 			if($mouse_default[$mouse_key]['hunter'] != "") {
 				if(!isset($mouse_hunter[$mouse_default[$mouse_key]['hunter']]))
 					$mouse_hunter[$mouse_default[$mouse_key]['hunter']] = array();
 				$mouse_hunter[$mouse_default[$mouse_key]['hunter']][] = $mouse_key;
 			}
 
+			/*Store mouse to mouse_location*/
 			foreach($mouse_default[$mouse_key]['location']['areas'] as $region => $locations) {
 				if(!isset($mouse_location[$region]))
 					$mouse_location[$region] = array();
@@ -53,6 +69,7 @@
 				}
 			}
 
+			/*Store mouse to mouse_group*/
 			$group = $mouse_default[$mouse_key]['group'].($mouse_default[$mouse_key]['sub_group'] != "" ? ": {$mouse_default[$mouse_key]['sub_group']}" : "");
 			if(!isset($mouse_group[$group]))
 				$mouse_group[$group] = array();
@@ -77,5 +94,5 @@
 	file_put_contents("current_map.in", $map);
 
 	/*Response*/
-	echo json_encode(array("map_found" => ($map != "none"), "default" => $mouse_default, "group" => $mouse_group, "location" => $mouse_location, "hunters" => $hunters, "mouse_by_hunters" => $mouse_hunter), JSON_PRETTY_PRINT);
+	echo json_encode(array("map_found" => ($map != "none"), "default" => $mouse_default, "group" => $mouse_group, "location" => $mouse_location, "hunters" => $hunters, "mouse_by_hunters" => $mouse_hunter, "map_list" => array_values($valid_mice)), JSON_PRETTY_PRINT);
 ?>

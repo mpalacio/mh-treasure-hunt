@@ -17,29 +17,32 @@
 				<form name="add_map_form" novalidate>
 					<div class="form-inline">
 						<label>Map: </label>
-						<select class="form-control input-sm" ng-model="current_map" ng-change="get_map()">
-							<option value="none"></option>
+						<select class="form-control input-sm" ng-model="current_map" ng-change="get_map()" ng-disabled="edit_map_flag == true">
+							<option value="none">Add New Map</option>
 							<option ng-repeat="map in maps" value="{{map}}">{{map}}</option>
 						</select>
 					</div>
-					<div class="form-inline new-map" ng-show="current_map == 'none'">
-						<label>New Map: </label>
+					<div class="form-inline new-map" ng-show="current_map == 'none' || edit_map_flag == true">
+						<label>Map Name: </label>
 						<input type="text" class="form-control input-sm" name="new_map" ng-model="input_map" required>
 					</div>
-					<label ng-show="current_map == 'none'">Mousehunters:</label>
-					<textarea class="form-control" ng-model="input_hunters" ng-show="current_map == 'none'" style="height: 75px" data-limit-rows="true" required></textarea>
-					<div class="form-inline" ng-show="current_map != 'none'">
+					<label ng-show="current_map == 'none' || edit_map_flag == true">Mousehunters:</label>
+					<textarea class="form-control" ng-model="input_hunters" ng-show="current_map == 'none' || edit_map_flag == true" style="height: 75px" data-limit-rows="true" required></textarea>
+					<div class="form-inline" ng-hide="current_map == 'none' || edit_map_flag == true">
 						<label>Hunter: </label>
 						<select class="form-control input-sm hunters" ng-model="current_hunter">
 							<option ng-repeat="hunter in mouse_hunters" value="{{hunter}}">{{hunter}}</option>
 						</select>
 					</div>
 					<label>List Mouse Names:</label>
-					<textarea class="form-control" ng-model="input_mice_list" style="height: calc(100% - {{current_map == 'none' ? '245px' : '145px'}})" required></textarea>
+					<textarea class="form-control" ng-model="input_mice_list" style="height: calc(100% - {{(current_map == 'none' || edit_map_flag == true) ? '245px' : '145px'}})" required></textarea>
 					<center>
-						<button class="btn btn-primary" ng-hide="current_map != 'none'" ng-click="add_map(add_map_form.$valid)">Add Map</button>
-						<button class="btn btn-primary" ng-hide="current_map == 'none'" ng-click="catch_mice(input_mice_list)">Catch Mice</button>
-						<button class="btn btn-danger" ng-hide="current_map == 'none'" ng-click="delete_map()">Delete Map</button>
+						<button class="btn btn-xs btn-primary" ng-hide="current_map != 'none'" ng-click="add_map(add_map_form.$valid)">Add Map</button>
+						<button class="btn btn-xs btn-success" ng-show="edit_map_flag == true" ng-click="update_map(add_map_form.$valid)">Update Map</button>
+						<button class="btn btn-xs btn-primary" ng-hide="current_map == 'none' || edit_map_flag == true" ng-click="catch_mice(input_mice_list)">Catch Mice</button>
+						<button class="btn btn-xs btn-info" ng-hide="current_map == 'none' || edit_map_flag == true" ng-click="edit_map()">Edit Map</button>
+						<button class="btn btn-xs btn-primary" ng-show="edit_map_flag == true" ng-click="cancel_edit_map()">Cancel</button>
+						<button class="btn btn-xs btn-danger" ng-hide="current_map == 'none'" ng-click="delete_map()">Delete Map</button>
 					</center>
 				</form>
 			</div>
