@@ -31,7 +31,7 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 	$scope.clean_input_fields();
 
 	$scope.get_maps = function() {
-		$http.get("http://192.168.254.102/mh-treasure-hunt/ajax_get_maps.php").then(function(response) {
+		$http.get("http://localhost/mh-treasure-hunt/ajax_get_maps.php").then(function(response) {
 			$scope.maps = response.data.maps;
 			$scope.current_map = response.data.current_map;
 			$scope.get_map();
@@ -46,7 +46,7 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 		}
 		else {
 			if($.inArray($scope.input_map, $scope.maps) < 0) {
-				$http.post("http://192.168.254.102/mh-treasure-hunt/ajax_set_map.php", {'map': $scope.input_map, 'hunters': $scope.input_hunters, 'mice_list': $scope.input_mice_list}).then(function(response) {
+				$http.post("http://localhost/mh-treasure-hunt/ajax_set_map.php", {'map': $scope.input_map, 'hunters': $scope.input_hunters, 'mice_list': $scope.input_mice_list}).then(function(response) {
 					$scope.maps.push($scope.input_map);
 					$scope.current_map = $scope.input_map;
 					$scope.clean_input_fields();
@@ -62,7 +62,7 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 		$scope.init_vars();
 		$scope.clean_input_fields();
 		$scope.show_mouse(null, true);
-		$http.post("http://192.168.254.102/mh-treasure-hunt/ajax_get_map.php", {'map': $scope.current_map}).then(function(response) {
+		$http.post("http://localhost/mh-treasure-hunt/ajax_get_map.php", {'map': $scope.current_map}).then(function(response) {
 			if(response.data.map_found) {
 				$scope.mouse_default = response.data.default;
 				$scope.mouse_group = response.data.group;
@@ -77,7 +77,7 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 
 	$scope.delete_map = function() {
 		if(confirm("Delete map?") == true) {
-			$http.post("http://192.168.254.102/mh-treasure-hunt/ajax_delete_map.php", {'map': $scope.current_map}).then(function(response) {
+			$http.post("http://localhost/mh-treasure-hunt/ajax_delete_map.php", {'map': $scope.current_map}).then(function(response) {
 				if(response.data.success == true) {
 					$scope.current_map = "none";
 					$scope.get_map();
@@ -133,7 +133,7 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 					$(".mouse-list-container:not(.ng-hide)").animate({scrollTop: catcher}, "fast");
 				}, 100);
 			}
-			$http.post("http://192.168.254.102/mh-treasure-hunt/ajax_catch_mice.php", {'map': $scope.current_map, 'mouse_ids': [mouse.id], 'hunter': $scope.current_hunter});
+			$http.post("http://localhost/mh-treasure-hunt/ajax_catch_mice.php", {'map': $scope.current_map, 'mouse_ids': [mouse.id], 'hunter': $scope.current_hunter});
 		}
 	}
 
@@ -154,7 +154,7 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 		}
 		$scope.input_mice_list = "";
 		if(mouse_ids.length > 0)
-			$http.post("http://192.168.254.102/mh-treasure-hunt/ajax_catch_mice.php", {'map': $scope.current_map, 'mouse_ids': mouse_ids, 'hunter': $scope.current_hunter});
+			$http.post("http://localhost/mh-treasure-hunt/ajax_catch_mice.php", {'map': $scope.current_map, 'mouse_ids': mouse_ids, 'hunter': $scope.current_hunter});
 	}
 
 	$scope.renderHtml = function(htmlCode) {
@@ -180,7 +180,7 @@ var app = angular.module('mh-treasure-hunt', []).controller('mhTreasureHuntCtrl'
 		}
 		else {
 			if(($.inArray($scope.input_map, $scope.maps) >= 0 && $scope.input_map == $scope.current_map) || $.inArray($scope.input_map, $scope.maps) < 0) {
-				$http.post("http://192.168.254.102/mh-treasure-hunt/ajax_update_map.php", {'old_map': $scope.current_map, 'new_map': $scope.input_map, 'hunters': $scope.input_hunters, 'mice_list': $scope.input_mice_list}).then(function(response) {
+				$http.post("http://localhost/mh-treasure-hunt/ajax_update_map.php", {'old_map': $scope.current_map, 'new_map': $scope.input_map, 'hunters': $scope.input_hunters, 'mice_list': $scope.input_mice_list}).then(function(response) {
 					if($scope.current_map != $scope.input_map) {
 						$scope.maps = $scope.updateEl($scope.maps, $scope.current_map, $scope.input_map);
 						$scope.current_map = $scope.input_map;
