@@ -2,3 +2,4 @@ php script_get_locations.php
 php script_update_mice_stat_json.php
 php script_get_mouse_list.php
 php script_get_mouse_list_other_details.php
+PAUSE
