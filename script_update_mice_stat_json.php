@@ -8,16 +8,6 @@
 		if ($new_stat == "")
 			continue;
 		$group_stat = json_decode($new_stat);
-		$group_stat_name = get_initialized_group($group_stat);
-		$new_group = true;
-		foreach ($groups as $key => $group) {
-			$group_name = get_initialized_group($group);
-			if ($group_name == $group_stat_name) {
-				$groups[$key]->page->tabs[2]->subtabs[0]->categories = $group_stat->page->tabs[2]->subtabs[0]->categories;
-				$new_group = false;
-				break;
-			}
-		}
 
 		// remove uninitialized categories
 		foreach ($group_stat->page->tabs[2]->subtabs[0]->categories as $_key => $_group) {
@@ -38,6 +28,17 @@
 		unset($group_stat->page->tabs[2]->subtabs[1]);
 		$group_stat->page->tabs[0] = array();
 		$group_stat->page->tabs[1] = array();
+
+		$group_stat_name = get_initialized_group($group_stat);
+		$new_group = true;
+		foreach ($groups as $key => $group) {
+			$group_name = get_initialized_group($group);
+			if ($group_name == $group_stat_name) {
+				$groups[$key]->page->tabs[2]->subtabs[0]->categories = $group_stat->page->tabs[2]->subtabs[0]->categories;
+				$new_group = false;
+				break;
+			}
+		}
 
 		if ($new_group)
 			$groups[] = $group_stat;
