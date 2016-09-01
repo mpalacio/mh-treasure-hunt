@@ -10,9 +10,9 @@
 		$group_stat = json_decode($new_stat);
 
 		// remove uninitialized categories
-		foreach ($group_stat->page->tabs[2]->subtabs[0]->categories as $_key => $_group) {
+		foreach ($group_stat->page->tabs[2]->subtabs[0]->categories as $h => $_group) {
 			if (!$_group->initialized) {
-				unset($group_stat->page->tabs[2]->subtabs[0]->categories[$_key]);
+				unset($group_stat->page->tabs[2]->subtabs[0]->categories[$h]);
 			}
 		}
 
@@ -42,6 +42,46 @@
 
 		if ($new_group)
 			$groups[] = $group_stat;
+	}
+
+	foreach ($groups as $key => $group) {
+		unset($groups[$key]->page->tabs[2]->type);
+		unset($groups[$key]->page->tabs[2]->name);
+		unset($groups[$key]->page->tabs[2]->css_class);
+		unset($groups[$key]->page->tabs[2]->show_subtabs);
+		foreach ($groups[$key]->page->tabs[2]->subtabs as $h => $subtab) {
+			unset($groups[$key]->page->tabs[2]->subtabs[$h]->name);
+			unset($groups[$key]->page->tabs[2]->subtabs[$h]->css_class);
+			$json = json_encode($groups[$key]->page->tabs[2]->subtabs[$h]->categories);
+			$groups[$key]->page->tabs[2]->subtabs[$h]->categories = json_decode($json, TRUE);
+			foreach ($groups[$key]->page->tabs[2]->subtabs[$h]->categories as $i => $category) {
+				unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["type"]);
+				unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["status"]);
+				unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["has_weaknesses"]);
+				unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["weaknesses"]);
+				unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["total"]);
+				unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["caught"]);
+				unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["display_order"]);
+				unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["show_image"]);
+				unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["show_stats"]);
+				unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["is_complete"]);
+				foreach ($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["subgroups"] as $j => $subgroup) {
+					unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["subgroups"][$j]["display_order"]);
+					foreach ($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["subgroups"][$j]["mice"] as $k => $mouse) {
+						unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["subgroups"][$j]["mice"][$k]["display_order"]);
+						unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["subgroups"][$j]["mice"][$k]["num_catches"]);
+						unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["subgroups"][$j]["mice"][$k]["num_misses"]);
+						unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["subgroups"][$j]["mice"][$k]["avg_weight"]);
+						unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["subgroups"][$j]["mice"][$k]["heaviest_catch"]);
+						unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["subgroups"][$j]["mice"][$k]["global_num_catches"]);
+						unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["subgroups"][$j]["mice"][$k]["global_avg_weight"]);
+						unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["subgroups"][$j]["mice"][$k]["global_heaviest_catch"]);
+						unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["subgroups"][$j]["mice"][$k]["css_class"]);
+						unset($groups[$key]->page->tabs[2]->subtabs[$h]->categories[$i]["subgroups"][$j]["mice"][$k]["crown"]);
+					}
+				}
+			}
+		}
 	}
 
 	file_put_contents("mice_stat.json", json_encode($groups, JSON_PRETTY_PRINT));

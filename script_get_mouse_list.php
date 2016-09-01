@@ -84,7 +84,7 @@
 			$mouse_json["cheese"] = implode(", ", $cheese);
 		}
 		$mouse_json['group'] = trim((string) $row->td[5]->a);
-		$mouse_json['sub_group'] = isset($row->td[6]->a) ? trim((string) $row->td[6]->a) : "";
+		$mouse_json['sub_group'] = isset($row->td[6]->a) ? ucwords(trim((string) $row->td[6]->a), ": ") : "";
 		$mouse_json['image'] = "img/e10adc3949ba59abbe56e057f20f883e.png";
 		$mouse_json['thumb'] = "img/e10adc3949ba59abbe56e057f20f883e.png";
 
