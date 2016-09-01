@@ -706,8 +706,8 @@
         "cheese": "No preference",
         "group": "Train Robbers",
         "sub_group": "Automice",
-        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/282255e2a57fa02b96af2fa5d7bf20a8.jpg?cv=224",
-        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/2a03bded9d6e70c4683486d1bc6f77b5.gif?cv=224",
+        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/3ca6da52315fd966d80dbb5a88469b31.jpg?cv=224",
+        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/2d526694b246aea1c2b7116d2a1ee2b7.gif?cv=224",
         "weaknesses": [
             {
                 "name": "Law",
@@ -1562,16 +1562,16 @@
         "name": "Bonbon Gummy Globlin",
         "description": "Discarded Halloween candies, partially eaten or otherwise neglected and thrown away, have been absorbing evil from the Halloween spirits that have passed. They have slowly stuck together and rolled up into a horrifying mass, congealing into a massive ghoulish glob.<br \/>\n<br \/>\nNow, it seeks precious Halloween treats to absorb to increase its mass and power.  Keep your candies close and your pillow cases even closer!",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 40,000\n",
         "gold": " 5,000\n",
-        "cheese": "Candy Corn, Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/14256e1a60a2540d7e6e31ddb57d8ead.jpg?cv=224",
@@ -2418,16 +2418,16 @@
         "name": "Candy Cat",
         "description": "How can something so horrible dressed as one of the most proficient hunters of mousekind look so cute!  This delicious looking morsel covets quite the delectable looking confection!  \n \nGood luck getting his claws off of his candy.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 4,250\n",
         "gold": " 1,000\n",
-        "cheese": "No preference",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/32bcbfe3afb94dbc0e94b7f81a81a163.jpg?cv=224",
@@ -2476,16 +2476,16 @@
         "name": "Candy Goblin",
         "description": "This hoarder of sweets can only be found in the haunted maze by tricking it with a Candy Charm. If you are lucky enough to catch one it will be sure to drop some of its prized possessions, at least the ones it has not yet eaten.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 800\n",
         "gold": " 2,500\n",
-        "cheese": "No preference",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/f511869b1bc6a0a20d7e7acaab3b9b87.jpg?cv=224",
@@ -3348,8 +3348,8 @@
         "cheese": "No preference",
         "group": "Wild Bunch",
         "sub_group": "Ringleaders",
-        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/c6c3d2fdafe81dee6b4c5141303d5bad.jpg?cv=224",
-        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/16efb669b0100e7d3966868d0d3e420b.gif?cv=224",
+        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/022fdb6b7c0d194a3ef099cf15412e7a.jpg?cv=224",
+        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/2581a6a1bdfa3d8f088e4120e545729d.gif?cv=224",
         "weaknesses": [
             {
                 "name": "Law",
@@ -3549,16 +3549,16 @@
         "name": "Cobweb",
         "description": "This mouse was said to have stolen a piece of cursed cheese from the web of a Spider mouse, becoming forever entangled in thick layers of webbing. Despite this curse, the webbing has not hindered this mouse from swiping a hunter's cheese; in fact, the sticky strands of web help.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 500\n",
         "gold": " 700\n",
-        "cheese": "Candy Corn, Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/48b8e80f006044d10f6e50bcf2ecddb4.jpg?cv=224",
@@ -4681,8 +4681,8 @@
         "cheese": "No preference",
         "group": "Train Robbers",
         "sub_group": "Depot Worker",
-        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/2d51a7b2b3c5139dd6605ea781e1c4d9.jpg?cv=224",
-        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/e848983eb281a778f998c55c69bf7218.gif?cv=224",
+        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/1d1d8196efeac0fef99e86bab790afe6.jpg?cv=224",
+        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/1f598215d8b097a26d8880329da6f857.gif?cv=224",
         "weaknesses": [
             {
                 "name": "Law",
@@ -5384,7 +5384,7 @@
         "gold": " 900\n",
         "cheese": "See current  location",
         "group": "Event Mice",
-        "sub_group": "Valentine's",
+        "sub_group": "Valentine's Day",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/a72b47f28a9d32aaf2cfe72afeb89bb0.jpg?cv=224",
         "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/f4fc66958416db23f48765468a4295e7.gif?cv=224",
         "weaknesses": [
@@ -5892,8 +5892,8 @@
         "cheese": "No preference",
         "group": "Train Robbers",
         "sub_group": "Raider",
-        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/7b43a504a55d242085db92885ae7e5fc.jpg?cv=224",
-        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/2b37adda21d00d369ff955342d832e81.gif?cv=224",
+        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/78005b60027c98eb4f0c445f6d82f590.jpg?cv=224",
+        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/f9ede8cb1f2dda799a96fb2fe510797a.gif?cv=224",
         "weaknesses": [
             {
                 "name": "Law",
@@ -6439,8 +6439,8 @@
         "cheese": "No preference",
         "group": "Wild Bunch",
         "sub_group": "Ringleaders",
-        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/2441a15c89469d5987f7fc808477dff1.jpg?cv=224",
-        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/0c4384b32a962e66c3cb837cf9fb2bf9.gif?cv=224",
+        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/f75f1cc1c4e9c0d1d9c862bbe3e1a6e5.jpg?cv=224",
+        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/2317a9eda77ed8307ce9ed2a3b4e1cab.gif?cv=224",
         "weaknesses": [
             {
                 "name": "Law",
@@ -6668,16 +6668,16 @@
         "name": "Dire Lycan",
         "description": "Bigger, badder, meaner and more hairier than its smaller cousin.  The Dire Lycan is a fierce monster whose transformation is amplified by the spirit of the Halloween season.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 5,000\n",
         "gold": " 1,200\n",
-        "cheese": "No preference",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/ba7019164d51a3f7ca101b18593a0a8a.jpg?cv=224",
@@ -8199,16 +8199,16 @@
         "name": "Extreme Everysports",
         "description": "The Extreme Everysports mouse doesn't know the meaning of the word erinaceous, but then again, you had to look it up too. He also doesn't know how to quit, or even what that means, and you DON'T have to look that one up.\n\nThis is one accomplished mouse. Training day and night is the only thing this mouse seems to know (along with a few words). Capable of dominating in nearly every sport known to mousekind, he is a fierce competitor in the Great Gnawnian Games.",
         "location": {
-            "location_text": "Calamity Carl's Cozy Cruise (2013, 2014)",
-            "areas": [
-                [
-                    "Calamity Carl's Cozy Cruise (2013, 2014)"
+            "location_text": "Great Gnawnian Games",
+            "areas": {
+                "King's Party Zone": [
+                    "Great Gnawnian Games"
                 ]
-            ]
+            }
         },
         "points": " 5,000\n",
         "gold": " 5,000\n",
-        "cheese": "Runny",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Great Gnawnian Games",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/13cf6a00d6db7f7a3d1a71e149e765a3.jpg?cv=224",
@@ -9249,7 +9249,7 @@
         "gold": " 600\n",
         "cheese": "See current  location",
         "group": "Event Mice",
-        "sub_group": "Valentine's",
+        "sub_group": "Valentine's Day",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/dc0a8359632ee65339f35f6a17fcd004.jpg?cv=224",
         "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/2511670a725be4b48c37cc25b2733670.gif?cv=224",
         "weaknesses": [
@@ -9672,8 +9672,8 @@
         "cheese": "No preference",
         "group": "Train Robbers",
         "sub_group": "Fueler",
-        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/f94a14b14d7fec246c42575a92a1fd18.jpg?cv=224",
-        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/fd2215e27768600c18d1f8f74e28e67f.gif?cv=224",
+        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/eab4569fee0c160447141252e593bf1b.jpg?cv=224",
+        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/90ea8bb87a535e19877c1c85576ea302.gif?cv=224",
         "weaknesses": [
             {
                 "name": "Law",
@@ -9990,7 +9990,7 @@
         "gold": " 1,000\n",
         "cheese": "See current  location",
         "group": "Event Mice",
-        "sub_group": "Valentine's",
+        "sub_group": "Valentine's Day",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/f7521abe855490242ff81bec704f9885.jpg?cv=224",
         "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/5fd0e774e533e2c3f7a2332b8bb5769d.gif?cv=224",
         "weaknesses": [
@@ -10587,16 +10587,16 @@
         "name": "Gourd Ghoul",
         "description": "The ghoulish Gourd Ghoul conceals himself among the innocent pumpkins residing in the pumpkin patch.  When no one is watching, his body emerges from the hideous pumpkin as he floats towards his victims.  If spotted or threatened, he immediately vanishes and leaves behind his head, waiting for the coast to be clear before emerging once more.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 20,000\n",
         "gold": " 5,000\n",
-        "cheese": "Candy Corn, Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/5ca2b1f7e47b1b99b80294fb77e012b7.jpg?cv=224",
@@ -10645,16 +10645,16 @@
         "name": "Gourdborg",
         "description": "The deadly Gourdborg is controlled by the self-proclaimed King of Halloween! Run for your lives!!!",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 25,200\n",
         "gold": " 9,000\n",
-        "cheese": "Candy Corn, Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/766878f1fdbca294d8d3bbbc39640c00.jpg?cv=224",
@@ -10961,16 +10961,16 @@
         "name": "Grey Recluse",
         "description": "The definition of creepy and crawly!  The Grey Recluse is one to watch out for while trickily traversing the Haunted Terrortories.  Even after being captured, his sticky webs have a way to tie up travellers and keep them from advancing.\n\nCatching this mouse has its consequences for he will tie you up and drag you back one space in the Haunted Terrortories.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 1,100\n",
         "gold": " 550\n",
-        "cheese": "Candy Corn Cheese, Ghoulgonzola Cheese",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/95e83a9df67fea3ba82d01f929e0f0c7.jpg?cv=224",
@@ -11794,16 +11794,16 @@
         "name": "Hollowed",
         "description": "Once a year the veil between our world and another weakens, bringing with it the threat of terrible demonic mice. During this dangerous time our most powerful hunters are requested to battle the forces that manage to escape the breach. Until recently this phenomena was known only to a few covert hunters but with the recent eruption of Rifts around the kingdom the haunted breach has gotten much larger and more dangerous. With armies ready to pour through led by these terrifying mice, it is more important than ever that our most powerful hunters be well equipped and choose to face these dangerous foes head on.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 41,250\n",
         "gold": " 3,500\n",
-        "cheese": "Candy Corn, Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/f8f297fd69d860fc2a3ce3187d0de523.jpg?cv=224",
@@ -11820,16 +11820,16 @@
         "name": "Hollowed Minion",
         "description": "Breaching through the veil in torrents of fire, these minions come out in flaming swarms, making them a little too hot to handle. With a stronger connection to the Rift plane, they can open small holes to their home and summon roaring flames at will.<br \/>\n<br \/>\nWhen captured, let stand for 5 minutes to reach room temperature before handling.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 100,000\n",
         "gold": " 30,000\n",
-        "cheese": "Candy Corn, Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/16526386f0e5cf2a07e95a1f0f90c818.jpg?cv=224",
@@ -11846,16 +11846,16 @@
         "name": "Hollowhead",
         "description": "Despite its hollow head, this spooky mouse is still clever enough to trick a hunter's trap. The reward for catching this mouse sometimes extends outside the satisfying sound of rotten cheese exploding out of a smashing pumpkin.\n\n\n\nThis mouse is available around Halloween.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 875\n",
         "gold": " 900\n",
-        "cheese": "No preference",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/e22dc81ffbc6544676ed40b9769383f6.jpg?cv=224",
@@ -11916,8 +11916,8 @@
         "cheese": "No preference",
         "group": "Train Robbers",
         "sub_group": "Automice",
-        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/fd3482d9194c9cc01c5bc9a953dd1e1d.jpg?cv=224",
-        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/d04b829a0dcf60e5a44ec79f7988a781.gif?cv=224",
+        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/99d602fa56594cc2d38528a00e20c363.jpg?cv=224",
+        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/5e4784ae999bbfe68afdfbeafe316683.gif?cv=224",
         "weaknesses": [
             {
                 "name": "Law",
@@ -12040,16 +12040,16 @@
         "name": "Hurdle",
         "description": "Not satisfied with a simple race, this competitive mouse takes his sport to the next level by leaping over objects twice his size. He'll steal your cheese and jump over your trap before you can even finish sounding your horn! Luckily for hunters, he takes his training seriously and seems to be doing laps around the course. Worry not if you miss him; he'll be around again!",
         "location": {
-            "location_text": "Calamity Carl's Cozy Cruise (2013, 2014)",
-            "areas": [
-                [
-                    "Calamity Carl's Cozy Cruise (2013, 2014)"
+            "location_text": "Great Gnawnian Games",
+            "areas": {
+                "King's Party Zone": [
+                    "Great Gnawnian Games"
                 ]
-            ]
+            }
         },
         "points": " 4,000\n",
         "gold": " 4,000\n",
-        "cheese": "Runny",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Great Gnawnian Games",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/15a04a01cbd7b1308d89cd7156f80a29.jpg?cv=224",
@@ -12593,7 +12593,7 @@
         "gold": " 999\n",
         "cheese": "See current  location",
         "group": "Event Mice",
-        "sub_group": "Valentine's",
+        "sub_group": "Valentine's Day",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/83079f995c4a9c740e30fdb87fffcd8d.jpg?cv=224",
         "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/fbf90342fcfb94e5db1a5fe420cd0fe4.gif?cv=224",
         "weaknesses": [
@@ -13537,7 +13537,7 @@
         "gold": " 450\n",
         "cheese": "See current  location",
         "group": "Event Mice",
-        "sub_group": "Valentine's",
+        "sub_group": "Valentine's Day",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/322114702217b6274eabf8b594b58ec8.jpg?cv=224",
         "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/2753be1453331088c1f95f88007b650e.gif?cv=224",
         "weaknesses": [
@@ -14092,16 +14092,16 @@
         "name": "Maize Harvester",
         "description": "Conjured to haunt the Corn Maze and stalk those who try to seek passage through it.  Reaping through the corn creating new twists and turns in all sorts of wrong directions, scaring the unfortunate down the wrong path.\n\nBeware!  The corn is coming...",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 18,000\n",
         "gold": " 1,000\n",
-        "cheese": "Candy Corn, Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/ac22a691f89a613a00e51c7a93d2975e.jpg?cv=224",
@@ -15587,16 +15587,16 @@
         "name": "Mousataur Priestess",
         "description": "She is the fierce guardian of the terror maze and her minions do her bidding, both rewarding the bravest of hunters while tricking others without remorse. Those who reach her at the end of the maze must both be wary of the prizes she grants and to never look her directly in the eye.<br \/>\n<br \/>\nSome say defeating her grants freedom from the maddening labyrinth but others claim that upon meeting her, they now live a cursed life! Failures to attract and catch with their traps - was she to blame? Some hope that catching her might reverse the curse, or will it double it?<br \/>\n<br \/>\nThere's only one way to find out.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 35,000\n",
         "gold": " 3,250\n",
-        "cheese": "Candy Corn, Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/3e25afcbff3aad4cfd31e5696e8e53d5.jpg?cv=224",
@@ -15831,8 +15831,8 @@
         "cheese": "No preference",
         "group": "Train Robbers",
         "sub_group": "Raider",
-        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/ba054a1f24426486491df273aa152a83.jpg?cv=224",
-        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/db997d5e396ade0e38fe3b6513e16754.gif?cv=224",
+        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/352e6664e16dc9f8859eb573bb36dba4.jpg?cv=224",
+        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/f74ab3977dfb3b17df8afa1f32e582fc.gif?cv=224",
         "weaknesses": [
             {
                 "name": "Law",
@@ -15845,16 +15845,16 @@
         "name": "Mousevina von Vermin",
         "description": "This wixen is wery dangerous! Not only can she wanish vithout varning, a hunter caught in her wision vill be frozen in their tracks. One bite vill conwert her wictim into a mindless ghoOoulish slave!\n\nThankfully, ven she's around a trap, she's more interested in pilfering the cheese than hunting a hunter.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 27,000\n",
         "gold": " 4,500\n",
-        "cheese": "Candy Corn, Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/40c6e0752ad849bd2f71653a15383e36.jpg?cv=224",
@@ -17517,8 +17517,8 @@
         "cheese": "No preference",
         "group": "Wild Bunch",
         "sub_group": "Ringleaders",
-        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/8f66137cbffca630949de706fa0dd6ad.jpg?cv=224",
-        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/dae74b7d33c38fc102bc5cddb8d5282d.gif?cv=224",
+        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/292186141b29052114b983e74c00f81e.jpg?cv=224",
+        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/6daae9fee4bf917098a9a7ed281f5e5f.gif?cv=224",
         "weaknesses": [
             {
                 "name": "Law",
@@ -18848,16 +18848,16 @@
         "name": "Pumpkin Hoarder",
         "description": "The Pumpkin Hoarder mice can be seen stumbling through the Haunted Terrortories, dragging behind them a large haul of pumpkins. Their desire to have the biggest and best collection of pumpkins is insatiable, and they will stop at nothing once they've picked up the scent of an unclaimed pumpkin.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 1,800\n",
         "gold": " 1,000\n",
-        "cheese": "Candy Corn, Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/50578fb75e3dcec4a10232a2af02360c.jpg?cv=224",
@@ -20031,7 +20031,7 @@
         "gold": " 300\n",
         "cheese": "See current  location",
         "group": "Event Mice",
-        "sub_group": "Valentine's",
+        "sub_group": "Valentine's Day",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/ecfd717635c11cdf91acde3dce64a267.jpg?cv=224",
         "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/a4e8cce17e479110c0bc5686b728c1e0.gif?cv=224",
         "weaknesses": [
@@ -20090,7 +20090,7 @@
         "gold": " 1,200\n",
         "cheese": "See current  location",
         "group": "Event Mice",
-        "sub_group": "Valentine's",
+        "sub_group": "Valentine's Day",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/433016a6fc78b8d0445cbd7dc5468e6d.jpg?cv=224",
         "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/161bdaeee2d04e8e09a51897d7314f95.gif?cv=224",
         "weaknesses": [
@@ -21305,16 +21305,16 @@
         "name": "Shortcut",
         "description": "Zooming through the Corn Maze, zipping through the Haunted Manor and flying through the Pumpkin Patch.  This guy has been around the Terrortories so much so that he knows all the little secret paths, trap doors and alternate routes allowing him to rush through it all in record time!  Candy collection has never been so easy!<br \/>\n<br \/>\nCapturing this mouse will let you in on the closest secret shortcut,  advancing you three spaces forward while traversing the Haunted Terrortories.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 5,500\n",
         "gold": " 3,100\n",
-        "cheese": "Candy Corn Cheese, Ghoulgonzola Cheese",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/daafedc8e4782946217b1e8d061a75d1.jpg?cv=224",
@@ -22866,16 +22866,16 @@
         "name": "Spectral Butler",
         "description": "Continuing into the afterlife in servitude, the Spectral Butler Mouse is at your beck and call to satisfy any of your undead needs.  Being both a blessing and a curse, he continues to serve in death, until death... Your death that is!",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 20,000\n",
         "gold": " 4,800\n",
-        "cheese": "Candy Corn, Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/727c5fa2313268311321067f5d2ebab5.jpg?cv=224",
@@ -23183,16 +23183,16 @@
         "name": "Spirit Light",
         "description": "Spirit light mice like to make distracting light shows to lure less cautious hunters off their desired paths. In groups, their light shows can look like an entire town on a horizon!",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 1,200\n",
         "gold": " 500\n",
-        "cheese": "No preference",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/4f20a1c982f5726cc66eca7dcc203ab2.jpg?cv=224",
@@ -24135,8 +24135,8 @@
         "cheese": "No preference",
         "group": "Train Robbers",
         "sub_group": "Automice",
-        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/93665ec43baad5bfab08dbd63bbd779c.jpg?cv=224",
-        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/86efd707811d3696cc0df77898a91117.gif?cv=224",
+        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/32f87375dc9ef60690ad920d097c4668.jpg?cv=224",
+        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/dc2101acb1fc86a59a44e3f50ed91c7f.gif?cv=224",
         "weaknesses": [
             {
                 "name": "Law",
@@ -24480,16 +24480,16 @@
         "name": "Sugar Rush",
         "description": "Full of sugar and spice but clearly without the nice, this tiny terror runs amok during Halloween.<br \/>\n<br \/>\nNormally calm and collected, the first scent of the sugar season turns this mouse into a sugar-seeking machine.<br \/>\n<br \/>\nHer eyes burn with the intensity of one thousand sugar rushes. Unable to stand still, she destroys anything and everything in her path as she searches relentlessly for the next haul of candy.<br \/>\n<br \/>\nLet's just hope she doesn't find out that you're carrying around hoards of extra-sweetened cheese...<br \/>",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 2,600\n",
         "gold": " 2,000\n",
-        "cheese": "Candy Corn, Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/acf16796f661cebbac9a797e4001280e.jpg?cv=224",
@@ -24765,8 +24765,8 @@
         "cheese": "No preference",
         "group": "Train Robbers",
         "sub_group": "Depot Worker",
-        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/e60453b10a2cdd6078ff64577d6b8258.jpg?cv=224",
-        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/206201023bdcbedaf95e635b0f7a0542.gif?cv=224",
+        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/2bd5a964c761bcb9613b90cf4ab0f2c7.jpg?cv=224",
+        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/e998b1fc4950d9947f50a0512064d416.gif?cv=224",
         "weaknesses": [
             {
                 "name": "Law",
@@ -24883,16 +24883,16 @@
         "name": "Swamp Thang",
         "description": "You might be tempted to assume this is a Halloween costume, but no - this intimidating mouse is for real.  With its immense girth and bellowing squeak, the mere sight of this mouse is enough to send most hunters running for the hills!<br>\n<br>\nNobody knows where it came from - perhaps a forest?  Or a swamp?  Or some crazed, overrun garden of some sort?  Regardless, it now lives in the Haunted Terrortories at the end of the Pumpkin Patch, scaring witless any who approach unprepared.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 32,500\n",
         "gold": " 2,750\n",
-        "cheese": "Candy Corn, Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/98f5880724e73deef8f124d8821c1698.jpg?cv=224",
@@ -25317,16 +25317,16 @@
         "name": "Teenage Vampire",
         "description": "A young, flighty and bitey, brand new vampire!  Experiencing the spirit of Halloween for the first time as a vampire, where she can come out of the shadows and express herself without fear of judgement of her new, bloodsucking self. Once a shy loner, this seemingly dressed-up trick-or-treater is actually just one of the ghouls!",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 1,000\n",
         "gold": " 900\n",
-        "cheese": "No preference",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/0987ad2ce8ed9bdce884db4f75960898.jpg?cv=224",
@@ -25784,16 +25784,16 @@
         "name": "Titanic Brain-Taker",
         "description": "This mouse is quite different from the rest, aberrant from the other usual spooky mice in the Haunted Terrortories. He is one of the largest mice encountered in Gnawnia thus far, nearly 60 meters tall! He hides behind the manor and only appears when a hunter has reached the end of the Pumpkin Patch.<br \/>\n<br \/>\nBe careful when manoeuvring around this mouse: He is a lot faster than he looks!",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 32,500\n",
         "gold": " 2,750\n",
-        "cheese": "Candy Corn, Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/3d908f39a91d0059fc63554634efac38.jpg?cv=224",
@@ -25969,7 +25969,7 @@
         "gold": " 450\n",
         "cheese": "See current  location",
         "group": "Event Mice",
-        "sub_group": "Valentine's",
+        "sub_group": "Valentine's Day",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/ebec2ad45e47219830b650a7fd811cd4.jpg?cv=224",
         "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/1c6bbee62b3f842849416fd71327958e.gif?cv=224",
         "weaknesses": [
@@ -26327,16 +26327,16 @@
         "name": "Trampoline",
         "description": "Within the Great Gnawnian Games, the mice practice a variety of different sports. Unfortunately for the trampoline team, the allotted space given for their setup lands them right in the middle of some of the more precarious events.\n\nAside from focusing on their form, they often need to place a lot of effort in evading dangerous projectiles or even Robert, the lone Judo mouse who just really wants someone to practice on.",
         "location": {
-            "location_text": "Calamity Carl's Cozy Cruise (2013, 2014)",
-            "areas": [
-                [
-                    "Calamity Carl's Cozy Cruise (2013, 2014)"
+            "location_text": "Great Gnawnian Games",
+            "areas": {
+                "King's Party Zone": [
+                    "Great Gnawnian Games"
                 ]
-            ]
+            }
         },
         "points": " 3,000\n",
         "gold": " 3,000\n",
-        "cheese": "Runny",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Great Gnawnian Games",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/f613f11443245d7b361bc79365ba0c09.jpg?cv=224",
@@ -26687,16 +26687,16 @@
         "name": "Treat",
         "description": "As a master trick-or-treater, this little mouse never goes hungry. In fact, it spends much of its time rooting through its giant pillowcase of cheese, searching for the flavors that it likes before offering the rest to friends and relatives. Hunters everywhere have wondered: how does it get so much cheese with only a limited number of locations to visit? Well, cuteness is one factor, but changing costumes every two hours doesn't hurt either.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 8,100\n",
         "gold": " 8,400\n",
-        "cheese": "Candy Corn",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/d9aaf7fee960bbaa8dfdd658b32912b1.jpg?cv=224",
@@ -26771,16 +26771,16 @@
         "name": "Trick",
         "description": "When Trick Mice are around, forget the candy-coated kids' stuff-- they are brazen spirits of the netherworld on a mission to scare Hunters out of cheese, and they take their job very seriously. Hunters report that Trick Mice have scratched ghostly claws up their backs, made ketchup 'blood' run from the mouths of Jack-o-lanterns, and even levitated them into the Haunted Mansion's graveyard while they were sleeping! Catch as many Trick Mice as you can, and you'll be doing some good for your fellow Hunters",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 8,400\n",
         "gold": " 8,100\n",
-        "cheese": "Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/a59fb5a77ff3a7cfc6aa98ca73ea5157.jpg?cv=224",
@@ -26829,16 +26829,16 @@
         "name": "Tricky Witch",
         "description": "Dressed to impress this Halloween season, the Tricky Witch has pulled out all the stops and is wearing her finest hat and trick or treating attire.  More for the trick than the treat, this cunning creature has crafted a charm specifically to do just that!<br \/>\n<br \/>\nHer treat is a specially designed trick contained inside of her Shortcut Charms.  Using them can cause you to rapidly progress through the Haunted Terrortories OR will leave you left behind.<br \/>\n<br \/>\nUse at your own risk as they can be a blessing as easily as a curse!",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 4,250\n",
         "gold": " 1,000\n",
-        "cheese": "No preference",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/952d7df92fe5eb468d96f027348f057b.jpg?cv=224",
@@ -27641,6 +27641,64 @@
             }
         ]
     },
+    "wave_racer": {
+        "id": "wave_racer",
+        "name": "Wave Racer",
+        "description": "This mouse is ready to make a splash! The Wave Racer Mouse came at this from an interesting angle: She is prepared to play every sport ON the water! Maybe the messages got mixed up or maybe the Great Gnawnian Games are taking a brand new approach to aquatic athletics!",
+        "location": {
+            "location_text": "Great Gnawnian Games",
+            "areas": {
+                "King's Party Zone": [
+                    "Great Gnawnian Games"
+                ]
+            }
+        },
+        "points": " 5,000\n",
+        "gold": " 5,000\n",
+        "cheese": "See current  location",
+        "group": "Event Mice",
+        "sub_group": "Great Gnawnian Games",
+        "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/5ba28aef1757a1a53933cbfd8534ca14.jpg?cv=224",
+        "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/ee347f4c40a91f64fdf29ba78272ecf4.gif?cv=224",
+        "weaknesses": [
+            {
+                "name": "Draconic",
+                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/draconic.png"
+            },
+            {
+                "name": "Law",
+                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/law.png"
+            },
+            {
+                "name": "Rift",
+                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/rift.png"
+            },
+            {
+                "name": "Hydro",
+                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/hydro.png"
+            },
+            {
+                "name": "Forgotten",
+                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/forgotten.png"
+            },
+            {
+                "name": "Tactical",
+                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/tactical.png"
+            },
+            {
+                "name": "Physical",
+                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/physical.png"
+            },
+            {
+                "name": "Arcane",
+                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/arcane.png"
+            },
+            {
+                "name": "Shadow",
+                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/shadow.png"
+            }
+        ]
+    },
     "wealth": {
         "id": "wealth",
         "name": "Wealth",
@@ -27915,16 +27973,16 @@
         "name": "Wild Chainsaw",
         "description": "Gnawnian zoologists assume that his patchwork appearance is actually an elaborate dye job. We say assume, as no one has been willing to get close enough to the little psychopath to find out for certain.<br>\n<br>\nHunters are advised to set their traps, then stay far, far away until they are certain this mouse is securely trapped within.",
         "location": {
-            "location_text": "Haunted Terrortories",
-            "areas": {
-                "King's Party Zone": [
-                    "Haunted Terrortories"
+            "location_text": "Halloween",
+            "areas": [
+                [
+                    "Halloween"
                 ]
-            }
+            ]
         },
         "points": " 2,200\n",
         "gold": " 1,150\n",
-        "cheese": "Candy Corn, Ghoulgonzola",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Halloween",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/6160751f66005b87765e72e755649c08.jpg?cv=224",
@@ -27999,16 +28057,16 @@
         "name": "Winter Games",
         "description": "He doesn't want just one competition, he wants all competitions!<br \/>\n<br \/>\nAmbitious for the Winter Games season, this mouse has enlisted in every competition available.  Not one to waste precious time, he dons all of the required sporting apparel to immediately start the next event.<br \/>\n<br \/>\nAs you can see in this photo, he immediately launched from the ski jump straight into his curling run.  I'd give him a 10.0!",
         "location": {
-            "location_text": "Calamity Carl's Cozy Cruise (2013, 2014)",
-            "areas": [
-                [
-                    "Calamity Carl's Cozy Cruise (2013, 2014)"
+            "location_text": "Great Gnawnian Games",
+            "areas": {
+                "King's Party Zone": [
+                    "Great Gnawnian Games"
                 ]
-            ]
+            }
         },
         "points": " 3,000\n",
         "gold": " 900\n",
-        "cheese": "Runny",
+        "cheese": "See current  location",
         "group": "Event Mice",
         "sub_group": "Great Gnawnian Games",
         "image": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/9a42f122ed1a8c27710a479652d5692c.jpg?cv=224",

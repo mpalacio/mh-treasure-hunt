@@ -10931,6 +10931,56 @@
                                                     }
                                                 },
                                                 {
+                                                    "name": "Wave Racer Mouse",
+                                                    "type": "water_sports",
+                                                    "description": "This mouse is ready to make a splash! The Wave Racer Mouse came at this from an interesting angle: She is prepared to play every sport ON the water! Maybe the messages got mixed up or maybe the Great Gnawnian Games are taking a brand new approach to aquatic athletics!",
+                                                    "gold": "5,000",
+                                                    "points": "5,000",
+                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/ee347f4c40a91f64fdf29ba78272ecf4.gif?cv=224",
+                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/5ba28aef1757a1a53933cbfd8534ca14.jpg?cv=224",
+                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/large\/2cb1ddb28e52b5317dccec634821d7fd.jpg?cv=224",
+                                                    "weaknesses": {
+                                                        "effective": [
+                                                            {
+                                                                "name": "Draconic",
+                                                                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/draconic.png"
+                                                            },
+                                                            {
+                                                                "name": "Law",
+                                                                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/law.png"
+                                                            },
+                                                            {
+                                                                "name": "Rift",
+                                                                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/rift.png"
+                                                            },
+                                                            {
+                                                                "name": "Hydro",
+                                                                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/hydro.png"
+                                                            },
+                                                            {
+                                                                "name": "Forgotten",
+                                                                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/forgotten.png"
+                                                            },
+                                                            {
+                                                                "name": "Tactical",
+                                                                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/tactical.png"
+                                                            },
+                                                            {
+                                                                "name": "Physical",
+                                                                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/physical.png"
+                                                            },
+                                                            {
+                                                                "name": "Arcane",
+                                                                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/arcane.png"
+                                                            },
+                                                            {
+                                                                "name": "Shadow",
+                                                                "icon": "https:\/\/www.mousehuntgame.com\/images\/powertypes\/shadow.png"
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
                                                     "name": "Wild Chainsaw Mouse",
                                                     "type": "chainsaw",
                                                     "description": "Gnawnian zoologists assume that his patchwork appearance is actually an elaborate dye job. We say assume, as no one has been willing to get close enough to the little psychopath to find out for certain.<br>\n<br>\nHunters are advised to set their traps, then stay far, far away until they are certain this mouse is securely trapped within.",
@@ -26289,9 +26339,9 @@
                                                     "description": "One of the more advanced raiding automatons. Designed for maximum hull penetration and destruction.<br \/>\n<br \/>\nThe main goal of the Automorat Mouse is to swarm the train, dismantle defenses and take care of any resistance they may encounter.",
                                                     "gold": "8,000",
                                                     "points": "6,000",
-                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/2a03bded9d6e70c4683486d1bc6f77b5.gif?cv=224",
-                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/282255e2a57fa02b96af2fa5d7bf20a8.jpg?cv=224",
-                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_large\/d2ef0a79df0045d30a98bab45e4fc5db.jpg?cv=224",
+                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/2d526694b246aea1c2b7116d2a1ee2b7.gif?cv=224",
+                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/3ca6da52315fd966d80dbb5a88469b31.jpg?cv=224",
+                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/large\/15f741e472abe752b31610232f5e1c1f.jpg?cv=224",
                                                     "weaknesses": {
                                                         "veryEffective": [
                                                             {
@@ -26343,9 +26393,9 @@
                                                     "description": "Taking being a stowaway to the next level, the older brother of the Stowaway Mouse shows him how it's done. Using full-body crate paint, he blends seamlessly in with his surroundings which makes him a tough one to find!<br \/>\n<br \/>\n<i>Catching this mouse will earn you 2 Royal Supply Crates.<\/i>",
                                                     "gold": "7,000",
                                                     "points": "5,000",
-                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/e848983eb281a778f998c55c69bf7218.gif?cv=224",
-                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/2d51a7b2b3c5139dd6605ea781e1c4d9.jpg?cv=224",
-                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_large\/75359c55f8d9e9bfef81dc4d02e1f045.jpg?cv=224",
+                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/1f598215d8b097a26d8880329da6f857.gif?cv=224",
+                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/1d1d8196efeac0fef99e86bab790afe6.jpg?cv=224",
+                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/large\/e5c9704df52adfd3dd745bb16ba9f77b.jpg?cv=224",
                                                     "weaknesses": {
                                                         "veryEffective": [
                                                             {
@@ -26379,9 +26429,9 @@
                                                     "description": "Inseparable since the day they could walk, this dangerous duo has been stealing cheese from traps since they were very young. With one always watching over the other, it's nigh impossible to get the drop on these two!<br \/>\n<br \/>\nTheir natural skill and experience in the thieving world landed them a job robbing trains with the raiders. Though they work extremely well together, they aren't much when not together. They must be caught as a pair in order to fend off the raiders.<br \/>\n<br \/>\n\"Two tails are better than one!\" --Famous Dangerous Duo catchphrase.<br \/>\n<br \/>\n<i>Catching this mouse will decrease the number of Raiders Left by <b>two<\/b> but is only encountered when using the correct charms.<\/i>",
                                                     "gold": "14,000",
                                                     "points": "11,000",
-                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/2b37adda21d00d369ff955342d832e81.gif?cv=224",
-                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/7b43a504a55d242085db92885ae7e5fc.jpg?cv=224",
-                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_large\/72af9f81ef614b641a1984c5d3f2c512.jpg?cv=224",
+                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/f9ede8cb1f2dda799a96fb2fe510797a.gif?cv=224",
+                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/78005b60027c98eb4f0c445f6d82f590.jpg?cv=224",
+                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/large\/72d3fcce1060494ee99869746b299230.jpg?cv=224",
                                                     "weaknesses": {
                                                         "veryEffective": [
                                                             {
@@ -26397,9 +26447,9 @@
                                                     "description": "The heart of the raider cause! This mouse champions for fuel and makes it his mission to gather as much of it as he can. Even those mousy automatons need fuel to operate!<br \/>\n<br \/>\nThough he collects a lot of it, he gives away most of his Fuel Nuggets to the other raiding mice, so he rarely has any on him when caught.",
                                                     "gold": "4,000",
                                                     "points": "5,000",
-                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/fd2215e27768600c18d1f8f74e28e67f.gif?cv=224",
-                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/f94a14b14d7fec246c42575a92a1fd18.jpg?cv=224",
-                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_large\/20205d1f450c3ccfeb111aff10f802fc.jpg?cv=224",
+                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/90ea8bb87a535e19877c1c85576ea302.gif?cv=224",
+                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/eab4569fee0c160447141252e593bf1b.jpg?cv=224",
+                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/large\/98c80f868c58d2086e8cbf0204a97a8d.jpg?cv=224",
                                                     "weaknesses": {
                                                         "veryEffective": [
                                                             {
@@ -26415,9 +26465,9 @@
                                                     "description": "Light and nimble, the Hookshot Mouse is the latest and greatest in raider engineering. Fool's Gold fused with iron has created a strong, light-weight alloy. Coupled with a steam-and-crank power source, this guy is one raider who just won't quit!<br \/>\n<br \/>\nHarnessing that power allows the Hookshot Mouse to fire his trademarked Hook-Paw launcher from nearly one thousand feet away, allowing them to quickly mount the train and start the assault before they can even be seen!<br \/>\n<br \/>\nMany a train passenger fears the clanking of little hooks as these mice begin their attack. That definitely isn't rain you're hearing!",
                                                     "gold": "9,000",
                                                     "points": "8,000",
-                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/d04b829a0dcf60e5a44ec79f7988a781.gif?cv=224",
-                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/fd3482d9194c9cc01c5bc9a953dd1e1d.jpg?cv=224",
-                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_large\/cad619596bb1eab737e41aba62c406cd.jpg?cv=224",
+                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/5e4784ae999bbfe68afdfbeafe316683.gif?cv=224",
+                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/99d602fa56594cc2d38528a00e20c363.jpg?cv=224",
+                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/large\/c94b689d80e44916f4223eb77a883b5a.jpg?cv=224",
                                                     "weaknesses": {
                                                         "veryEffective": [
                                                             {
@@ -26469,9 +26519,9 @@
                                                     "description": "No one knew his name... No one knew his face...<br \/>\n<br \/>\n<i>Catching this mouse will decrease the number of Raiders Left by one.<\/i>",
                                                     "gold": "11,500",
                                                     "points": "8,500",
-                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/db997d5e396ade0e38fe3b6513e16754.gif?cv=224",
-                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/ba054a1f24426486491df273aa152a83.jpg?cv=224",
-                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_large\/42f5bcee1f67ab4beae3b3559192c3f7.jpg?cv=224",
+                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/f74ab3977dfb3b17df8afa1f32e582fc.gif?cv=224",
+                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/352e6664e16dc9f8859eb573bb36dba4.jpg?cv=224",
+                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/large\/df3f4db364a44d35a486f82d42b88048.jpg?cv=224",
                                                     "weaknesses": {
                                                         "veryEffective": [
                                                             {
@@ -26577,9 +26627,9 @@
                                                     "description": "Heavy, thick and made out of the strongest of iron, the stout Stoutgear Mouse is the pillar of raiding technology.<br \/>\n<br \/>\nThough a little rusty, these mice are built strong to last long! Stoutgear mice are used as the main holding force in most raids, weakening the forces protecting the train to clear a path for the professionals. Once they get a foothold, they become a mechanical force with which to reckon!",
                                                     "gold": "8,500",
                                                     "points": "7,000",
-                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/86efd707811d3696cc0df77898a91117.gif?cv=224",
-                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/93665ec43baad5bfab08dbd63bbd779c.jpg?cv=224",
-                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_large\/35db6382458b6bd7d5fe7e06a3aae8f7.jpg?cv=224",
+                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/dc2101acb1fc86a59a44e3f50ed91c7f.gif?cv=224",
+                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/32f87375dc9ef60690ad920d097c4668.jpg?cv=224",
+                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/large\/62f8c755d732d2be65dd672784fa5b8f.jpg?cv=224",
                                                     "weaknesses": {
                                                         "veryEffective": [
                                                             {
@@ -26613,9 +26663,9 @@
                                                     "description": "These mice work for the Warehouse Manager Mouse, aiding him in severing the flow of Royal Supply Crates to the Gnawnian Express so that they can get their paws on the goodies inside.<br \/>\n<br \/>\nThey carry up to twice as many supplies as the Warehouse Manager and are a valuable catch, so be sure to stick around during a <b>Supply Rush<\/b>!<br \/>\n<br \/>\nThey only appear when a hunter has caught a Warehouse Manager Mouse and a Supply Rush has been triggered. Use <b>Supply Schedule Charms<\/b> for a chance to attract a Warehouse Manager Mouse and call these mice out of hiding!",
                                                     "gold": "12,000",
                                                     "points": "8,000",
-                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/206201023bdcbedaf95e635b0f7a0542.gif?cv=224",
-                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/e60453b10a2cdd6078ff64577d6b8258.jpg?cv=224",
-                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_large\/99cb2eb134d69187d502eb514e137126.jpg?cv=224",
+                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/e998b1fc4950d9947f50a0512064d416.gif?cv=224",
+                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/2bd5a964c761bcb9613b90cf4ab0f2c7.jpg?cv=224",
+                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/large\/5571b738c737ee4339fb649a676f397e.jpg?cv=224",
                                                     "weaknesses": {
                                                         "veryEffective": [
                                                             {
@@ -26789,9 +26839,9 @@
                                                     "description": "These mice travel from settlement to settlement, calling upon those who are to be tried for their crimes and to pass judgement as stated by mousey law in that region. It is no secret, however, that around these parts the law is quite lax and a case is usually settled by whomever can cough up the most coin. There seem to be an awful lot of judges hanging around these parts of late, itching to make a quick buck by twisting the law to their corrupt whims.<br \/>\n<br \/>\nKeep an eye out for him if you ever encounter the 'Corrupt Cartel' gang.",
                                                     "gold": "9,500",
                                                     "points": "15,000",
-                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/16efb669b0100e7d3966868d0d3e420b.gif?cv=224",
-                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/c6c3d2fdafe81dee6b4c5141303d5bad.jpg?cv=224",
-                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_large\/e50f415b78ff3392ade05d6f96a29604.jpg?cv=224",
+                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/2581a6a1bdfa3d8f088e4120e545729d.gif?cv=224",
+                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/022fdb6b7c0d194a3ef099cf15412e7a.jpg?cv=224",
+                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/large\/a339138a6425bf192188dab1636a9c94.jpg?cv=224",
                                                     "weaknesses": {
                                                         "veryEffective": [
                                                             {
@@ -26825,9 +26875,9 @@
                                                     "description": "Known for his short fuse and seedy dealings you would be wise to not cross this nasty varmint. With his pistols always at the ready, he's itching for a fight and he doesn't care if it's fair either. This mouse is so crooked, he could swallow nails and spit out corkscrews.<br \/>\n<br \/>Be warned: This Desperado rolls with the 'Thieves' gang!",
                                                     "gold": "9,000",
                                                     "points": "9,500",
-                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/0c4384b32a962e66c3cb837cf9fb2bf9.gif?cv=224",
-                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/2441a15c89469d5987f7fc808477dff1.jpg?cv=224",
-                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_large\/2913ef8f915459cfcad8cea3f3feba37.jpg?cv=224",
+                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/2317a9eda77ed8307ce9ed2a3b4e1cab.gif?cv=224",
+                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/f75f1cc1c4e9c0d1d9c862bbe3e1a6e5.jpg?cv=224",
+                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/large\/d8dadfd9a03078231a1314a4e43f17bd.jpg?cv=224",
                                                     "weaknesses": {
                                                         "veryEffective": [
                                                             {
@@ -26879,9 +26929,9 @@
                                                     "description": "Deadly, dangerous, and darn ugly, this rough 'n' tough Outlaw Mouse has seen his fair share of fortune and failure. His motto is \"Steal from everyone, and give it to me!\" and he runs with an equally down and dirty crew known as the 'Thugs' gang.<br \/>\n<br \/>\nHunters be wary around this mouse. He isn't the type to back down from a fight!",
                                                     "gold": "10,000",
                                                     "points": "9,500",
-                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_thumb\/dae74b7d33c38fc102bc5cddb8d5282d.gif?cv=224",
-                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_medium\/8f66137cbffca630949de706fa0dd6ad.jpg?cv=224",
-                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/silhouette_large\/3c5ba3ccf1a30b9d712122be81af837a.jpg?cv=224",
+                                                    "thumb": "https:\/\/www.mousehuntgame.com\/images\/mice\/thumb\/6daae9fee4bf917098a9a7ed281f5e5f.gif?cv=224",
+                                                    "medium": "https:\/\/www.mousehuntgame.com\/images\/mice\/medium\/292186141b29052114b983e74c00f81e.jpg?cv=224",
+                                                    "large": "https:\/\/www.mousehuntgame.com\/images\/mice\/large\/cc1ac0c2110c311d1777306c976fa799.jpg?cv=224",
                                                     "weaknesses": {
                                                         "veryEffective": [
                                                             {
