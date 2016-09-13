@@ -8,7 +8,8 @@
 			if(!$group->initialized)
 				continue;
 			foreach ($group->subgroups[0]->mice as $mouse) {
-				$id = strtolower(str_replace(" ", "_", str_replace(" Mouse", "", $mouse->name)));
+				$m_name = substr($mouse->name, -6) == " Mouse" ? substr_replace($mouse->name, "", -6) : $mouse->name;
+				$id = strtolower(str_replace(" ", "_", $m_name));
 				$mouse_json = $mouse_list->$id;
 				list($weakness_key) = count((array) $mouse->weaknesses) ? array_keys((array) $mouse->weaknesses) : array('0');
 

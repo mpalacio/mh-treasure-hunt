@@ -1,0 +1,244 @@
+{
+  "city_noble": [
+    "Sunken City - Docks"
+  ],
+  "city_worker": [
+    "Sunken City - Docks"
+  ],
+  "clumsy_carrier": [
+    "Sunken City - Docks"
+  ],
+  "elite_guardian": [
+    "Sunken City - Docks"
+  ],
+  "enginseer": [
+    "Sunken City - Docks"
+  ],
+  "hydrologist": [
+    "Sunken City - Docks"
+  ],
+  "oxygen_baron": [
+    "Sunken City - Docks"
+  ],
+  "sunken_citizen": [
+    "Sunken City - Docks"
+  ],
+  "barnacle_beautician": [
+    "Sunken City - Rocky Outcrop (0-2 km)",
+    "Sunken City - Shipwreck (2-10 km)"
+  ],
+  "bottom_feeder": [
+    "Sunken City - Rocky Outcrop (0-2 km)"
+  ],
+  "crabolia": [
+    "Sunken City - Rocky Outcrop (0-2 km)",
+    "Sunken City - Shipwreck (2-10 km)"
+  ],
+  "deep_sea_diver": [
+    "Sunken City - Shipwreck (2-10 km)",
+    "Sunken City - Haunted Shipwreck (10+ km)"
+  ],
+  "deranged_deckhand": [
+    "Sunken City - Haunted Shipwreck (10+ km)"
+  ],
+  "dread_pirate_mousert": [
+    "Sunken City - Shipwreck (2-10 km)"
+  ],
+  "pirate_anchor": [
+    "Sunken City - Shipwreck (2-10 km)",
+    "Sunken City - Haunted Shipwreck (10+ km)"
+  ],
+  "sunken_banshee": [
+    "Sunken City - Haunted Shipwreck (10+ km)"
+  ],
+  "swashblade": [
+    "Sunken City - Haunted Shipwreck (10+ km)"
+  ],
+  "coral": [
+    "Sunken City - Coral Reef (0-2 km)",
+    "Sunken City - Coral Garden (2-10 km)"
+  ],
+  "coral_cuddler": [
+    "Sunken City - Coral Reef (0-2 km)"
+  ],
+  "coral_dragon": [
+    "Sunken City - Coral Garden (2-10 km)",
+    "Sunken City - Coral Castle (10+ km)"
+  ],
+  "coral_gardener": [
+    "Sunken City - Coral Garden (2-10 km)",
+    "Sunken City - Coral Castle (10+ km)"
+  ],
+  "coral_guard": [
+    "Sunken City - Coral Castle (10+ km)"
+  ],
+  "coral_harvester": [
+    "Sunken City - Coral Garden (2-10 km)"
+  ],
+  "coral_queen": [
+    "Sunken City - Coral Castle (10+ km)"
+  ],
+  "seadragon": [
+    "Sunken City - Coral Reef (0-2 km)",
+    "Sunken City - Coral Garden (2-10 km)"
+  ],
+  "turret_guard": [
+    "Sunken City - Coral Castle (10+ km)"
+  ],
+  "angelfish": [
+    "Sunken City - Coral Castle (10+ km)",
+    "Sunken City - Murky Depths (10+ km)",
+    "Sunken City - Deep Oxygen Stream (15+ km)",
+    "Sunken City - Magma Flow (25+ km)"
+  ],
+  "betta": [
+    "Sunken City - Lost Ruins (10+ km)",
+    "Sunken City - Murky Depths (10+ km)",
+    "Sunken City - Deep Oxygen Stream (15+ km)",
+    "Sunken City - Magma Flow (25+ km)"
+  ],
+  "clownfish": [
+    "Sunken City - Coral Reef (0-2 km)",
+    "Sunken City - Feeding Grounds (0-2 km)",
+    "Sunken City - Rocky Outcrop (0-2 km)",
+    "Sunken City - School of Mice (0-2 km)",
+    "Sunken City - Shallow Shoals (0-2 km)"
+  ],
+  "cuttle": [
+    "Sunken City - Coral Reef (0-2 km)",
+    "Sunken City - Shallow Shoals (0-2 km)",
+    "Sunken City - Oxygen Stream (2-15 km)"
+  ],
+  "eel": [
+    "Sunken City - Haunted Shipwreck (10+ km)",
+    "Sunken City - Murky Depths (10+ km)",
+    "Sunken City - Deep Oxygen Stream (15+ km)",
+    "Sunken City - Magma Flow (25+ km)"
+  ],
+  "jellyfish": [
+    "Sunken City - Coral Garden (2-10 km)",
+    "Sunken City - Oxygen Stream (2-15 km)",
+    "Sunken City - Sea Floor (2-10 km)",
+    "Sunken City - Murky Depths (10+ km)",
+    "Sunken City - Deep Oxygen Stream (15+ km)"
+  ],
+  "koimaid": [
+    "Sunken City - Mermouse Den (2-10 km)",
+    "Sunken City - Oxygen Stream (2-15 km)",
+    "Sunken City - Sea Floor (2-10 km)",
+    "Sunken City - Murky Depths (10+ km)",
+    "Sunken City - Deep Oxygen Stream (15+ km)"
+  ],
+  "manatee": [
+    "Sunken City - Rocky Outcrop (0-2 km)",
+    "Sunken City - Shallow Shoals (0-2 km)",
+    "Sunken City - Oxygen Stream (2-15 km)",
+    "Sunken City - Sea Floor (2-10 km)"
+  ],
+  "mlounder_flounder": [
+    "Sunken City - Coral Reef (0-2 km)",
+    "Sunken City - Rocky Outcrop (0-2 km)",
+    "Sunken City - Sand Dollar Sea Bar (0-2 km)",
+    "Sunken City - School of Mice (0-2 km)",
+    "Sunken City - Shallow Shoals (0-2 km)"
+  ],
+  "puffer": [
+    "Sunken City - School of Mice (0-2 km)",
+    "Sunken City - Shallow Shoals (0-2 km)",
+    "Sunken City - Oxygen Stream (2-15 km)",
+    "Sunken City - Sea Floor (2-10 km)"
+  ],
+  "stingray": [
+    "Sunken City - Oxygen Stream (2-15 km)",
+    "Sunken City - Sea Floor (2-10 km)",
+    "Sunken City - Shipwreck (2-10 km)",
+    "Sunken City - Murky Depths (10+ km)",
+    "Sunken City - Oxygen Stream (2-15 km)",
+    "Sunken City - Deep Oxygen Stream (15+ km)"
+  ],
+  "ancient_of_the_deep": [
+    "Sunken City - Monster Trench (10+ km)",
+    "Sunken City - Lair of the Ancients (15+ km)"
+  ],
+  "barracuda": [
+    "Sunken City - Feeding Grounds (0-2 km)"
+  ],
+  "carnivore": [
+    "Sunken City - Carnivore Cove (2-10 km)",
+    "Sunken City - Monster Trench (10+ km)"
+  ],
+  "derpshark": [
+    "Sunken City - Feeding Grounds (0-2 km)",
+    "Sunken City - Carnivore Cove (2-10 km)"
+  ],
+  "serpent_monster": [
+    "Sunken City - Carnivore Cove (2-10 km)",
+    "Sunken City - Monster Trench (10+ km)"
+  ],
+  "spear_fisher": [
+    "Sunken City - Feeding Grounds (0-2 km)",
+    "Sunken City - Carnivore Cove (2-10 km)"
+  ],
+  "tritus": [
+    "Sunken City - Monster Trench (10+ km)",
+    "Sunken City - Lair of the Ancients (15+ km)"
+  ],
+  "angler": [
+    "Sunken City - Lost Ruins (10+ km)"
+  ],
+  "guppy": [
+    "Sunken City - School of Mice (0-2 km)",
+    "Sunken City - Mermouse Den (2-10 km)"
+  ],
+  "mermousette": [
+    "Sunken City - Mermouse Den (2-10 km)"
+  ],
+  "mershark": [
+    "Sunken City - Mermouse Den (2-10 km)",
+    "Sunken City - Lost Ruins (10+ km)"
+  ],
+  "octomermaid": [
+    "Sunken City - Mermouse Den (2-10 km)",
+    "Sunken City - Lost Ruins (10+ km)"
+  ],
+  "old_one": [
+    "Sunken City - Lost Ruins (10+ km)"
+  ],
+  "school_of_mish": [
+    "Sunken City - School of Mice (0-2 km)"
+  ],
+  "tadpole": [
+    "Sunken City - School of Mice (0-2 km)",
+    "Sunken City - Mermouse Den (2-10 km)"
+  ],
+  "urchin_king": [
+    "Sunken City - Lost Ruins (10+ km)"
+  ],
+  "pearl": [
+    "Sunken City - Pearl Patch (2-10 km)",
+    "Sunken City - Sunken Treasure (10+ km)"
+  ],
+  "pearl_diver": [
+    "Sunken City - Pearl Patch (2-10 km)",
+    "Sunken City - Sunken Treasure (10+ km)"
+  ],
+  "saltwater_axolotl": [
+    "Sunken City - Sand Dollar Sea Bar (0-2 km)",
+    "Sunken City - Pearl Patch (2-10 km)"
+  ],
+  "sand_dollar_diver": [
+    "Sunken City - Sand Dollar Sea Bar (0-2 km)"
+  ],
+  "sand_dollar_queen": [
+    "Sunken City - Sand Dollar Sea Bar (0-2 km)",
+    "Sunken City - Pearl Patch (2-10 km)"
+  ],
+  "treasure_hoarder": [
+    "Sunken City - Sunken Treasure (10+ km)",
+    "Sunken City - Magma Flow (25+ km)"
+  ],
+  "treasure_keeper": [
+    "Sunken City - Sunken Treasure (10+ km)",
+    "Sunken City - Magma Flow (25+ km)"
+  ]
+}

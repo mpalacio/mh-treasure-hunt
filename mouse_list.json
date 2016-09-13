@@ -327,10 +327,11 @@
         "name": "Ancient of the Deep",
         "description": "Now long forgotten, from a time before hunters were hunters and the \"Town of Gnawnia\" was nothing more than a few huts and tents, this ancient terror ruled the depths of the ocean.<br \/>\n<br \/>\nLegend states that in the deepest, darkest crevices of the underwater trenches lies dormant one of the most terrifying sea-dwelling mice known to hunters, unfathomably large and more mind-numbingly horrifying than the Deep Mouse.<br \/>\n<br \/>\nHowever unbelievable the tales may be, reports from the King's Far-and-Wide Expedition Team (FAWET) show that <i>something<\/i> has responded to the rumbling engines of recent expeditions into the Rodentia Ocean. This long-forgotten Old One has begun to stir, and its first order of business is to find those responsible for disturbing its slumber!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Monster Trench (10+ km), Lair of the Ancients (15+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Monster Trench (10+ km)",
+                    "Sunken City - Lair of the Ancients (15+ km)"
                 ]
             }
         },
@@ -379,10 +380,13 @@
         "name": "Angelfish",
         "description": "Their translucent body allows them to hide among their surroundings unnoticed. Special reflective scales provide additional camouflage from its predators and potential prey.<br \/>\n<br \/>\nDon't let these looks fool you!  Her natural defences help her stay safe and give her an edge to ambush potential prey.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Coral Castle (10+ km), Murky Depths (10+ km), Deep Oxygen Stream (15+ km), Magma Flow (25+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Coral Castle (10+ km)",
+                    "Sunken City - Murky Depths (10+ km)",
+                    "Sunken City - Deep Oxygen Stream (15+ km)",
+                    "Sunken City - Magma Flow (25+ km)"
                 ]
             }
         },
@@ -405,10 +409,10 @@
         "name": "Angler",
         "description": "This extremely poor hunter has evolved some pretty exciting traits.  Almost completely blind, the Angler Mouse uses a light-emitting feeler to help him see in the dark waters and allow him to read at night, keeping his mind sharp if the time ever comes for him to use it.  Sharp talons not only protrude from his hands, but all over his body to allow him to catch prey at any angle.  Most of his meals are acquired by pure accident!<br \/>\n<br \/>\nHis gigantic tail fin gives him the ability to keep up with his \"friends\" with minimal effort, making it useful for catching up to prey, considering it looks like this particular Angler Mouse hasn't been eating too much...<br \/>\n<br \/>\nBut don't let his scrawny figure fool you! Remember, accidents happen!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Lost Ruins (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Lost Ruins (10+ km)"
                 ]
             }
         },
@@ -824,10 +828,11 @@
         "name": "Barnacle Beautician",
         "description": "Scouring the deep for the most beautiful of Barnacles, this beautician loves the look and feel of freshly-formed Barnacle shells, moulding and shaping them into fine jewelry and accessories. Always on the lookout, her eyes just light up whenever she spots a particularly pretty bunch or a new candidate to become part of her latest fashions.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Rocky Outcrop (0-2 km), Shipwreck (2-10 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Rocky Outcrop (0-2 km)",
+                    "Sunken City - Shipwreck (2-10 km)"
                 ]
             }
         },
@@ -850,10 +855,10 @@
         "name": "Barracuda",
         "description": "The lone wolf of the ocean.  Once fully-grown, the Barracuda Mouse separates himself from the pack, fearless and strong enough to sustain himself on his own.<br \/>\n<br \/>\nBe wary if you see them in pairs or more: They will hunt in packs when they plan on taking out bigger quarry.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Feeding Grounds (0-2 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Feeding Grounds (0-2 km)"
                 ]
             }
         },
@@ -1042,10 +1047,13 @@
         "name": "Betta",
         "description": "An ancient fish found in the deeper parts of the ocean.  Incredibly strong and agile.  He has evolved into the perfect deep sea hunter.\n",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Lost Ruins (10+ km), Murky Depths (10+ km), Deep Oxygen Stream (15+ km), Magma Flow (25+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Lost Ruins (10+ km)",
+                    "Sunken City - Murky Depths (10+ km)",
+                    "Sunken City - Deep Oxygen Stream (15+ km)",
+                    "Sunken City - Magma Flow (25+ km)"
                 ]
             }
         },
@@ -1734,10 +1742,10 @@
         "name": "Bottom Feeder",
         "description": "This mouse slowly crawls along the ocean floor, scrounging for scraps of anything that could resemble food.  It moves so slowly that Barnacles easily form along this mouse's leathery hide.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Rocky Outcrop (0-2 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Rocky Outcrop (0-2 km)"
                 ]
             }
         },
@@ -2815,10 +2823,11 @@
         "name": "Carnivore",
         "description": "The Carnivore Mouse is a ruthless, insatiable and relentless predator. Being known to hunt even its own kind when food becomes scarce sets this beast apart from the other ocean monsters.<br \/>\n<br \/>\nThis mouse is one of the many terrors that haunt the dreams of sailors and explorers and of those that dare to hunt in the deep sea.<br \/>\n<br \/>\nRemember, hunter: Venturing too deep has its consequences...",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Carnivore Cove (2-10 km), Monster Trench (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Carnivore Cove (2-10 km)",
+                    "Sunken City - Monster Trench (10+ km)"
                 ]
             }
         },
@@ -3362,10 +3371,10 @@
         "name": "City Noble",
         "description": "The high society of the Sunken City.  Prim, proper and poised, these nobles are ready at a moment's notice to take up arms against any who challenge them.  Trained in the art of fencing,  constantly battling for their status inside the city, the City Noble Mouse is a respectable member of the oceanic occupants.<br \/>\n<br \/>\nThis mouse is no stranger to The Duel. You better be at your best when you step toe-to-toe with a City Noble Mouse!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Docks",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Docks"
                 ]
             }
         },
@@ -3388,10 +3397,10 @@
         "name": "City Worker",
         "description": "Model citizen, strong and hardworking.  Raising his fist in acknowledgement of the local 513 energy workers, he does his part to keep the city in clean, working order.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Docks",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Docks"
                 ]
             }
         },
@@ -3444,10 +3453,14 @@
         "name": "Clownfish",
         "description": "Always clowning around, this jester of the sea lives to make everyone laugh! Unfortunately, leaving others to be the butt of his many jokes, he is mostly lonely and no one ever takes him seriously!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Coral Reef (0-2 km), Feeding Grounds (0-2 km), Rocky Outcrop (0-2 km), School of Mice (0-2 km), Shallow Shoals (0-2 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Coral Reef (0-2 km)",
+                    "Sunken City - Feeding Grounds (0-2 km)",
+                    "Sunken City - Rocky Outcrop (0-2 km)",
+                    "Sunken City - School of Mice (0-2 km)",
+                    "Sunken City - Shallow Shoals (0-2 km)"
                 ]
             }
         },
@@ -3496,10 +3509,10 @@
         "name": "Clumsy Carrier",
         "description": "The main mice in charge of supplying the City Worker mice with materials.  Less fit than their city-working counterparts and often falling behind schedule, these guys are under so much stress that they constantly make mistakes and suffer premature greying of the hair.  That's the price of rapid expansion and technological development!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Docks",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Docks"
                 ]
             }
         },
@@ -3801,10 +3814,11 @@
         "name": "Coral",
         "description": "Hidden among the coral, this mouse preys upon those that wander a little too close.  Using her beauty along with her hypnotic dance, she sways the coral around her in an effort to lull and attract her unsuspecting victims.<br \/>\n<br \/>\nTalk about fatal attraction!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Coral Reef (0-2 km), Coral Garden (2-10 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Coral Reef (0-2 km)",
+                    "Sunken City - Coral Garden (2-10 km)"
                 ]
             }
         },
@@ -3827,10 +3841,10 @@
         "name": "Coral Cuddler",
         "description": "The cute little Coral Cuddler constantly coseys up to colourful coral patches. Having coral-like outcroppings on its own back allows it to camouflage and hide from other deep sea predators.  He likes to keep the coral close for comfort and safety!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Coral Reef (0-2 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Coral Reef (0-2 km)"
                 ]
             }
         },
@@ -3853,10 +3867,11 @@
         "name": "Coral Dragon",
         "description": "A mighty beast from the deep!  A dragon with strong, hardened sea scales resembling coral. The scales help the dragon blend in with its surroundings to make hunting and hiding easier, and they also offer a strong resistance to the dangers of the ocean! But what would something this big need to hide from...?",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Coral Garden (2-10 km), Coral Castle (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Coral Garden (2-10 km)",
+                    "Sunken City - Coral Castle (10+ km)"
                 ]
             }
         },
@@ -3879,10 +3894,11 @@
         "name": "Coral Gardener",
         "description": "Completely green except for her thumbs! Her desperate attempts at growing her own coral beds to spruce things up constantly fail miserably! It could have something to do with applying conventional land-based gardening tips for plants to try to grow living coral organisms... It's just not the same! Someone should really buy her better DIY materials.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Coral Garden (2-10 km), Coral Castle (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Coral Garden (2-10 km)",
+                    "Sunken City - Coral Castle (10+ km)"
                 ]
             }
         },
@@ -3905,10 +3921,10 @@
         "name": "Coral Guard",
         "description": "Stalwart and steadfast, the Coral Guard Mouse keeps watch over the Coral Castle, keeping unwanted visitors and hunters in check. So devoted and unwavering is his guard that Barnacles and Damaged Coral Fragments sometimes grow and collect upon his body! Talk about taking your job seriously!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Coral Castle (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Coral Castle (10+ km)"
                 ]
             }
         },
@@ -3931,10 +3947,10 @@
         "name": "Coral Harvester",
         "description": "A diligent worker, gathering coral from nearby reefs.  Coral is used for most of the working materials on the ocean floor.  The softer corals are also a main source of food, albeit not that tasty, for those under the sea.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Coral Garden (2-10 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Coral Garden (2-10 km)"
                 ]
             }
         },
@@ -3957,10 +3973,10 @@
         "name": "Coral Queen",
         "description": "Prim and proper, the Coral Queen Mouse is carefully selected and groomed to rule.  An empress regnant who reigns over the Coral Castle empire of the Rodentia Ocean.  Her subjects work diligently to help their coral empire expand and flourish along the sea floor.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Coral Castle (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Coral Castle (10+ km)"
                 ]
             }
         },
@@ -4591,10 +4607,11 @@
         "name": "Crabolia",
         "description": "Hidden within its thick shell, the Crabolia Mouse keeps to himself as he crawls along the more shallow areas of the ocean.  Slowly and steadily, like the current, he trawls the seabed looking for food and warm places to rest.<br \/>\n<br \/>\nDon't let his gentle nature fool you, he has tremendous strength hidden within those cute little claws of his if he feels threatened.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Rocky Outcrop (0-2 km), Shipwreck (2-10 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Rocky Outcrop (0-2 km)",
+                    "Sunken City - Shipwreck (2-10 km)"
                 ]
             }
         },
@@ -5613,10 +5630,12 @@
         "name": "Cuttle",
         "description": "One of the more adorable denizens of the deep.  The Cuttle Mouse is incredibly curious and interested in all of the wonders to behold beneath the surface of the ocean.<br \/>\n<br \/>\nBut as the saying goes: Curiosity sets off the trap...",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Coral Reef (0-2 km), Shallow Shoals (0-2 km), Oxygen Stream (2-15 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Coral Reef (0-2 km)",
+                    "Sunken City - Shallow Shoals (0-2 km)",
+                    "Sunken City - Oxygen Stream (2-15 km)"
                 ]
             }
         },
@@ -6049,10 +6068,11 @@
         "name": "Deep Sea Diver",
         "description": "A courageous sea explorer! Risking life and limb to explore the depths for all of mousekind! Fascinated with what lies beneath the deep, him and his team of explorers trawl the ocean floor looking for unexplored sunken history. Finding the odd treasure here and there is also a big plus!<br \/>\n<br \/>\nBy using antiquated diving equipment, it saves him from having to pass emissions testing imposed on newer diving gear.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Shipwreck (2-10 km), Haunted Shipwreck (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Shipwreck (2-10 km)",
+                    "Sunken City - Haunted Shipwreck (10+ km)"
                 ]
             }
         },
@@ -6165,10 +6185,10 @@
         "name": "Deranged Deckhand",
         "description": "Part of an unsavoury crew of pirate mice that used to sail the seas long, long ago.  Something just wouldn't let these mice rest down under in Casey Jones' Closet and now they are looking for others to join them! <br \/>\n<br \/>\nThis is one crew you do not want to be apart of.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Haunted Shipwreck (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Haunted Shipwreck (10+ km)"
                 ]
             }
         },
@@ -6221,10 +6241,11 @@
         "name": "Derpshark",
         "description": "An eccentric type of fish, totally oblivious to everything in the ocean, even foregoing eating and sleeping if something shiny happens to catch their eye. You know when one is nearby based on its whale-like howls and echoing cries (it thinks it's a whale).<br \/>\n<br \/>\nLong and loud howls can be heard wherever Derpsharks congregate. There is nothing to fear, however, as they are relatively harmless to others. But it is wise to keep your distance when they gather, because they might not notice you nearby and overwhelm you with their massive crowd!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Feeding Grounds (0-2 km), Carnivore Cove (2-10 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Feeding Grounds (0-2 km)",
+                    "Sunken City - Carnivore Cove (2-10 km)"
                 ]
             }
         },
@@ -6909,15 +6930,15 @@
             }
         ]
     },
-    "dread_piratert": {
-        "id": "dread_piratert",
-        "name": "Dread Piratert",
+    "dread_pirate_mousert": {
+        "id": "dread_pirate_mousert",
+        "name": "Dread Pirate Mousert",
         "description": "A legendary pirate who strikes fear into all of his foes for he takes no prisoners. Some believe he is immortal, others suggest such a thing inconceivable and state that he is merely different mice playing up a pseudonym. Whatever the case, we know he is in the pirating business for all the sweet Barnacles! Or was it to rescue Princess Barnacle? No wait... Well, anyway, if you catch this mouse you probably won't be able to get him to talk... or was that to get him to STOP talking...? Either way, you will have the upper hand because we know he is left-handed! ...Probably!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Shipwreck (2-10 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Shipwreck (2-10 km)"
                 ]
             }
         },
@@ -7253,10 +7274,13 @@
         "name": "Eel",
         "description": "Slippery and slimy!  Loves to burrow down into the mud and sand in the deeper areas of the ocean.  Accustomed to the deep, they have developed a phosphorus glow produced by running a self-generated electric current through their glass-like fins.<br \/>\n<br \/>\nThis current is also used for self-defence.  Other deep sea mice familiar with their eerie green glow tend to keep their distance for fear of getting shocked, again!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Haunted Shipwreck (10+ km), Murky Depths (10+ km), Deep Oxygen Stream (15+ km), Magma Flow (25+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Haunted Shipwreck (10+ km)",
+                    "Sunken City - Murky Depths (10+ km)",
+                    "Sunken City - Deep Oxygen Stream (15+ km)",
+                    "Sunken City - Magma Flow (25+ km)"
                 ]
             }
         },
@@ -7683,10 +7707,10 @@
         "name": "Elite Guardian",
         "description": "Highly-trained guard that is sworn to protect the citizens of the once lost Sunken City. More importantly, to protect their most precious commodity: Oxygen! These guards keep a wary eye about for those looking to grab a little more than their allocated stipend.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Docks",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Docks"
                 ]
             }
         },
@@ -7797,10 +7821,10 @@
         "name": "Enginseer",
         "description": "The most brilliant mice below sea level.  The Enginseer uses ancient wisdom, technology and magic to develop and harmonize the advanced systems and machinery used within the incredible Sunken City.<br \/>\n<br \/>\nThey are seen as the very heart and soul that really make the Sunken City come alive!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Docks",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Docks"
                 ]
             }
         },
@@ -11175,10 +11199,11 @@
         "name": "Guppy",
         "description": "A very social aquatic mouse! So adept at talking that the Guppy Mouse has learned to live without closing its mouth! Makes eating and talking a lot easier, and a lot more gross. This is the mouse to turn to for all the latest gossip and hottest underwater fashion trends!<br \/>\n<br \/>\nDo you like <i>see<\/i>food?",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "School of Mice (0-2 km), Mermouse Den (2-10 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - School of Mice (0-2 km)",
+                    "Sunken City - Mermouse Den (2-10 km)"
                 ]
             }
         },
@@ -12127,10 +12152,10 @@
         "name": "Hydrologist",
         "description": "The Hydrologists have made the impossible possible!  With their advanced understandings and study of water, they have made the idea of an underwater habitat a reality!<br \/>\n<br \/>\nIn charge of keeping the homeostasis of the Sunken City, they work diligently to keep everything running smoothly.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Docks",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Docks"
                 ]
             }
         },
@@ -12555,10 +12580,14 @@
         "name": "Jellyfish",
         "description": "The ballerina of the sea!  Floating majestically throughout the depths, she mesmerizes onlookers with her soft glow and flowing gelatinous gown.  But beware of her tentacles! They act as toxin-filled drift nets, capturing prey as they idly float by, enamoured by her spectacular performance.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Coral Garden (2-10 km), Oxygen Stream (2-15 km), Sea Floor (2-10 km), Murky Depths (10+ km), Deep Oxygen Stream (15+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Coral Garden (2-10 km)",
+                    "Sunken City - Oxygen Stream (2-15 km)",
+                    "Sunken City - Sea Floor (2-10 km)",
+                    "Sunken City - Murky Depths (10+ km)",
+                    "Sunken City - Deep Oxygen Stream (15+ km)"
                 ]
             }
         },
@@ -12822,10 +12851,14 @@
         "name": "Koimaid",
         "description": "Brightly-coloured and always smiling, the gentle Koimaid Mouse has a soft spot for all of the smaller aquatic creatures in the ocean. She dedicates her time to caring for and helping raise all of the little ones like a second mother and does her best to keep them out of trouble.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Mermouse Den (2-10 km), Oxygen Stream (2-15 km), Sea Floor (2-10 km), Murky Depths (10+ km), Deep Oxygen Stream (15+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Mermouse Den (2-10 km)",
+                    "Sunken City - Oxygen Stream (2-15 km)",
+                    "Sunken City - Sea Floor (2-10 km)",
+                    "Sunken City - Murky Depths (10+ km)",
+                    "Sunken City - Deep Oxygen Stream (15+ km)"
                 ]
             }
         },
@@ -14202,10 +14235,13 @@
         "name": "Manatee",
         "description": "Slow and sleepy: The two defining characteristics of the Manatee Mouse. If he's not asleep, he's drifting towards something to eat. Eventually.<br \/>\n<br \/>\nNever in a rush, he goes where the current takes him.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Rocky Outcrop (0-2 km), Shallow Shoals (0-2 km), Oxygen Stream (2-15 km), Sea Floor (2-10 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Rocky Outcrop (0-2 km)",
+                    "Sunken City - Shallow Shoals (0-2 km)",
+                    "Sunken City - Oxygen Stream (2-15 km)",
+                    "Sunken City - Sea Floor (2-10 km)"
                 ]
             }
         },
@@ -14690,10 +14726,10 @@
         "name": "Mermousette",
         "description": "A hidden jewel of unimaginable beauty hidden within the depths of the ocean.\nMany myths and legends surround this fabled angel of the ocean, fueling the drive for many a mouse and hunter to brave the rugged seas just to catch a glimpse of her!<br \/>\n<br \/>\nIt is believed that anyone lucky enough to catch a mermaid would then know true love!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Mermouse Den (2-10 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Mermouse Den (2-10 km)"
                 ]
             }
         },
@@ -14716,10 +14752,11 @@
         "name": "Mershark",
         "description": "\"Crafty, cunning and cutthroat,  the Mershark Mouse is an incredibly efficient and equally-terrifying hunter of the deep. Sharing the same deep blue hue as the ocean itself gives this mouse unparalleled camouflage and stalking abilities.<br \/>\n<br \/> \nYou won't know the Mershark Mouse is upon you until it's too late!\"",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Mermouse Den (2-10 km), Lost Ruins (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Mermouse Den (2-10 km)",
+                    "Sunken City - Lost Ruins (10+ km)"
                 ]
             }
         },
@@ -15054,10 +15091,14 @@
         "name": "Mlounder Flounder",
         "description": "These little guys love to get into all kinds of trouble!  Fearless and endlessly curious, they get into everything!  They love the warmer waters closer to the surface and thrive off of sunlight.  Their lesser known ability to camouflage makes them harder to find than one would think. ",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Coral Reef (0-2 km), Rocky Outcrop (0-2 km), Sand Dollar Sea Bar (0-2 km), School of Mice (0-2 km), Shallow Shoals (0-2 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Coral Reef (0-2 km)",
+                    "Sunken City - Rocky Outcrop (0-2 km)",
+                    "Sunken City - Sand Dollar Sea Bar (0-2 km)",
+                    "Sunken City - School of Mice (0-2 km)",
+                    "Sunken City - Shallow Shoals (0-2 km)"
                 ]
             }
         },
@@ -17285,10 +17326,11 @@
         "name": "Octomermaid",
         "description": "The sinister sister of the mermice of the sea.  Loves the deeper and darker parts of the ocean as she believes it helps keep her pale green complexion. Her lips contain a powerful paralyzing venom, giving her one unforgettable kiss!<br \/>\n<br \/>\nEasily mistaken for a Mermousette Mouse above the surface, she uses this guise to bring more than one mousy sailor to their doom! Those poor unfortunate souls!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Mermouse Den (2-10 km), Lost Ruins (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Mermouse Den (2-10 km)",
+                    "Sunken City - Lost Ruins (10+ km)"
                 ]
             }
         },
@@ -17311,10 +17353,10 @@
         "name": "Old One",
         "description": "Believed to be an ancient wizard from long ago that lost a duel resulting in a terrible transformation and banishment to the ocean deep. Now with nothing left but time, he focuses his abilities and trains his magics.<br \/>\n<br \/>\nThere is a saying among seafaring hunters: \"When the storms are here, the Old One is near.\"",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Lost Ruins (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Lost Ruins (10+ km)"
                 ]
             }
         },
@@ -17557,10 +17599,10 @@
         "name": "Oxygen Baron",
         "description": "The Oxygen Baron Mouse exemplifies the characteristics of any successful crime lord: Greed, lust for power, and insatiable gluttony! This corrupt mayor of the Sunken City is obsessed with stockpiling their most valuable resource. Constantly abusing his power by controlling the city's Oxygen supply, he unscrupulously allocates unlimited quantities for his own personal use, leaving those in need of the resource in dire straits.<br \/>\n<br \/>\nHe who controls the Oxygen controls the city!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Docks",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Docks"
                 ]
             }
         },
@@ -17958,10 +18000,11 @@
         "name": "Pearl",
         "description": "One of the wealthiest of the ocean-dwelling mice, she is highly sought after by collectors for her special assortment of rare and beautiful pearls. Her body is adorned with permanent jewelry made from the pearls she collects. Some question whether she found these pearls or produced them from her very skin!<br \/>\n<br \/>\nShe usually keeps a huge spare pearl or two around to tempt those that try to come for her to take it instead!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Pearl Patch (2-10 km), Sunken Treasure (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Pearl Patch (2-10 km)",
+                    "Sunken City - Sunken Treasure (10+ km)"
                 ]
             }
         },
@@ -17984,10 +18027,11 @@
         "name": "Pearl Diver",
         "description": "A precious mouse seeking precious pearls.  He snorkels searching for a pearl that is just as unique as he is. There is something about their pearly texture that just makes it feel like everything is right in the ocean!<br \/>\n<br \/>\nPearl Diver, he's been down too long in the midnight sea. His friends wonder what is becoming of him. Shiny pearls, white and yellowish colour in hue, the Pearl Diver is coming for you!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Pearl Patch (2-10 km), Sunken Treasure (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Pearl Patch (2-10 km)",
+                    "Sunken City - Sunken Treasure (10+ km)"
                 ]
             }
         },
@@ -18323,10 +18367,11 @@
         "name": "Pirate Anchor",
         "description": "Avast, ye landlubbers!<br \/>\n<br \/>\nThis dutiful pirate bears the most dangerous job of all, the treasure lookout!  Whenever the pirate crew of a ship deem there to be treasure about, this pirate goes down with the anchor and takes a quick look!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Shipwreck (2-10 km), Haunted Shipwreck (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Shipwreck (2-10 km)",
+                    "Sunken City - Haunted Shipwreck (10+ km)"
                 ]
             }
         },
@@ -18732,10 +18777,13 @@
         "name": "Puffer",
         "description": "Consisting of extremely elastic skin, the Puffer Mouse can easily fill its body up with surrounding water and puff up to a much larger size. This defence mechanism is great for thwarting potential predators but it also is an attractant to hunters who, for a long time, were fooled into thinking they were much heavier mice than they actually are!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "School of Mice (0-2 km), Shallow Shoals (0-2 km), Oxygen Stream (2-15 km), Sea Floor (2-10 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - School of Mice (0-2 km)",
+                    "Sunken City - Shallow Shoals (0-2 km)",
+                    "Sunken City - Oxygen Stream (2-15 km)",
+                    "Sunken City - Sea Floor (2-10 km)"
                 ]
             }
         },
@@ -20313,10 +20361,11 @@
         "name": "Saltwater Axolotl",
         "description": "Friendly, curious and boy are they ever energetic!  The Axolotl forever remains in his child-like state.  It loves to play and meet new friends.  With quick, explosive movement they are quite difficult to keep up with.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Sand Dollar Sea Bar (0-2 km), Pearl Patch (2-10 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Sand Dollar Sea Bar (0-2 km)",
+                    "Sunken City - Pearl Patch (2-10 km)"
                 ]
             }
         },
@@ -20418,10 +20467,10 @@
         "name": "Sand Dollar Diver",
         "description": "Mice looking for newly found wealth and riches dive in search of the mysterious Sand Dollar. Used as currency within the Sunken City, they collect and hoard them in hopes of one day being able to live the good life!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Sand Dollar Sea Bar (0-2 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Sand Dollar Sea Bar (0-2 km)"
                 ]
             }
         },
@@ -20444,10 +20493,11 @@
         "name": "Sand Dollar Queen",
         "description": "This mouse is quite the catch if you can find her. Word is, she used to serve fish at the local sand bar until she sashayed her way into a large cache of Sand Dollars during a fashion contest. With her winnings she has taken up a new life of sharing her impressive style sense, teaching others that you\u2019ve got to work for your dreams and the important truth that if you can\u2019t love yourself how are you going to love anybody else?",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Sand Dollar Sea Bar (0-2 km), Pearl Patch (2-10 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Sand Dollar Sea Bar (0-2 km)",
+                    "Sunken City - Pearl Patch (2-10 km)"
                 ]
             }
         },
@@ -20654,10 +20704,10 @@
         "name": "School of Mish",
         "description": "Flocking together like underwater birds of a feather, Mish mice go everywhere together!  Never seen in anything less than pairs, these mice rely heavily on strength in numbers!  Never too far from one another, they can easily swarm in the hundreds to help another in need!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "School of Mice (0-2 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - School of Mice (0-2 km)"
                 ]
             }
         },
@@ -20883,10 +20933,11 @@
         "name": "Seadragon",
         "description": "The Seadragon Mouse is named after its dragon-like appearance, though it lacks the imposing physique of a true dragon. Fairly small in size, the Seadragon Mouse enjoys life along the bottom of most sea banks, mostly floating and drifting, using their tails to anchor themselves in the more interesting parts of the ocean.<br \/>\n<br \/>\nThey have long, leaf-like appendages which help them blend in with the local flora. This also makes them exceptionally well suited at peek-a-boo and hide-and-seek!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Coral Reef (0-2 km), Coral Garden (2-10 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Coral Reef (0-2 km)",
+                    "Sunken City - Coral Garden (2-10 km)"
                 ]
             }
         },
@@ -20961,10 +21012,11 @@
         "name": "Serpent Monster",
         "description": "Hidden among the outcroppings, burrows and other dark nooks and crannies within the deep, the Serpent Monster Mouse slithers up on their unsuspecting prey out in the dark, swallowing it whole! Their long, sharp teeth act mostly like confining prison bars that prevent the swallowed prey from escaping their life sentence. Yuck!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Carnivore Cove (2-10 km), Monster Trench (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Carnivore Cove (2-10 km)",
+                    "Sunken City - Monster Trench (10+ km)"
                 ]
             }
         },
@@ -22840,10 +22892,11 @@
         "name": "Spear Fisher",
         "description": "Believed to be the remaining members of an ancient and advanced underwater civilization of mice. They were once technologically advanced and living peacefully in their own aquatic civilization until something reduced that civilization to complete ruin.<br \/>\n<br \/>\nHaving now lost their city and advanced technologies, they are reduced to spearfishing, instead of industrialized farming, to gather food.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Feeding Grounds (0-2 km), Carnivore Cove (2-10 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Feeding Grounds (0-2 km)",
+                    "Sunken City - Carnivore Cove (2-10 km)"
                 ]
             }
         },
@@ -23949,10 +24002,15 @@
         "name": "Stingray",
         "description": "The kite of the sea! Swims through the ocean with such little resistance that it looks as though it glides and floats underwater. They are also very curious, tailing interesting things (mice and hunters alike) around for hours on end!<br \/>\n<br \/>\nWhen threatened, they dive bomb into the seabed and hide among the agitated sand. They have an impressive and deadly barbed stinger, luckily used only in self-defence.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Oxygen Stream (2-15 km), Sea Floor (2-10 km), Shipwreck (2-10 km), Murky Depths (10+ km), Oxygen Stream (2-15 km), Deep Oxygen Stream (15+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Oxygen Stream (2-15 km)",
+                    "Sunken City - Sea Floor (2-10 km)",
+                    "Sunken City - Shipwreck (2-10 km)",
+                    "Sunken City - Murky Depths (10+ km)",
+                    "Sunken City - Oxygen Stream (2-15 km)",
+                    "Sunken City - Deep Oxygen Stream (15+ km)"
                 ]
             }
         },
@@ -24591,10 +24649,10 @@
         "name": "Sunken Banshee",
         "description": "Legend states this to be a fairy who has taken on the form of a mousy apparition. The Sunken Banshee Mouse floats through the ocean, looking to warn those at sea of impending danger.<br \/>\n<br \/>\nDespite her haunting figure, her soft-glowing eyes calm even the fiercest beasts and bring courage to the frightened. Seen as a good omen by sailors and pirates alike.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Haunted Shipwreck (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Haunted Shipwreck (10+ km)"
                 ]
             }
         },
@@ -24617,10 +24675,10 @@
         "name": "Sunken Citizen",
         "description": "One of the many citizens of the Sunken City.  Helps out with the everyday construction and maintenance by supplying the workers with much needed materials and lending a hand when needed.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Docks",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Docks"
                 ]
             }
         },
@@ -24967,10 +25025,10 @@
         "name": "Swashblade",
         "description": "Not to be confused with a swashbuckler, the Swashblade Mouse fights for her own personal gain. Usually along side a pirate crew, she is the first line of <i>offence<\/i> and makes sure her frontline crew are the first to get paid!<br \/>\n<br \/>\nThese spirits are usually unable to rest until they have received payment for a job well done.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Haunted Shipwreck (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Haunted Shipwreck (10+ km)"
                 ]
             }
         },
@@ -25025,10 +25083,11 @@
         "name": "Tadpole",
         "description": "A tadpole is usually the infant state of amphibian lifeforms. The Tadpole Mouse is a unique exception where it matures into a <i>bigger<\/i> tadpole with arms and legs, never shedding its tail!<br \/>\n<br \/>\nNow fully formed, it's free to explore the underwater world without too much worry from its previous predators.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "School of Mice (0-2 km), Mermouse Den (2-10 km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - School of Mice (0-2 km)",
+                    "Sunken City - Mermouse Den (2-10 km)"
                 ]
             }
         },
@@ -26492,10 +26551,11 @@
         "name": "Treasure Hoarder",
         "description": "The Treasure Hoarder Mouse seeks out the shiniest of shiny, the most precious of preciouses to adorn on its body. These mice cover themselves in shiny, valuable objects in order to attract potential partners. When a male meets a female, they compare looks and potential overall wealth to determine if they are fit for one another.<br \/>\n<br \/>\nYou better hope they don't beat you to some treasure! It's extremely difficult to remove treasure from them once they've gathered it up and affixed it to their naturally sticky scales.",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Sunken Treasure (10+ km), Magma Flow (25+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Sunken Treasure (10+ km)",
+                    "Sunken City - Magma Flow (25+ km)"
                 ]
             }
         },
@@ -26518,10 +26578,11 @@
         "name": "Treasure Keeper",
         "description": "The strongest and most disciplined Treasure Hoarder mice are hired on as Treasure Keeper mice for the Coral Queen. The keeper collects and keeps safe all of the treasures that are found in the ocean for his majesty.<br \/>\n<br \/>\nBeing paid handsomely, it is also the easiest way to come across vast amounts of treasure, making his life a lot easier if he is strong enough to fend off the other hoarders!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Sunken Treasure (10+ km), Magma Flow (25+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Sunken Treasure (10+ km)",
+                    "Sunken City - Magma Flow (25+ km)"
                 ]
             }
         },
@@ -26971,10 +27032,11 @@
         "name": "Tritus",
         "description": "The apex predator of the deep.  The whispered king of the Rodentia Ocean. Tall tales and forgotten fables lend to the mysteries about this mouse. Only the oldest, most-hardened and extremely eccentric hunters from the Harbour dare whisper the name of the mighty Tritus.<br \/>\n<br \/>\nTake heed: Those that dare to seek this mythical beast must be prepared!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Monster Trench (10+ km), Lair of the Ancients (15+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Monster Trench (10+ km)",
+                    "Sunken City - Lair of the Ancients (15+ km)"
                 ]
             }
         },
@@ -27107,10 +27169,10 @@
         "name": "Turret Guard",
         "description": "Hired guns for the Coral Castle to halt invaders and fend off bigger, more hostile aquatic mice. The terrestrial mice outside of the ocean have developed advanced weaponry which is exceptional at hunting underwater. Mice who stumble across this job opening usually leap at the chance. The guard duty is light and the pay is quite heavy!<br \/>\n<br \/>\nAlthough they bring a lot of their own gear with them from the surface, developing new technologies underwater has its difficulties and these mice have to innovate from time to time!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Coral Castle (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Coral Castle (10+ km)"
                 ]
             }
         },
@@ -27324,10 +27386,10 @@
         "name": "Urchin King",
         "description": "Many tales travel the tides of the Rodentia Ocean and this mouse is the centre of one of them.  It is believed that the Old One had struck a bargain with one of the Coral Kings of old, offering untold riches and glory for a price.  No one knows what the price was or if it was indeed paid but it appears that the Coral King's disappearance is linked with the appearance of Urchin Kings.<br \/>\n<br \/>\nThese mice prefer to be alone and are easily angered.  Approach with caution as they are highly poisonous to the touch!",
         "location": {
-            "location_text": "Sunken City",
+            "location_text": "Lost Ruins (10+ km)",
             "areas": {
                 "Rodentia": [
-                    "Sunken City"
+                    "Sunken City - Lost Ruins (10+ km)"
                 ]
             }
         },
