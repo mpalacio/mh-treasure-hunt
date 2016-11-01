@@ -144,7 +144,8 @@
 									<div class="col-md-12 preview-group">{{current_mouse.group}} {{current_mouse.sub_group != "" ? "(" + current_mouse.sub_group + ")" : ""}}</div>
 									<div class="col-md-12 preview-gold-points">{{current_mouse.gold}} gold / {{current_mouse.points}} points</div>
 									<div class="col-md-12 preview-image">
-										<div class="img" ng-style="{'background-image': 'url(' + current_mouse.image + ')'}">
+										<div class="img">
+											<img src="{{current_mouse.image}}">
 											<span class="catcher" ng-show="current_mouse.caught">{{current_mouse.hunter}}</span>
 											<span class="catcher catch-mouse" ng-show="!current_mouse.caught" ng-click="catch_mouse(current_mouse)">Catch Mouse</span>
 										</div>
