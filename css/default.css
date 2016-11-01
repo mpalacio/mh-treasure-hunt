@@ -277,3 +277,28 @@
 	margin-right: 3px;
 	margin-bottom: 3px;
 }
+
+@media screen and (max-width: 768px) {
+	.section-left {
+		height: auto;
+		padding-right: 0;
+	}
+
+	select.form-control,
+	.new-map input {
+		width: 100% !important;
+	}
+
+	textarea.mouse-list {
+		height: 130px !important;
+	}
+
+	.mouse-preview {
+		margin-top: 10px;
+	}
+
+	.mh-container .col-md-9 {
+		min-height: 540px;
+		height: auto;
+	}
+}
