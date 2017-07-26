@@ -10,26 +10,27 @@
 
 	$mouse_list = array();
 	$dom        = new DOMDocument();
-	$wiki       = 'http://mhwiki.hitgrab.com/wiki/index.php/Mice';
-	$wiki       = 'mouse_list.html';
+	$wiki       = "http://mhwiki.hitgrab.com/wiki/index.php/Mice";
+	$wiki       = "mouse_list.html";
 	$dom->loadHTMLFile($wiki);
 	$xml        = simplexml_import_dom($dom);
-	$table      = $xml->xpath('//table/tbody');
+	$table      = $xml->xpath("//table/tbody");
 	$rows       = $table[0]->tr;
 
 	unset($rows[0]);
 	foreach ($rows as $key => $row) {
 		$mouse_json                = array();
 		$mouse_name                = substr(trim((string) $row->td[0]->b->a), -6) == " Mouse" ? substr_replace(trim((string) $row->td[0]->b->a), "", -6) : trim((string) $row->td[0]->b->a);
-		$mouse_json['id']          = strtolower(str_replace(" ", "_", $mouse_name));
-		$mouse_json['name']        = $mouse_name;
-		$mouse_json['description'] = "";
+		$mouse_name                = substr($mouse_name, 0, 4) == "The " ? substr($mouse_name, 4) : $mouse_name;
+		$mouse_json["id"]          = strtolower(str_replace(" ", "_", $mouse_name));
+		$mouse_json["name"]        = $mouse_name;
+		$mouse_json["description"] = "";
 
-		$doc           = new DOMDocument();
+		$doc = new DOMDocument();
 		$doc->loadHTML($row->td[1]->asXML());
 		$location_text = $doc->textContent;
 		if (preg_match("/all(.*)except/i", $location_text)) {
-			$areas            = xml2array($row->td[1]->a)['a'];
+			$areas            = xml2array($row->td[1]->a)["a"];
 			$except_regions   = array();
 			$except_locations = array();
 			foreach ($areas as $area) {
@@ -59,16 +60,16 @@
 			$mouse_locations     = array();
 		}
 		else {
-			$areas               = xml2array($row->td[1]->a)['a'];
-			$mouse_locations     = array();
-			$sunken_zones        = array();
-			$sunken_id           = null;
+			$areas           = xml2array($row->td[1]->a)["a"];
+			$mouse_locations = array();
+			$sunken_zones    = array();
+			$sunken_id       = null;
 			foreach ($areas as $i => $area) {
 				$region = get_region($area);
 				if (!isset($mouse_locations[$region]))
 					$mouse_locations[$region] = array();
 				if ($area == "Sunken City") {
-					foreach ($sunken_city_zones->{$mouse_json['id']} as $zone) {
+					foreach ($sunken_city_zones->{$mouse_json["id"]} as $zone) {
 						$mouse_locations[$region][] = $zone;
 						$sunken_zones[]             = str_replace("Sunken City - ", "", $zone);
 					}
@@ -84,9 +85,9 @@
 			}
 			$mouse_location_text = implode(", ", $areas);
 		}
-		$mouse_json['location'] = array("location_text" => $mouse_location_text, "areas" => $mouse_locations);
-		$mouse_json['points']   = (string) $row->td[2];
-		$mouse_json['gold']     = (string) $row->td[3];
+		$mouse_json["location"] = array("location_text" => $mouse_location_text, "areas" => $mouse_locations);
+		$mouse_json["points"]   = trim((string) $row->td[2]);
+		$mouse_json["gold"]     = trim((string) $row->td[3]);
 
 		$doc = new DOMDocument();
 		$doc->loadHTML($row->td[4]->asXML());
@@ -94,17 +95,17 @@
 		if (trim($cheese_text) == "")
 			$mouse_json["cheese"] = "No preference";
 		elseif (preg_match("/see current/i", $cheese_text))
-			$mouse_json["cheese"] = "See current ".((string) $row->td[4]->a)." location";
+			$mouse_json["cheese"] = "See current " . ((string) $row->td[4]->a) . " location";
 		else {
-			$cheese = xml2array($row->td[4]->a)['a'];
+			$cheese = xml2array($row->td[4]->a)["a"];
 			$mouse_json["cheese"] = implode(", ", $cheese);
 		}
-		$mouse_json['group']     = trim((string) $row->td[5]->a);
-		$mouse_json['sub_group'] = isset($row->td[6]->a) ? ucwords(trim((string) $row->td[6]->a), ": ") : "";
-		$mouse_json['image']     = "img/e10adc3949ba59abbe56e057f20f883e.png";
-		$mouse_json['thumb']     = "img/e10adc3949ba59abbe56e057f20f883e.png";
+		$mouse_json["group"]     = trim((string) $row->td[5]->a);
+		$mouse_json["sub_group"] = isset($row->td[6]->a) ? ucwords(trim((string) $row->td[6]->a), ": ") : "";
+		$mouse_json["image"]     = "img/e10adc3949ba59abbe56e057f20f883e.png";
+		$mouse_json["thumb"]     = "img/e10adc3949ba59abbe56e057f20f883e.png";
 
-		$mouse_list[$mouse_json['id']] = $mouse_json;
+		$mouse_list[$mouse_json["id"]] = $mouse_json;
 	}
 
 	file_put_contents("mouse_list.json", json_encode($mouse_list, JSON_PRETTY_PRINT));
@@ -126,15 +127,15 @@
 	}
 
 	function test_area($area) {
-		if (in_array($area, $GLOBALS['regions']))
-			return 'region';
-		elseif (in_array($area, $GLOBALS['locations']))
-			return 'location';
+		if (in_array($area, $GLOBALS["regions"]))
+			return "region";
+		elseif (in_array($area, $GLOBALS["locations"]))
+			return "location";
 		return false;
 	}
 
 	function get_region($location) {
-		foreach ($GLOBALS['region_locations'] as $region => $locations) {
+		foreach ($GLOBALS["region_locations"] as $region => $locations) {
 			if (in_array($location, $locations))
 				return $region;
 		}

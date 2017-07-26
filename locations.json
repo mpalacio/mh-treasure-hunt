@@ -1,1 +1,82 @@
-[]
+{
+    "Gnawnia": [
+        "Meadow",
+        "Town of Gnawnia",
+        "Windmill",
+        "Harbour",
+        "Mountain",
+        "Slushy Shoreline"
+    ],
+    "Valour": [
+        "King's Arms",
+        "Tournament Hall",
+        "King's Gauntlet"
+    ],
+    "Whisker Woods": [
+        "Calm Clearing",
+        "Great Gnarled Tree",
+        "Lagoon"
+    ],
+    "Burroughs": [
+        "Laboratory",
+        "Town of Digby",
+        "Mousoleum",
+        "Bazaar",
+        "Toxic Spill"
+    ],
+    "Furoma": [
+        "Training Grounds",
+        "Dojo",
+        "Meditation Room",
+        "Pinnacle Chamber"
+    ],
+    "Bristle Woods": [
+        "Catacombs",
+        "Forbidden Grove",
+        "Acolyte Realm"
+    ],
+    "Tribal Isles": [
+        "Cape Clawed",
+        "Elub Shore",
+        "Nerg Plains",
+        "Derr Dunes",
+        "Jungle of Dread",
+        "Dracano",
+        "Balack's Cove"
+    ],
+    "Varmint Valley": [
+        "Claw Shot City",
+        "Gnawnian Express Station",
+        "Fort Rox"
+    ],
+    "Rodentia": [
+        "S.S. Huntington III",
+        "Iceberg",
+        "Seasonal Garden",
+        "Zugzwang's Tower",
+        "Crystal Library",
+        "Sunken City"
+    ],
+    "Sandtail Desert": [
+        "Fiery Warpath",
+        "Muridae Market",
+        "Living Garden",
+        "Twisted Garden",
+        "Lost City",
+        "Cursed City",
+        "Sand Dunes",
+        "Sand Crypts"
+    ],
+    "Hollow Heights": [
+        "Fungal Cavern",
+        "Labyrinth",
+        "Zokor"
+    ],
+    "Rift Plane": [
+        "Gnawnia Rift",
+        "Burroughs Rift",
+        "Whisker Woods Rift",
+        "Furoma Rift",
+        "Bristle Woods Rift"
+    ]
+}

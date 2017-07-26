@@ -1,0 +1,6252 @@
+{
+    "bat": {
+        "location_text": "Town of Digby, Mousoleum, Catacombs, Forbidden Grove, Great Gnarled Tree",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby",
+                "Mousoleum"
+            ],
+            "Bristle Woods": [
+                "Catacombs",
+                "Forbidden Grove"
+            ],
+            "Whisker Woods": [
+                "Great Gnarled Tree"
+            ]
+        }
+    },
+    "big_bad_burroughs": {
+        "location_text": "Town of Digby",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby"
+            ]
+        }
+    },
+    "bionic": {
+        "location_text": "Town of Digby, Bazaar, Laboratory, Harbour, Meadow, Mountain, Town of Gnawnia",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby",
+                "Bazaar",
+                "Laboratory"
+            ],
+            "Gnawnia": [
+                "Harbour",
+                "Meadow",
+                "Mountain",
+                "Town of Gnawnia"
+            ]
+        }
+    },
+    "black_widow": {
+        "location_text": "Many locations. See wiki page for details.",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby",
+                "Bazaar",
+                "Laboratory",
+                "Mousoleum"
+            ],
+            "Bristle Woods": [
+                "Acolyte Realm",
+                "Catacombs",
+                "Forbidden Grove"
+            ],
+            "Whisker Woods": [
+                "Calm Clearing",
+                "Great Gnarled Tree",
+                "Lagoon"
+            ],
+            "Tribal Isles": [
+                "Derr Dunes",
+                "Elub Shore",
+                "Nerg Plains"
+            ],
+            "Gnawnia": [
+                "Harbour",
+                "Mountain"
+            ],
+            "Valour": [
+                "King's Arms"
+            ],
+            "Furoma": [
+                "Training Grounds"
+            ]
+        }
+    },
+    "core_sample": {
+        "location_text": "Town of Digby",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby"
+            ]
+        }
+    },
+    "demolitions": {
+        "location_text": "Town of Digby",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby"
+            ]
+        }
+    },
+    "diamond": {
+        "location_text": "Town of Digby, Dojo, Training Grounds, Harbour, Meadow, Mountain, Town of Gnawnia, Windmill, King's Arms, Tournament Hall",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby"
+            ],
+            "Furoma": [
+                "Dojo",
+                "Training Grounds"
+            ],
+            "Gnawnia": [
+                "Harbour",
+                "Meadow",
+                "Mountain",
+                "Town of Gnawnia",
+                "Windmill"
+            ],
+            "Valour": [
+                "King's Arms",
+                "Tournament Hall"
+            ]
+        }
+    },
+    "dwarf": {
+        "location_text": "Town of Digby, Bazaar, Laboratory, Calm Clearing, Great Gnarled Tree, Harbour, Meadow, Mountain, Town of Gnawnia, Windmill, King's Arms, Tournament Hall, Training Grounds",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby",
+                "Bazaar",
+                "Laboratory"
+            ],
+            "Whisker Woods": [
+                "Calm Clearing",
+                "Great Gnarled Tree"
+            ],
+            "Gnawnia": [
+                "Harbour",
+                "Meadow",
+                "Mountain",
+                "Town of Gnawnia",
+                "Windmill"
+            ],
+            "Valour": [
+                "King's Arms",
+                "Tournament Hall"
+            ],
+            "Furoma": [
+                "Training Grounds"
+            ]
+        }
+    },
+    "gold": {
+        "location_text": "Town of Digby, Dojo, Training Grounds, Harbour, Meadow, Mountain, Town of Gnawnia, Windmill, King's Arms, Tournament Hall",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby"
+            ],
+            "Furoma": [
+                "Dojo",
+                "Training Grounds"
+            ],
+            "Gnawnia": [
+                "Harbour",
+                "Meadow",
+                "Mountain",
+                "Town of Gnawnia",
+                "Windmill"
+            ],
+            "Valour": [
+                "King's Arms",
+                "Tournament Hall"
+            ]
+        }
+    },
+    "granite": {
+        "location_text": "Town of Digby, Bazaar, Laboratory, Harbour, Meadow, Mountain, Town of Gnawnia",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby",
+                "Bazaar",
+                "Laboratory"
+            ],
+            "Gnawnia": [
+                "Harbour",
+                "Meadow",
+                "Mountain",
+                "Town of Gnawnia"
+            ]
+        }
+    },
+    "industrious_digger": {
+        "location_text": "Town of Digby",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby"
+            ]
+        }
+    },
+    "itty-bitty_burroughs": {
+        "location_text": "Town of Digby",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby"
+            ]
+        }
+    },
+    "lambent_crystal": {
+        "location_text": "Town of Digby",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby"
+            ]
+        }
+    },
+    "miner": {
+        "location_text": "Town of Digby",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby"
+            ]
+        }
+    },
+    "mole": {
+        "location_text": "Town of Digby, Meadow, Windmill",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby"
+            ],
+            "Gnawnia": [
+                "Meadow",
+                "Windmill"
+            ]
+        }
+    },
+    "nibbler": {
+        "location_text": "Town of Digby, Bazaar, Cape Clawed, Great Gnarled Tree, King's Arms, Tournament Hall, S.S. Huntington III, Town of Gnawnia, Training Grounds",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby",
+                "Bazaar"
+            ],
+            "Tribal Isles": [
+                "Cape Clawed"
+            ],
+            "Whisker Woods": [
+                "Great Gnarled Tree"
+            ],
+            "Valour": [
+                "King's Arms",
+                "Tournament Hall"
+            ],
+            "Rodentia": [
+                "S.S. Huntington III"
+            ],
+            "Gnawnia": [
+                "Town of Gnawnia"
+            ],
+            "Furoma": [
+                "Training Grounds"
+            ]
+        }
+    },
+    "nugget": {
+        "location_text": "Town of Digby",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby"
+            ]
+        }
+    },
+    "rock_muncher": {
+        "location_text": "Town of Digby",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby"
+            ]
+        }
+    },
+    "steel": {
+        "location_text": "Town of Digby, Bazaar, Laboratory, Harbour, Meadow, Mountain, Town of Gnawnia",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby",
+                "Bazaar",
+                "Laboratory"
+            ],
+            "Gnawnia": [
+                "Harbour",
+                "Meadow",
+                "Mountain",
+                "Town of Gnawnia"
+            ]
+        }
+    },
+    "stone_cutter": {
+        "location_text": "Town of Digby",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby"
+            ]
+        }
+    },
+    "subterranean": {
+        "location_text": "Town of Digby",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby"
+            ]
+        }
+    },
+    "zombie": {
+        "location_text": "Town of Digby, Bazaar, Laboratory, Mousoleum, Catacombs, Forbidden Grove, Mountain, Town of Gnawnia",
+        "areas": {
+            "Burroughs": [
+                "Town of Digby",
+                "Bazaar",
+                "Laboratory",
+                "Mousoleum"
+            ],
+            "Bristle Woods": [
+                "Catacombs",
+                "Forbidden Grove"
+            ],
+            "Gnawnia": [
+                "Mountain",
+                "Town of Gnawnia"
+            ]
+        }
+    },
+    "acolyte": {
+        "location_text": "Acolyte Realm",
+        "areas": {
+            "Bristle Woods": [
+                "Acolyte Realm"
+            ]
+        }
+    },
+    "chrono": {
+        "location_text": "Acolyte Realm",
+        "areas": {
+            "Bristle Woods": [
+                "Acolyte Realm"
+            ]
+        }
+    },
+    "gate_guardian": {
+        "location_text": "Acolyte Realm, Forbidden Grove",
+        "areas": {
+            "Bristle Woods": [
+                "Acolyte Realm",
+                "Forbidden Grove"
+            ]
+        }
+    },
+    "golem": {
+        "location_text": "Acolyte Realm, Catacombs, Forbidden Grove",
+        "areas": {
+            "Bristle Woods": [
+                "Acolyte Realm",
+                "Catacombs",
+                "Forbidden Grove"
+            ]
+        }
+    },
+    "gorgon": {
+        "location_text": "Acolyte Realm, Forbidden Grove",
+        "areas": {
+            "Bristle Woods": [
+                "Acolyte Realm",
+                "Forbidden Grove"
+            ]
+        }
+    },
+    "lich": {
+        "location_text": "Acolyte Realm",
+        "areas": {
+            "Bristle Woods": [
+                "Acolyte Realm"
+            ]
+        }
+    },
+    "mutated_brown": {
+        "location_text": "Acolyte Realm, Forbidden Grove, Bazaar, Laboratory, Mousoleum",
+        "areas": {
+            "Bristle Woods": [
+                "Acolyte Realm",
+                "Forbidden Grove"
+            ],
+            "Burroughs": [
+                "Bazaar",
+                "Laboratory",
+                "Mousoleum"
+            ]
+        }
+    },
+    "mutated_grey": {
+        "location_text": "Acolyte Realm, Forbidden Grove, Bazaar, Laboratory, Mousoleum",
+        "areas": {
+            "Bristle Woods": [
+                "Acolyte Realm",
+                "Forbidden Grove"
+            ],
+            "Burroughs": [
+                "Bazaar",
+                "Laboratory",
+                "Mousoleum"
+            ]
+        }
+    },
+    "mutated_white": {
+        "location_text": "Acolyte Realm, Forbidden Grove, Bazaar, Laboratory, Mousoleum",
+        "areas": {
+            "Bristle Woods": [
+                "Acolyte Realm",
+                "Forbidden Grove"
+            ],
+            "Burroughs": [
+                "Bazaar",
+                "Laboratory",
+                "Mousoleum"
+            ]
+        }
+    },
+    "sorcerer": {
+        "location_text": "Acolyte Realm, Forbidden Grove",
+        "areas": {
+            "Bristle Woods": [
+                "Acolyte Realm",
+                "Forbidden Grove"
+            ]
+        }
+    },
+    "spectre": {
+        "location_text": "Acolyte Realm, Forbidden Grove",
+        "areas": {
+            "Bristle Woods": [
+                "Acolyte Realm",
+                "Forbidden Grove"
+            ]
+        }
+    },
+    "wight": {
+        "location_text": "Acolyte Realm",
+        "areas": {
+            "Bristle Woods": [
+                "Acolyte Realm"
+            ]
+        }
+    },
+    "balack_the_banished": {
+        "location_text": "Balack's Cove",
+        "areas": {
+            "Tribal Isles": [
+                "Balack's Cove"
+            ]
+        }
+    },
+    "brimstone": {
+        "location_text": "Balack's Cove",
+        "areas": {
+            "Tribal Isles": [
+                "Balack's Cove"
+            ]
+        }
+    },
+    "davy_jones": {
+        "location_text": "Balack's Cove",
+        "areas": {
+            "Tribal Isles": [
+                "Balack's Cove"
+            ]
+        }
+    },
+    "derr_lich": {
+        "location_text": "Balack's Cove",
+        "areas": {
+            "Tribal Isles": [
+                "Balack's Cove"
+            ]
+        }
+    },
+    "elub_lich": {
+        "location_text": "Balack's Cove",
+        "areas": {
+            "Tribal Isles": [
+                "Balack's Cove"
+            ]
+        }
+    },
+    "enslaved_spirit": {
+        "location_text": "Balack's Cove",
+        "areas": {
+            "Tribal Isles": [
+                "Balack's Cove"
+            ]
+        }
+    },
+    "nerg_lich": {
+        "location_text": "Balack's Cove",
+        "areas": {
+            "Tribal Isles": [
+                "Balack's Cove"
+            ]
+        }
+    },
+    "riptide": {
+        "location_text": "Balack's Cove",
+        "areas": {
+            "Tribal Isles": [
+                "Balack's Cove"
+            ]
+        }
+    },
+    "tidal_fisher": {
+        "location_text": "Balack's Cove",
+        "areas": {
+            "Tribal Isles": [
+                "Balack's Cove"
+            ]
+        }
+    },
+    "twisted_fiend": {
+        "location_text": "Balack's Cove",
+        "areas": {
+            "Tribal Isles": [
+                "Balack's Cove"
+            ]
+        }
+    },
+    "burglar": {
+        "location_text": "Bazaar, Laboratory, Harbour, King's Arms, Tournament Hall",
+        "areas": {
+            "Burroughs": [
+                "Bazaar",
+                "Laboratory"
+            ],
+            "Gnawnia": [
+                "Harbour"
+            ],
+            "Valour": [
+                "King's Arms",
+                "Tournament Hall"
+            ]
+        }
+    },
+    "crown_collector": {
+        "location_text": "Bazaar, Crystal Library, S.S. Huntington III, Tournament Hall",
+        "areas": {
+            "Burroughs": [
+                "Bazaar"
+            ],
+            "Rodentia": [
+                "Crystal Library",
+                "S.S. Huntington III"
+            ],
+            "Valour": [
+                "Tournament Hall"
+            ]
+        }
+    },
+    "master_burglar": {
+        "location_text": "Bazaar, Town of Gnawnia",
+        "areas": {
+            "Burroughs": [
+                "Bazaar"
+            ],
+            "Gnawnia": [
+                "Town of Gnawnia"
+            ]
+        }
+    },
+    "absolute_acolyte": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "carrion_medium": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "chamber_cleaver": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "chronomaster": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "clockwork_timespinner": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "dread_knight": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "epoch_golem": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "harbinger_of_death": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "portal_paladin": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "portal_plunderer": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "portal_pursuer": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "record_keeper": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "record_keeper's_assistant": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "sentient_slime": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "shackled_servant": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "skeletal_champion": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "timeless_lich": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "timelost_thaumaturge": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "timeslither_pythoness": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "vigilant_ward": {
+        "location_text": "Bristle Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Bristle Woods Rift"
+            ]
+        }
+    },
+    "amplified_brown": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "amplified_grey": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "amplified_white": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "assassin_beast": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "automated_sentry": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "big_bad_behemoth_burroughs": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "boulder_biter": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "clump": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "count_vampire": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "cyber_miner": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "cybernetic_specialist": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "doktor": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "evil_scientist": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "itty_bitty_rifty_burroughs": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "lambent": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "lycanoid": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "master_exploder": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "mecha_tail": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "menace_of_the_rift": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "monstrous_abomination": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "phase_zombie": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "plutonium_tentacle": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "pneumatic_dirt_displacement": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "portable_generator": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "prototype": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "radioactive_ooze": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "rancid_bog_beast": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "revenant": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "rift_bio_engineer": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "rifterranian": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "robat": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "super_mega_mecha_ultra_robogold": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "surgeon_bot": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "tech_ravenous_zombie": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "tomb_exhumer": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "toxic_avenger": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "toxikinetic": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "zombot_unipire_the_third": {
+        "location_text": "Burroughs Rift",
+        "areas": {
+            "Rift Plane": [
+                "Burroughs Rift"
+            ]
+        }
+    },
+    "bear": {
+        "location_text": "Calm Clearing, Great Gnarled Tree",
+        "areas": {
+            "Whisker Woods": [
+                "Calm Clearing",
+                "Great Gnarled Tree"
+            ]
+        }
+    },
+    "chameleon": {
+        "location_text": "Calm Clearing, Great Gnarled Tree, Cape Clawed, Nerg Plains",
+        "areas": {
+            "Whisker Woods": [
+                "Calm Clearing",
+                "Great Gnarled Tree"
+            ],
+            "Tribal Isles": [
+                "Cape Clawed",
+                "Nerg Plains"
+            ]
+        }
+    },
+    "cherry": {
+        "location_text": "Calm Clearing",
+        "areas": {
+            "Whisker Woods": [
+                "Calm Clearing"
+            ]
+        }
+    },
+    "cyclops": {
+        "location_text": "Calm Clearing, Lagoon",
+        "areas": {
+            "Whisker Woods": [
+                "Calm Clearing",
+                "Lagoon"
+            ]
+        }
+    },
+    "eagle_owl": {
+        "location_text": "Calm Clearing, Great Gnarled Tree, Lagoon",
+        "areas": {
+            "Whisker Woods": [
+                "Calm Clearing",
+                "Great Gnarled Tree",
+                "Lagoon"
+            ]
+        }
+    },
+    "elven_princess": {
+        "location_text": "Calm Clearing, Great Gnarled Tree, Lagoon",
+        "areas": {
+            "Whisker Woods": [
+                "Calm Clearing",
+                "Great Gnarled Tree",
+                "Lagoon"
+            ]
+        }
+    },
+    "foxy": {
+        "location_text": "Calm Clearing, Great Gnarled Tree",
+        "areas": {
+            "Whisker Woods": [
+                "Calm Clearing",
+                "Great Gnarled Tree"
+            ]
+        }
+    },
+    "frog": {
+        "location_text": "Calm Clearing, Great Gnarled Tree",
+        "areas": {
+            "Whisker Woods": [
+                "Calm Clearing",
+                "Great Gnarled Tree"
+            ]
+        }
+    },
+    "moosker": {
+        "location_text": "Calm Clearing, Great Gnarled Tree",
+        "areas": {
+            "Whisker Woods": [
+                "Calm Clearing",
+                "Great Gnarled Tree"
+            ]
+        }
+    },
+    "shaman": {
+        "location_text": "Calm Clearing, Great Gnarled Tree, Lagoon",
+        "areas": {
+            "Whisker Woods": [
+                "Calm Clearing",
+                "Great Gnarled Tree",
+                "Lagoon"
+            ]
+        }
+    },
+    "sylvan": {
+        "location_text": "Calm Clearing, Great Gnarled Tree, Cape Clawed, Derr Dunes, Jungle of Dread",
+        "areas": {
+            "Whisker Woods": [
+                "Calm Clearing",
+                "Great Gnarled Tree"
+            ],
+            "Tribal Isles": [
+                "Cape Clawed",
+                "Derr Dunes",
+                "Jungle of Dread"
+            ]
+        }
+    },
+    "treant": {
+        "location_text": "Calm Clearing, Great Gnarled Tree, Lagoon",
+        "areas": {
+            "Whisker Woods": [
+                "Calm Clearing",
+                "Great Gnarled Tree",
+                "Lagoon"
+            ]
+        }
+    },
+    "wiggler": {
+        "location_text": "Calm Clearing, Great Gnarled Tree",
+        "areas": {
+            "Whisker Woods": [
+                "Calm Clearing",
+                "Great Gnarled Tree"
+            ]
+        }
+    },
+    "aged": {
+        "location_text": "Cape Clawed",
+        "areas": {
+            "Tribal Isles": [
+                "Cape Clawed"
+            ]
+        }
+    },
+    "alchemist": {
+        "location_text": "Cape Clawed, Elub Shore",
+        "areas": {
+            "Tribal Isles": [
+                "Cape Clawed",
+                "Elub Shore"
+            ]
+        }
+    },
+    "caretaker": {
+        "location_text": "Cape Clawed, Nerg Plains",
+        "areas": {
+            "Tribal Isles": [
+                "Cape Clawed",
+                "Nerg Plains"
+            ]
+        }
+    },
+    "elder": {
+        "location_text": "Cape Clawed",
+        "areas": {
+            "Tribal Isles": [
+                "Cape Clawed"
+            ]
+        }
+    },
+    "grandfather": {
+        "location_text": "Cape Clawed",
+        "areas": {
+            "Tribal Isles": [
+                "Cape Clawed"
+            ]
+        }
+    },
+    "healer": {
+        "location_text": "Cape Clawed, Derr Dunes",
+        "areas": {
+            "Tribal Isles": [
+                "Cape Clawed",
+                "Derr Dunes"
+            ]
+        }
+    },
+    "narrator": {
+        "location_text": "Cape Clawed, Nerg Plains",
+        "areas": {
+            "Tribal Isles": [
+                "Cape Clawed",
+                "Nerg Plains"
+            ]
+        }
+    },
+    "pathfinder": {
+        "location_text": "Cape Clawed, Nerg Plains",
+        "areas": {
+            "Tribal Isles": [
+                "Cape Clawed",
+                "Nerg Plains"
+            ]
+        }
+    },
+    "pinchy": {
+        "location_text": "Cape Clawed, Elub Shore, S.S. Huntington III",
+        "areas": {
+            "Tribal Isles": [
+                "Cape Clawed",
+                "Elub Shore"
+            ],
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "scout": {
+        "location_text": "Cape Clawed, Elub Shore",
+        "areas": {
+            "Tribal Isles": [
+                "Cape Clawed",
+                "Elub Shore"
+            ]
+        }
+    },
+    "shipwrecked": {
+        "location_text": "Cape Clawed, S.S. Huntington III",
+        "areas": {
+            "Tribal Isles": [
+                "Cape Clawed"
+            ],
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "taleweaver": {
+        "location_text": "Cape Clawed, Elub Shore",
+        "areas": {
+            "Tribal Isles": [
+                "Cape Clawed",
+                "Elub Shore"
+            ]
+        }
+    },
+    "trailblazer": {
+        "location_text": "Cape Clawed, Derr Dunes",
+        "areas": {
+            "Tribal Isles": [
+                "Cape Clawed",
+                "Derr Dunes"
+            ]
+        }
+    },
+    "wordsmith": {
+        "location_text": "Cape Clawed, Derr Dunes",
+        "areas": {
+            "Tribal Isles": [
+                "Cape Clawed",
+                "Derr Dunes"
+            ]
+        }
+    },
+    "ghost": {
+        "location_text": "Catacombs, Forbidden Grove, Mousoleum",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs",
+                "Forbidden Grove"
+            ],
+            "Burroughs": [
+                "Mousoleum"
+            ]
+        }
+    },
+    "giant_snail": {
+        "location_text": "Catacombs, Mousoleum",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs"
+            ],
+            "Burroughs": [
+                "Mousoleum"
+            ]
+        }
+    },
+    "gluttonous_zombie": {
+        "location_text": "Catacombs, Mousoleum",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs"
+            ],
+            "Burroughs": [
+                "Mousoleum"
+            ]
+        }
+    },
+    "grave_robber": {
+        "location_text": "Catacombs, Mousoleum",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs"
+            ],
+            "Burroughs": [
+                "Mousoleum"
+            ]
+        }
+    },
+    "keeper": {
+        "location_text": "Catacombs",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs"
+            ]
+        }
+    },
+    "keeper's_assistant": {
+        "location_text": "Catacombs",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs"
+            ]
+        }
+    },
+    "lycan": {
+        "location_text": "Catacombs, Forbidden Grove, Mousoleum",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs",
+                "Forbidden Grove"
+            ],
+            "Burroughs": [
+                "Mousoleum"
+            ]
+        }
+    },
+    "monster": {
+        "location_text": "Catacombs, Laboratory, Mousoleum",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs"
+            ],
+            "Burroughs": [
+                "Laboratory",
+                "Mousoleum"
+            ]
+        }
+    },
+    "mummy": {
+        "location_text": "Catacombs, Mousoleum",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs"
+            ],
+            "Burroughs": [
+                "Mousoleum"
+            ]
+        }
+    },
+    "ooze": {
+        "location_text": "Catacombs",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs"
+            ]
+        }
+    },
+    "ravenous_zombie": {
+        "location_text": "Catacombs, Forbidden Grove, Mousoleum",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs",
+                "Forbidden Grove"
+            ],
+            "Burroughs": [
+                "Mousoleum"
+            ]
+        }
+    },
+    "scavenger": {
+        "location_text": "Catacombs, Forbidden Grove",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs",
+                "Forbidden Grove"
+            ]
+        }
+    },
+    "skeleton": {
+        "location_text": "Catacombs",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs"
+            ]
+        }
+    },
+    "spider": {
+        "location_text": "Catacombs, Forbidden Grove",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs",
+                "Forbidden Grove"
+            ]
+        }
+    },
+    "terror_knight": {
+        "location_text": "Catacombs",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs"
+            ]
+        }
+    },
+    "vampire": {
+        "location_text": "Catacombs, Forbidden Grove, Mousoleum",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs",
+                "Forbidden Grove"
+            ],
+            "Burroughs": [
+                "Mousoleum"
+            ]
+        }
+    },
+    "zombot_unipire": {
+        "location_text": "Catacombs, Mousoleum",
+        "areas": {
+            "Bristle Woods": [
+                "Catacombs"
+            ],
+            "Burroughs": [
+                "Mousoleum"
+            ]
+        }
+    },
+    "bartender": {
+        "location_text": "Claw Shot City, Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City",
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "bounty_hunter": {
+        "location_text": "Claw Shot City",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City"
+            ]
+        }
+    },
+    "cardshark": {
+        "location_text": "Claw Shot City",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City"
+            ]
+        }
+    },
+    "circuit_judge": {
+        "location_text": "Claw Shot City",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City"
+            ]
+        }
+    },
+    "coal_shoveller": {
+        "location_text": "Claw Shot City, Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City",
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "desperado": {
+        "location_text": "Claw Shot City",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City"
+            ]
+        }
+    },
+    "farrier": {
+        "location_text": "Claw Shot City, Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City",
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "lasso_cowgirl": {
+        "location_text": "Claw Shot City",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City"
+            ]
+        }
+    },
+    "outlaw": {
+        "location_text": "Claw Shot City",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City"
+            ]
+        }
+    },
+    "parlour_player": {
+        "location_text": "Claw Shot City, Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City",
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "prospector": {
+        "location_text": "Claw Shot City",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City"
+            ]
+        }
+    },
+    "pyrite": {
+        "location_text": "Claw Shot City",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City"
+            ]
+        }
+    },
+    "ruffian": {
+        "location_text": "Claw Shot City",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City"
+            ]
+        }
+    },
+    "saloon_gal": {
+        "location_text": "Claw Shot City",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City"
+            ]
+        }
+    },
+    "shopkeeper": {
+        "location_text": "Claw Shot City",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City"
+            ]
+        }
+    },
+    "stagecoach_driver": {
+        "location_text": "Claw Shot City",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City"
+            ]
+        }
+    },
+    "stuffy_banker": {
+        "location_text": "Claw Shot City, Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City",
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "tonic_salesman": {
+        "location_text": "Claw Shot City, Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City",
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "tumbleweed": {
+        "location_text": "Claw Shot City",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City"
+            ]
+        }
+    },
+    "undertaker": {
+        "location_text": "Claw Shot City",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City"
+            ]
+        }
+    },
+    "upper_class_lady": {
+        "location_text": "Claw Shot City, Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Claw Shot City",
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "aether": {
+        "location_text": "Crystal Library",
+        "areas": {
+            "Rodentia": [
+                "Crystal Library"
+            ]
+        }
+    },
+    "bookborn": {
+        "location_text": "Crystal Library",
+        "areas": {
+            "Rodentia": [
+                "Crystal Library"
+            ]
+        }
+    },
+    "effervescent": {
+        "location_text": "Crystal Library",
+        "areas": {
+            "Rodentia": [
+                "Crystal Library"
+            ]
+        }
+    },
+    "explorator": {
+        "location_text": "Crystal Library",
+        "areas": {
+            "Rodentia": [
+                "Crystal Library"
+            ]
+        }
+    },
+    "flutterby": {
+        "location_text": "Crystal Library",
+        "areas": {
+            "Rodentia": [
+                "Crystal Library"
+            ]
+        }
+    },
+    "infiltrator": {
+        "location_text": "Crystal Library",
+        "areas": {
+            "Rodentia": [
+                "Crystal Library"
+            ]
+        }
+    },
+    "pocketwatch": {
+        "location_text": "Crystal Library",
+        "areas": {
+            "Rodentia": [
+                "Crystal Library"
+            ]
+        }
+    },
+    "scribe": {
+        "location_text": "Crystal Library",
+        "areas": {
+            "Rodentia": [
+                "Crystal Library"
+            ]
+        }
+    },
+    "steam_grip": {
+        "location_text": "Crystal Library",
+        "areas": {
+            "Rodentia": [
+                "Crystal Library"
+            ]
+        }
+    },
+    "tome_sprite": {
+        "location_text": "Crystal Library",
+        "areas": {
+            "Rodentia": [
+                "Crystal Library"
+            ]
+        }
+    },
+    "walker": {
+        "location_text": "Crystal Library",
+        "areas": {
+            "Rodentia": [
+                "Crystal Library"
+            ]
+        }
+    },
+    "zurreal_the_eternal": {
+        "location_text": "Crystal Library",
+        "areas": {
+            "Rodentia": [
+                "Crystal Library"
+            ]
+        }
+    },
+    "derr_chieftain": {
+        "location_text": "Derr Dunes",
+        "areas": {
+            "Tribal Isles": [
+                "Derr Dunes"
+            ]
+        }
+    },
+    "gladiator": {
+        "location_text": "Derr Dunes",
+        "areas": {
+            "Tribal Isles": [
+                "Derr Dunes"
+            ]
+        }
+    },
+    "grunt": {
+        "location_text": "Derr Dunes",
+        "areas": {
+            "Tribal Isles": [
+                "Derr Dunes"
+            ]
+        }
+    },
+    "guardian": {
+        "location_text": "Derr Dunes",
+        "areas": {
+            "Tribal Isles": [
+                "Derr Dunes"
+            ]
+        }
+    },
+    "mintaka": {
+        "location_text": "Derr Dunes",
+        "areas": {
+            "Tribal Isles": [
+                "Derr Dunes"
+            ]
+        }
+    },
+    "renegade": {
+        "location_text": "Derr Dunes",
+        "areas": {
+            "Tribal Isles": [
+                "Derr Dunes"
+            ]
+        }
+    },
+    "seer": {
+        "location_text": "Derr Dunes",
+        "areas": {
+            "Tribal Isles": [
+                "Derr Dunes"
+            ]
+        }
+    },
+    "spellbinder": {
+        "location_text": "Derr Dunes",
+        "areas": {
+            "Tribal Isles": [
+                "Derr Dunes"
+            ]
+        }
+    },
+    "archer": {
+        "location_text": "Dojo, Training Grounds",
+        "areas": {
+            "Furoma": [
+                "Dojo",
+                "Training Grounds"
+            ]
+        }
+    },
+    "assassin": {
+        "location_text": "Dojo",
+        "areas": {
+            "Furoma": [
+                "Dojo"
+            ]
+        }
+    },
+    "hapless": {
+        "location_text": "Dojo, Meditation Room, Pinnacle Chamber",
+        "areas": {
+            "Furoma": [
+                "Dojo",
+                "Meditation Room",
+                "Pinnacle Chamber"
+            ]
+        }
+    },
+    "kung_fu": {
+        "location_text": "Dojo, Training Grounds",
+        "areas": {
+            "Furoma": [
+                "Dojo",
+                "Training Grounds"
+            ]
+        }
+    },
+    "monk": {
+        "location_text": "Dojo, Training Grounds",
+        "areas": {
+            "Furoma": [
+                "Dojo",
+                "Training Grounds"
+            ]
+        }
+    },
+    "ninja": {
+        "location_text": "Dojo, Training Grounds, Mountain",
+        "areas": {
+            "Furoma": [
+                "Dojo",
+                "Training Grounds"
+            ],
+            "Gnawnia": [
+                "Mountain"
+            ]
+        }
+    },
+    "samurai": {
+        "location_text": "Dojo, Training Grounds",
+        "areas": {
+            "Furoma": [
+                "Dojo",
+                "Training Grounds"
+            ]
+        }
+    },
+    "student_of_the_cheese_belt": {
+        "location_text": "Dojo",
+        "areas": {
+            "Furoma": [
+                "Dojo"
+            ]
+        }
+    },
+    "student_of_the_cheese_claw": {
+        "location_text": "Dojo",
+        "areas": {
+            "Furoma": [
+                "Dojo"
+            ]
+        }
+    },
+    "student_of_the_cheese_fang": {
+        "location_text": "Dojo",
+        "areas": {
+            "Furoma": [
+                "Dojo"
+            ]
+        }
+    },
+    "worker": {
+        "location_text": "Dojo, Training Grounds",
+        "areas": {
+            "Furoma": [
+                "Dojo",
+                "Training Grounds"
+            ]
+        }
+    },
+    "draconic_warden": {
+        "location_text": "Dracano",
+        "areas": {
+            "Tribal Isles": [
+                "Dracano"
+            ]
+        }
+    },
+    "dragon": {
+        "location_text": "Dracano",
+        "areas": {
+            "Tribal Isles": [
+                "Dracano"
+            ]
+        }
+    },
+    "whelpling": {
+        "location_text": "Dracano",
+        "areas": {
+            "Tribal Isles": [
+                "Dracano"
+            ]
+        }
+    },
+    "alnitak": {
+        "location_text": "Elub Shore",
+        "areas": {
+            "Tribal Isles": [
+                "Elub Shore"
+            ]
+        }
+    },
+    "champion": {
+        "location_text": "Elub Shore",
+        "areas": {
+            "Tribal Isles": [
+                "Elub Shore"
+            ]
+        }
+    },
+    "elub_chieftain": {
+        "location_text": "Elub Shore",
+        "areas": {
+            "Tribal Isles": [
+                "Elub Shore"
+            ]
+        }
+    },
+    "mystic": {
+        "location_text": "Elub Shore",
+        "areas": {
+            "Tribal Isles": [
+                "Elub Shore"
+            ]
+        }
+    },
+    "pack": {
+        "location_text": "Elub Shore",
+        "areas": {
+            "Tribal Isles": [
+                "Elub Shore"
+            ]
+        }
+    },
+    "protector": {
+        "location_text": "Elub Shore",
+        "areas": {
+            "Tribal Isles": [
+                "Elub Shore"
+            ]
+        }
+    },
+    "soothsayer": {
+        "location_text": "Elub Shore",
+        "areas": {
+            "Tribal Isles": [
+                "Elub Shore"
+            ]
+        }
+    },
+    "vanquisher": {
+        "location_text": "Elub Shore",
+        "areas": {
+            "Tribal Isles": [
+                "Elub Shore"
+            ]
+        }
+    },
+    "caravan_guard": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "crimson_commander": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "crimson_ranger": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "crimson_titan": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "crimson_watch": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "desert_archer": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "desert_soldier": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "flame_archer": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "flame_ordnance": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "flame_warrior": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "gargantuamouse": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "inferno_mage": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "magmarage": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "sand_cavalry": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "sandwing_cavalry": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "sentinel": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "theurgy_warden": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "vanguard": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "warmonger": {
+        "location_text": "Fiery Warpath",
+        "areas": {
+            "Sandtail Desert": [
+                "Fiery Warpath"
+            ]
+        }
+    },
+    "gargoyle": {
+        "location_text": "Forbidden Grove",
+        "areas": {
+            "Bristle Woods": [
+                "Forbidden Grove"
+            ]
+        }
+    },
+    "realm_ripper": {
+        "location_text": "Forbidden Grove",
+        "areas": {
+            "Bristle Woods": [
+                "Forbidden Grove"
+            ]
+        }
+    },
+    "reaper": {
+        "location_text": "Forbidden Grove",
+        "areas": {
+            "Bristle Woods": [
+                "Forbidden Grove"
+            ]
+        }
+    },
+    "alpha_weremouse": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "arcane_summoner": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "battering_ram": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "cursed_taskmaster": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "dawn_guardian": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "hardworking_hauler": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "heart_of_the_meteor": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "hypnotized_gunslinger": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "meteorite_golem": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "meteorite_miner": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "meteorite_mover": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "meteorite_mystic": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "meteorite_snacker": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "mining_materials_manager": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "mischievous_meteorite_miner": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "mischievous_wereminer": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "monster_of_the_meteor": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "night_shift_materials_manager": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "night_watcher": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "nightfire": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "nightmancer": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "reveling_lycanthrope": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "wealthy_werewarrior": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "werehauler": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "wereminer": {
+        "location_text": "Fort Rox",
+        "areas": {
+            "Varmint Valley": [
+                "Fort Rox"
+            ]
+        }
+    },
+    "bitter_root": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "cavern_crumbler": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "crag_elder": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "crystal_behemoth": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "crystal_cave_worm": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "crystal_controller": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "crystal_golem": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "crystal_lurker": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "crystal_observer": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "crystal_queen": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "crystalback": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "crystalline_slasher": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "diamondhide": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "dirt_thing": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "floating_spore": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "funglore": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "gemorpher": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "gemstone_worshipper": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "huntereater": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "lumahead": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "mouldy_mole": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "mush": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "mushroom_sprite": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "nightshade_masquerade": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "quillback": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "shattered_obsidian": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "spiked_burrower": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "splintered_stone_sentry": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "spore_muncher": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "sporeticus": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "stalagmite": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "stone_maiden": {
+        "location_text": "Fungal Cavern",
+        "areas": {
+            "Hollow Heights": [
+                "Fungal Cavern"
+            ]
+        }
+    },
+    "armored_archer": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "ascended_elder": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "brawny": {
+        "location_text": "Furoma Rift, Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift",
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "dancing_assassin": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "dumpling_delivery": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "enlightened_labourer": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "grand_master_of_the_dojo": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "master_of_the_chi_belt": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "master_of_the_chi_claw": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "master_of_the_chi_fang": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "militant_samurai": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "raw_diamond": {
+        "location_text": "Furoma Rift, Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift",
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "rift_guardian": {
+        "location_text": "Furoma Rift, Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift",
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "shaolin_kung_fu": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "shinobi": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "student_of_the_chi_belt": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "student_of_the_chi_claw": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "student_of_the_chi_fang": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "supreme_sensei": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "wandering_monk": {
+        "location_text": "Furoma Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift"
+            ]
+        }
+    },
+    "wealth": {
+        "location_text": "Furoma Rift, Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Furoma Rift",
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "agitated_gentle_giant": {
+        "location_text": "Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "cyborg": {
+        "location_text": "Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "dream_drifter": {
+        "location_text": "Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "excitable_electric": {
+        "location_text": "Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "goliath_field": {
+        "location_text": "Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "greyrun": {
+        "location_text": "Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "micro": {
+        "location_text": "Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "mighty_mole": {
+        "location_text": "Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "riftweaver": {
+        "location_text": "Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "shard_centurion": {
+        "location_text": "Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "spiritual_steel": {
+        "location_text": "Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "supernatural": {
+        "location_text": "Gnawnia Rift",
+        "areas": {
+            "Rift Plane": [
+                "Gnawnia Rift"
+            ]
+        }
+    },
+    "angry_train_staff": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "automorat": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "black_powder_thief": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "cannonball": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "crate_camo": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "cute_crate_carrier": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "dangerous_duo": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "fuel": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "hookshot": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "magmatic_crystal_thief": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "magmatic_golem": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "mouse_with_no_name": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "mysterious_traveller": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "passenger": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "photographer": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "sharpshooter": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "steel_horse_rider": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "stoutgear": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "stowaway": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "supply_hoarder": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "train_conductor": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "train_engineer": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "travelling_barber": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "warehouse_manager": {
+        "location_text": "Gnawnian Express Station",
+        "areas": {
+            "Varmint Valley": [
+                "Gnawnian Express Station"
+            ]
+        }
+    },
+    "centaur": {
+        "location_text": "Great Gnarled Tree, Lagoon",
+        "areas": {
+            "Whisker Woods": [
+                "Great Gnarled Tree",
+                "Lagoon"
+            ]
+        }
+    },
+    "curious_chemist": {
+        "location_text": "Great Gnarled Tree",
+        "areas": {
+            "Whisker Woods": [
+                "Great Gnarled Tree"
+            ]
+        }
+    },
+    "fairy": {
+        "location_text": "Great Gnarled Tree, Lagoon",
+        "areas": {
+            "Whisker Woods": [
+                "Great Gnarled Tree",
+                "Lagoon"
+            ]
+        }
+    },
+    "goldleaf": {
+        "location_text": "Great Gnarled Tree",
+        "areas": {
+            "Whisker Woods": [
+                "Great Gnarled Tree"
+            ]
+        }
+    },
+    "nomad": {
+        "location_text": "Great Gnarled Tree, Lagoon",
+        "areas": {
+            "Whisker Woods": [
+                "Great Gnarled Tree",
+                "Lagoon"
+            ]
+        }
+    },
+    "tiger": {
+        "location_text": "Great Gnarled Tree, Lagoon",
+        "areas": {
+            "Whisker Woods": [
+                "Great Gnarled Tree",
+                "Lagoon"
+            ]
+        }
+    },
+    "wicked_witch_of_whisker_woods": {
+        "location_text": "Great Gnarled Tree, Lagoon",
+        "areas": {
+            "Whisker Woods": [
+                "Great Gnarled Tree",
+                "Lagoon"
+            ]
+        }
+    },
+    "barmy_gunner": {
+        "location_text": "Harbour",
+        "areas": {
+            "Gnawnia": [
+                "Harbour"
+            ]
+        }
+    },
+    "bilged_boatswain": {
+        "location_text": "Harbour",
+        "areas": {
+            "Gnawnia": [
+                "Harbour"
+            ]
+        }
+    },
+    "brown": {
+        "location_text": "Harbour, Meadow, Mountain, Town of Gnawnia, Windmill, King's Arms",
+        "areas": {
+            "Gnawnia": [
+                "Harbour",
+                "Meadow",
+                "Mountain",
+                "Town of Gnawnia",
+                "Windmill"
+            ],
+            "Valour": [
+                "King's Arms"
+            ]
+        }
+    },
+    "cabin_boy": {
+        "location_text": "Harbour",
+        "areas": {
+            "Gnawnia": [
+                "Harbour"
+            ]
+        }
+    },
+    "corrupt_commodore": {
+        "location_text": "Harbour",
+        "areas": {
+            "Gnawnia": [
+                "Harbour"
+            ]
+        }
+    },
+    "dashing_buccaneer": {
+        "location_text": "Harbour",
+        "areas": {
+            "Gnawnia": [
+                "Harbour"
+            ]
+        }
+    },
+    "fog": {
+        "location_text": "Harbour, Mountain",
+        "areas": {
+            "Gnawnia": [
+                "Harbour",
+                "Mountain"
+            ]
+        }
+    },
+    "grey": {
+        "location_text": "Harbour, Meadow, Mountain, Town of Gnawnia, Windmill, King's Arms",
+        "areas": {
+            "Gnawnia": [
+                "Harbour",
+                "Meadow",
+                "Mountain",
+                "Town of Gnawnia",
+                "Windmill"
+            ],
+            "Valour": [
+                "King's Arms"
+            ]
+        }
+    },
+    "magic": {
+        "location_text": "Harbour, Town of Gnawnia, King's Arms",
+        "areas": {
+            "Gnawnia": [
+                "Harbour",
+                "Town of Gnawnia"
+            ],
+            "Valour": [
+                "King's Arms"
+            ]
+        }
+    },
+    "pirate": {
+        "location_text": "Harbour, S.S. Huntington III",
+        "areas": {
+            "Gnawnia": [
+                "Harbour"
+            ],
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "pugilist": {
+        "location_text": "Harbour, Town of Gnawnia, Windmill, King's Arms, Tournament Hall",
+        "areas": {
+            "Gnawnia": [
+                "Harbour",
+                "Town of Gnawnia",
+                "Windmill"
+            ],
+            "Valour": [
+                "King's Arms",
+                "Tournament Hall"
+            ]
+        }
+    },
+    "scruffy": {
+        "location_text": "Harbour, Windmill, King's Arms",
+        "areas": {
+            "Gnawnia": [
+                "Harbour",
+                "Windmill"
+            ],
+            "Valour": [
+                "King's Arms"
+            ]
+        }
+    },
+    "silvertail": {
+        "location_text": "Harbour, Mountain, Town of Gnawnia, Windmill, King's Arms, Tournament Hall",
+        "areas": {
+            "Gnawnia": [
+                "Harbour",
+                "Mountain",
+                "Town of Gnawnia",
+                "Windmill"
+            ],
+            "Valour": [
+                "King's Arms",
+                "Tournament Hall"
+            ]
+        }
+    },
+    "spotted": {
+        "location_text": "Harbour, Meadow, King's Arms",
+        "areas": {
+            "Gnawnia": [
+                "Harbour",
+                "Meadow"
+            ],
+            "Valour": [
+                "King's Arms"
+            ]
+        }
+    },
+    "white": {
+        "location_text": "Harbour, Meadow, Mountain, Town of Gnawnia, Windmill, King's Arms, Training Grounds",
+        "areas": {
+            "Gnawnia": [
+                "Harbour",
+                "Meadow",
+                "Mountain",
+                "Town of Gnawnia",
+                "Windmill"
+            ],
+            "Valour": [
+                "King's Arms"
+            ],
+            "Furoma": [
+                "Training Grounds"
+            ]
+        }
+    },
+    "chipper": {
+        "location_text": "Iceberg, Slushy Shoreline",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ],
+            "Gnawnia": [
+                "Slushy Shoreline"
+            ]
+        }
+    },
+    "deep": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "frostlance_guard": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "frostwing_commander": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "general_drheller": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "heavy_blaster": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "iceblade": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "iceblock": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "icebreaker": {
+        "location_text": "Iceberg, Slushy Shoreline",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ],
+            "Gnawnia": [
+                "Slushy Shoreline"
+            ]
+        }
+    },
+    "icewing": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "incompetent_ice_climber": {
+        "location_text": "Iceberg, Slushy Shoreline",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ],
+            "Gnawnia": [
+                "Slushy Shoreline"
+            ]
+        }
+    },
+    "lady_coldsnap": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "living_salt": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "lord_splodington": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "mammoth": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "polar_bear": {
+        "location_text": "Iceberg, Slushy Shoreline",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ],
+            "Gnawnia": [
+                "Slushy Shoreline"
+            ]
+        }
+    },
+    "princess_fist": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "saboteur": {
+        "location_text": "Iceberg, Slushy Shoreline",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ],
+            "Gnawnia": [
+                "Slushy Shoreline"
+            ]
+        }
+    },
+    "snow_bowler": {
+        "location_text": "Iceberg, Slushy Shoreline",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ],
+            "Gnawnia": [
+                "Slushy Shoreline"
+            ]
+        }
+    },
+    "snow_slinger": {
+        "location_text": "Iceberg, Slushy Shoreline",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ],
+            "Gnawnia": [
+                "Slushy Shoreline"
+            ]
+        }
+    },
+    "snow_soldier": {
+        "location_text": "Iceberg, Slushy Shoreline",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ],
+            "Gnawnia": [
+                "Slushy Shoreline"
+            ]
+        }
+    },
+    "snowblind": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "stickybomber": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "water_wielder": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "wolfskie": {
+        "location_text": "Iceberg",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ]
+        }
+    },
+    "yeti": {
+        "location_text": "Iceberg, Slushy Shoreline",
+        "areas": {
+            "Rodentia": [
+                "Iceberg"
+            ],
+            "Gnawnia": [
+                "Slushy Shoreline"
+            ]
+        }
+    },
+    "chitinous": {
+        "location_text": "Jungle of Dread",
+        "areas": {
+            "Tribal Isles": [
+                "Jungle of Dread"
+            ]
+        }
+    },
+    "fetid_swamp": {
+        "location_text": "Jungle of Dread",
+        "areas": {
+            "Tribal Isles": [
+                "Jungle of Dread"
+            ]
+        }
+    },
+    "jurassic": {
+        "location_text": "Jungle of Dread",
+        "areas": {
+            "Tribal Isles": [
+                "Jungle of Dread"
+            ]
+        }
+    },
+    "magma_carrier": {
+        "location_text": "Jungle of Dread",
+        "areas": {
+            "Tribal Isles": [
+                "Jungle of Dread"
+            ]
+        }
+    },
+    "primal": {
+        "location_text": "Jungle of Dread",
+        "areas": {
+            "Tribal Isles": [
+                "Jungle of Dread"
+            ]
+        }
+    },
+    "pygmy_wrangler": {
+        "location_text": "Jungle of Dread",
+        "areas": {
+            "Tribal Isles": [
+                "Jungle of Dread"
+            ]
+        }
+    },
+    "stonework_warrior": {
+        "location_text": "Jungle of Dread",
+        "areas": {
+            "Tribal Isles": [
+                "Jungle of Dread"
+            ]
+        }
+    },
+    "swarm_of_pygmy_mice": {
+        "location_text": "Jungle of Dread",
+        "areas": {
+            "Tribal Isles": [
+                "Jungle of Dread"
+            ]
+        }
+    },
+    "flying": {
+        "location_text": "King's Arms, Tournament Hall, Meadow, Town of Gnawnia, Windmill",
+        "areas": {
+            "Valour": [
+                "King's Arms",
+                "Tournament Hall"
+            ],
+            "Gnawnia": [
+                "Meadow",
+                "Town of Gnawnia",
+                "Windmill"
+            ]
+        }
+    },
+    "longtail": {
+        "location_text": "King's Arms, Town of Gnawnia, Windmill",
+        "areas": {
+            "Valour": [
+                "King's Arms"
+            ],
+            "Gnawnia": [
+                "Town of Gnawnia",
+                "Windmill"
+            ]
+        }
+    },
+    "speedy": {
+        "location_text": "King's Arms, Tournament Hall, Town of Gnawnia, Windmill",
+        "areas": {
+            "Valour": [
+                "King's Arms",
+                "Tournament Hall"
+            ],
+            "Gnawnia": [
+                "Town of Gnawnia",
+                "Windmill"
+            ]
+        }
+    },
+    "tiny": {
+        "location_text": "King's Arms, Meadow, Windmill",
+        "areas": {
+            "Valour": [
+                "King's Arms"
+            ],
+            "Gnawnia": [
+                "Meadow",
+                "Windmill"
+            ]
+        }
+    },
+    "aquos": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "bandit": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "berserker": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "black_mage": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "cavalier": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "clockwork_samurai": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "cowbell": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "dancer": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "drummer": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "eclipse": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "escape_artist": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "fencer": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "fiddler": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "fiend": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "guqin_player": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "hapless_marionette": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "ignis": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "impersonator": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "knight": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "lockpick": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "necromancer": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "page": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "paladin": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "phalanx": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "puppet_master": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "rogue": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "sacred_shrine": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "sock_puppet_ghost": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "stealth": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "terra": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "toy_sylvan": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "white_mage": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "wound_up_white": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "zephyr": {
+        "location_text": "King's Gauntlet",
+        "areas": {
+            "Valour": [
+                "King's Gauntlet"
+            ]
+        }
+    },
+    "ash_golem": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "automated_stone_sentry": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "corridor_bruiser": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "dark_templar": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "drudge": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "fungal_technomorph": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "hired_eidolon": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "lost": {
+        "location_text": "Labyrinth",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth"
+            ]
+        }
+    },
+    "lost_legionnaire": {
+        "location_text": "Labyrinth",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth"
+            ]
+        }
+    },
+    "masked_pikeman": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "mimic": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "mind_tearer": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "mush_monster": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "mushroom_harvester": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "mystic_guardian": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "mystic_herald": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "mystic_scholar": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "nightshade_nanny": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "rr-8": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "reanimated_carver": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "sanguinarian": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "shadow_stalker": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "solemn_soldier": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "summoning_scholar": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "tech_golem": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "treasure_brawler": {
+        "location_text": "Labyrinth, Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Labyrinth",
+                "Zokor"
+            ]
+        }
+    },
+    "goblin": {
+        "location_text": "Lagoon",
+        "areas": {
+            "Whisker Woods": [
+                "Lagoon"
+            ]
+        }
+    },
+    "harpy": {
+        "location_text": "Lagoon",
+        "areas": {
+            "Whisker Woods": [
+                "Lagoon"
+            ]
+        }
+    },
+    "hydra": {
+        "location_text": "Lagoon, S.S. Huntington III",
+        "areas": {
+            "Whisker Woods": [
+                "Lagoon"
+            ],
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "silth": {
+        "location_text": "Lagoon",
+        "areas": {
+            "Whisker Woods": [
+                "Lagoon"
+            ]
+        }
+    },
+    "troll": {
+        "location_text": "Lagoon",
+        "areas": {
+            "Whisker Woods": [
+                "Lagoon"
+            ]
+        }
+    },
+    "water_nymph": {
+        "location_text": "Lagoon, S.S. Huntington III",
+        "areas": {
+            "Whisker Woods": [
+                "Lagoon"
+            ],
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "bark": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "barkshell": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "calalilly": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "camoflower": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "camofusion": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "carmine_the_apothecary": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "dehydrated": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "fungal_spore": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "shattered_carmine": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "shroom": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "strawberry_hotcakes": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "thirsty": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "thistle": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "thorn": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "twisted_carmine": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "twisted_hotcakes": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "twisted_lilly": {
+        "location_text": "Living Garden",
+        "areas": {
+            "Sandtail Desert": [
+                "Living Garden"
+            ]
+        }
+    },
+    "corrupt": {
+        "location_text": "Lost City",
+        "areas": {
+            "Sandtail Desert": [
+                "Lost City"
+            ]
+        }
+    },
+    "cursed": {
+        "location_text": "Lost City",
+        "areas": {
+            "Sandtail Desert": [
+                "Lost City"
+            ]
+        }
+    },
+    "cursed_enchanter": {
+        "location_text": "Lost City",
+        "areas": {
+            "Sandtail Desert": [
+                "Lost City"
+            ]
+        }
+    },
+    "cursed_engineer": {
+        "location_text": "Lost City",
+        "areas": {
+            "Sandtail Desert": [
+                "Lost City"
+            ]
+        }
+    },
+    "cursed_librarian": {
+        "location_text": "Lost City",
+        "areas": {
+            "Sandtail Desert": [
+                "Lost City"
+            ]
+        }
+    },
+    "cursed_thief": {
+        "location_text": "Lost City",
+        "areas": {
+            "Sandtail Desert": [
+                "Lost City"
+            ]
+        }
+    },
+    "dark_magi": {
+        "location_text": "Lost City",
+        "areas": {
+            "Sandtail Desert": [
+                "Lost City"
+            ]
+        }
+    },
+    "essence_collector": {
+        "location_text": "Lost City",
+        "areas": {
+            "Sandtail Desert": [
+                "Lost City"
+            ]
+        }
+    },
+    "essence_guardian": {
+        "location_text": "Lost City",
+        "areas": {
+            "Sandtail Desert": [
+                "Lost City"
+            ]
+        }
+    },
+    "ethereal_enchanter": {
+        "location_text": "Lost City",
+        "areas": {
+            "Sandtail Desert": [
+                "Lost City"
+            ]
+        }
+    },
+    "ethereal_engineer": {
+        "location_text": "Lost City",
+        "areas": {
+            "Sandtail Desert": [
+                "Lost City"
+            ]
+        }
+    },
+    "ethereal_librarian": {
+        "location_text": "Lost City",
+        "areas": {
+            "Sandtail Desert": [
+                "Lost City"
+            ]
+        }
+    },
+    "ethereal_thief": {
+        "location_text": "Lost City",
+        "areas": {
+            "Sandtail Desert": [
+                "Lost City"
+            ]
+        }
+    },
+    "cowardly": {
+        "location_text": "Meadow, Town of Gnawnia",
+        "areas": {
+            "Gnawnia": [
+                "Meadow",
+                "Town of Gnawnia"
+            ]
+        }
+    },
+    "field": {
+        "location_text": "Meadow, Windmill",
+        "areas": {
+            "Gnawnia": [
+                "Meadow",
+                "Windmill"
+            ]
+        }
+    },
+    "lightning_rod": {
+        "location_text": "Meadow, Tournament Hall",
+        "areas": {
+            "Gnawnia": [
+                "Meadow"
+            ],
+            "Valour": [
+                "Tournament Hall"
+            ]
+        }
+    },
+    "master_of_the_cheese_belt": {
+        "location_text": "Meditation Room",
+        "areas": {
+            "Furoma": [
+                "Meditation Room"
+            ]
+        }
+    },
+    "master_of_the_cheese_claw": {
+        "location_text": "Meditation Room",
+        "areas": {
+            "Furoma": [
+                "Meditation Room"
+            ]
+        }
+    },
+    "master_of_the_cheese_fang": {
+        "location_text": "Meditation Room",
+        "areas": {
+            "Furoma": [
+                "Meditation Room"
+            ]
+        }
+    },
+    "abominable_snow": {
+        "location_text": "Mountain",
+        "areas": {
+            "Gnawnia": [
+                "Mountain"
+            ]
+        }
+    },
+    "frosty_snow": {
+        "location_text": "Mountain",
+        "areas": {
+            "Gnawnia": [
+                "Mountain"
+            ]
+        }
+    },
+    "frozen": {
+        "location_text": "Mountain",
+        "areas": {
+            "Gnawnia": [
+                "Mountain"
+            ]
+        }
+    },
+    "pebble": {
+        "location_text": "Mountain",
+        "areas": {
+            "Gnawnia": [
+                "Mountain"
+            ]
+        }
+    },
+    "blacksmith": {
+        "location_text": "Muridae Market",
+        "areas": {
+            "Sandtail Desert": [
+                "Muridae Market"
+            ]
+        }
+    },
+    "desert_architect": {
+        "location_text": "Muridae Market",
+        "areas": {
+            "Sandtail Desert": [
+                "Muridae Market"
+            ]
+        }
+    },
+    "desert_nomad": {
+        "location_text": "Muridae Market",
+        "areas": {
+            "Sandtail Desert": [
+                "Muridae Market"
+            ]
+        }
+    },
+    "falling_carpet": {
+        "location_text": "Muridae Market",
+        "areas": {
+            "Sandtail Desert": [
+                "Muridae Market"
+            ]
+        }
+    },
+    "glass_blower": {
+        "location_text": "Muridae Market",
+        "areas": {
+            "Sandtail Desert": [
+                "Muridae Market"
+            ]
+        }
+    },
+    "limestone_miner": {
+        "location_text": "Muridae Market",
+        "areas": {
+            "Sandtail Desert": [
+                "Muridae Market"
+            ]
+        }
+    },
+    "lumberjack": {
+        "location_text": "Muridae Market",
+        "areas": {
+            "Sandtail Desert": [
+                "Muridae Market"
+            ]
+        }
+    },
+    "mage_weaver": {
+        "location_text": "Muridae Market",
+        "areas": {
+            "Sandtail Desert": [
+                "Muridae Market"
+            ]
+        }
+    },
+    "market_guard": {
+        "location_text": "Muridae Market",
+        "areas": {
+            "Sandtail Desert": [
+                "Muridae Market"
+            ]
+        }
+    },
+    "market_thief": {
+        "location_text": "Muridae Market",
+        "areas": {
+            "Sandtail Desert": [
+                "Muridae Market"
+            ]
+        }
+    },
+    "pie_thief": {
+        "location_text": "Muridae Market",
+        "areas": {
+            "Sandtail Desert": [
+                "Muridae Market"
+            ]
+        }
+    },
+    "snake_charmer": {
+        "location_text": "Muridae Market",
+        "areas": {
+            "Sandtail Desert": [
+                "Muridae Market"
+            ]
+        }
+    },
+    "spice_merchant": {
+        "location_text": "Muridae Market",
+        "areas": {
+            "Sandtail Desert": [
+                "Muridae Market"
+            ]
+        }
+    },
+    "alnilam": {
+        "location_text": "Nerg Plains",
+        "areas": {
+            "Tribal Isles": [
+                "Nerg Plains"
+            ]
+        }
+    },
+    "beast_tamer": {
+        "location_text": "Nerg Plains",
+        "areas": {
+            "Tribal Isles": [
+                "Nerg Plains"
+            ]
+        }
+    },
+    "conjurer": {
+        "location_text": "Nerg Plains",
+        "areas": {
+            "Tribal Isles": [
+                "Nerg Plains"
+            ]
+        }
+    },
+    "conqueror": {
+        "location_text": "Nerg Plains",
+        "areas": {
+            "Tribal Isles": [
+                "Nerg Plains"
+            ]
+        }
+    },
+    "defender": {
+        "location_text": "Nerg Plains",
+        "areas": {
+            "Tribal Isles": [
+                "Nerg Plains"
+            ]
+        }
+    },
+    "finder": {
+        "location_text": "Nerg Plains",
+        "areas": {
+            "Tribal Isles": [
+                "Nerg Plains"
+            ]
+        }
+    },
+    "nerg_chieftain": {
+        "location_text": "Nerg Plains",
+        "areas": {
+            "Tribal Isles": [
+                "Nerg Plains"
+            ]
+        }
+    },
+    "slayer": {
+        "location_text": "Nerg Plains",
+        "areas": {
+            "Tribal Isles": [
+                "Nerg Plains"
+            ]
+        }
+    },
+    "dojo_sensei": {
+        "location_text": "Pinnacle Chamber",
+        "areas": {
+            "Furoma": [
+                "Pinnacle Chamber"
+            ]
+        }
+    },
+    "master_of_the_dojo": {
+        "location_text": "Pinnacle Chamber",
+        "areas": {
+            "Furoma": [
+                "Pinnacle Chamber"
+            ]
+        }
+    },
+    "bottled": {
+        "location_text": "S.S. Huntington III",
+        "areas": {
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "briegull": {
+        "location_text": "S.S. Huntington III",
+        "areas": {
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "buccaneer": {
+        "location_text": "S.S. Huntington III",
+        "areas": {
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "captain": {
+        "location_text": "S.S. Huntington III",
+        "areas": {
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "cook": {
+        "location_text": "S.S. Huntington III",
+        "areas": {
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "leviathan": {
+        "location_text": "S.S. Huntington III",
+        "areas": {
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "mermouse": {
+        "location_text": "S.S. Huntington III",
+        "areas": {
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "salt_water_snapper": {
+        "location_text": "S.S. Huntington III",
+        "areas": {
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "shelder": {
+        "location_text": "S.S. Huntington III",
+        "areas": {
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "siren": {
+        "location_text": "S.S. Huntington III",
+        "areas": {
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "squeaken": {
+        "location_text": "S.S. Huntington III",
+        "areas": {
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "swabbie": {
+        "location_text": "S.S. Huntington III",
+        "areas": {
+            "Rodentia": [
+                "S.S. Huntington III"
+            ]
+        }
+    },
+    "dunehopper": {
+        "location_text": "Sand Dunes",
+        "areas": {
+            "Sandtail Desert": [
+                "Sand Dunes"
+            ]
+        }
+    },
+    "grubling": {
+        "location_text": "Sand Dunes",
+        "areas": {
+            "Sandtail Desert": [
+                "Sand Dunes"
+            ]
+        }
+    },
+    "grubling_herder": {
+        "location_text": "Sand Dunes",
+        "areas": {
+            "Sandtail Desert": [
+                "Sand Dunes"
+            ]
+        }
+    },
+    "king_grub": {
+        "location_text": "Sand Dunes",
+        "areas": {
+            "Sandtail Desert": [
+                "Sand Dunes"
+            ]
+        }
+    },
+    "king_scarab": {
+        "location_text": "Sand Dunes",
+        "areas": {
+            "Sandtail Desert": [
+                "Sand Dunes"
+            ]
+        }
+    },
+    "quesodillo": {
+        "location_text": "Sand Dunes",
+        "areas": {
+            "Sandtail Desert": [
+                "Sand Dunes"
+            ]
+        }
+    },
+    "sand_colossus": {
+        "location_text": "Sand Dunes",
+        "areas": {
+            "Sandtail Desert": [
+                "Sand Dunes"
+            ]
+        }
+    },
+    "sand_pilgrim": {
+        "location_text": "Sand Dunes",
+        "areas": {
+            "Sandtail Desert": [
+                "Sand Dunes"
+            ]
+        }
+    },
+    "sarcophamouse": {
+        "location_text": "Sand Dunes",
+        "areas": {
+            "Sandtail Desert": [
+                "Sand Dunes"
+            ]
+        }
+    },
+    "scarab": {
+        "location_text": "Sand Dunes",
+        "areas": {
+            "Sandtail Desert": [
+                "Sand Dunes"
+            ]
+        }
+    },
+    "serpentine": {
+        "location_text": "Sand Dunes",
+        "areas": {
+            "Sandtail Desert": [
+                "Sand Dunes"
+            ]
+        }
+    },
+    "spiky_devil": {
+        "location_text": "Sand Dunes",
+        "areas": {
+            "Sandtail Desert": [
+                "Sand Dunes"
+            ]
+        }
+    },
+    "bruticle": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "derpicorn": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "fall_familiar": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "firebreather": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "firefly": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "frostbite": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "harvest_harrier": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "harvester": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "hot_head": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "hydrophobe": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "icicle": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "monarch": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "over-prepared": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "penguin": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "puddlemancer": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "pumpkin_head": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "scarecrow": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "spring_familiar": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "stinger": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "summer_mage": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "tanglefoot": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "vinetail": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "whirleygig": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "winter_mage": {
+        "location_text": "Seasonal Garden",
+        "areas": {
+            "Rodentia": [
+                "Seasonal Garden"
+            ]
+        }
+    },
+    "living_ice": {
+        "location_text": "Slushy Shoreline",
+        "areas": {
+            "Gnawnia": [
+                "Slushy Shoreline"
+            ]
+        }
+    },
+    "snow_sniper": {
+        "location_text": "Slushy Shoreline",
+        "areas": {
+            "Gnawnia": [
+                "Slushy Shoreline"
+            ]
+        }
+    },
+    "ancient_of_the_deep": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "angelfish": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "angler": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "barnacle_beautician": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "barracuda": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "betta": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "bottom_feeder": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "carnivore": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "city_noble": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "city_worker": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "clownfish": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "clumsy_carrier": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "coral": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "coral_cuddler": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "coral_dragon": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "coral_gardener": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "coral_guard": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "coral_harvester": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "coral_queen": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "crabolia": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "cuttle": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "deep_sea_diver": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "deranged_deckhand": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "derpshark": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "dread_pirate_mousert": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "eel": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "elite_guardian": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "enginseer": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "guppy": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "hydrologist": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "jellyfish": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "koimaid": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "manatee": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "mermousette": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "mershark": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "mlounder_flounder": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "octomermaid": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "old_one": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "oxygen_baron": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "pearl": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "pearl_diver": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "pirate_anchor": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "puffer": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "saltwater_axolotl": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "sand_dollar_diver": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "sand_dollar_queen": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "school_of_mish": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "seadragon": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "serpent_monster": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "spear_fisher": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "stingray": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "sunken_banshee": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "sunken_citizen": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "swashblade": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "tadpole": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "treasure_hoarder": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "treasure_keeper": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "tritus": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "turret_guard": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "urchin_king": {
+        "location_text": "Sunken City",
+        "areas": {
+            "Rodentia": [
+                "Sunken City"
+            ]
+        }
+    },
+    "biohazard": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "bog_beast": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "gelatinous_octahedron": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "hazmat": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "lab_technician": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "monster_tail": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "mutant_mongrel": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "mutant_ninja": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "mutated_behemoth": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "mutated_siblings": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "outbreak_assassin": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "plague_hag": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "scrap_metal_monster": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "slimefist": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "sludge": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "sludge_soaker": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "sludge_swimmer": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "spore": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "swamp_runner": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "telekinetic_mutant": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "tentacle": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "menace": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "toxic_warrior": {
+        "location_text": "Toxic Spill",
+        "areas": {
+            "Burroughs": [
+                "Toxic Spill"
+            ]
+        }
+    },
+    "dumpling_chef": {
+        "location_text": "Training Grounds",
+        "areas": {
+            "Furoma": [
+                "Training Grounds"
+            ]
+        }
+    },
+    "hope": {
+        "location_text": "Training Grounds",
+        "areas": {
+            "Furoma": [
+                "Training Grounds"
+            ]
+        }
+    },
+    "bloomed_sylvan": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "centaur_ranger": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "cherry_sprite": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "cranky_caterpillar": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "crazed_goblin": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "cyclops_barbarian": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "fungal_frog": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "gilded_leaf": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "grizzled_silth": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "karmachameleon": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "medicine": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "monstrous_black_widow": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "mossy_moosker": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "naturalist": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "nomadic_warrior": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "red_coat_bear": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "red-eyed_watcher_owl": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "rift_tiger": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "spirit_fox": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "spirit_of_balance": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "treant_queen": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "tree_troll": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "tri-dra": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "twisted_treant": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "water_sprite": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "winged_harpy": {
+        "location_text": "Whisker Woods Rift",
+        "areas": {
+            "Rift Plane": [
+                "Whisker Woods Rift"
+            ]
+        }
+    },
+    "captain_croissant": {
+        "location_text": "Windmill",
+        "areas": {
+            "Gnawnia": [
+                "Windmill"
+            ]
+        }
+    },
+    "farmhand": {
+        "location_text": "Windmill",
+        "areas": {
+            "Gnawnia": [
+                "Windmill"
+            ]
+        }
+    },
+    "spud": {
+        "location_text": "Windmill",
+        "areas": {
+            "Gnawnia": [
+                "Windmill"
+            ]
+        }
+    },
+    "ancient_scribe": {
+        "location_text": "Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Zokor"
+            ]
+        }
+    },
+    "battle_cleric": {
+        "location_text": "Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Zokor"
+            ]
+        }
+    },
+    "decrepit_tentacle_terror": {
+        "location_text": "Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Zokor"
+            ]
+        }
+    },
+    "ethereal_guardian": {
+        "location_text": "Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Zokor"
+            ]
+        }
+    },
+    "exo-tech": {
+        "location_text": "Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Zokor"
+            ]
+        }
+    },
+    "manaforge_smith": {
+        "location_text": "Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Zokor"
+            ]
+        }
+    },
+    "matron_of_machinery": {
+        "location_text": "Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Zokor"
+            ]
+        }
+    },
+    "matron_of_wealth": {
+        "location_text": "Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Zokor"
+            ]
+        }
+    },
+    "molten_midas": {
+        "location_text": "Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Zokor"
+            ]
+        }
+    },
+    "nightshade_fungalmancer": {
+        "location_text": "Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Zokor"
+            ]
+        }
+    },
+    "paladin_weapon_master": {
+        "location_text": "Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Zokor"
+            ]
+        }
+    },
+    "retired_minotaur": {
+        "location_text": "Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Zokor"
+            ]
+        }
+    },
+    "sir_fleekio": {
+        "location_text": "Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Zokor"
+            ]
+        }
+    },
+    "soul_binder": {
+        "location_text": "Zokor",
+        "areas": {
+            "Hollow Heights": [
+                "Zokor"
+            ]
+        }
+    },
+    "chess_master": {
+        "location_text": "Zugzwang's Tower",
+        "areas": {
+            "Rodentia": [
+                "Zugzwang's Tower"
+            ]
+        }
+    },
+    "mystic_bishop": {
+        "location_text": "Zugzwang's Tower",
+        "areas": {
+            "Rodentia": [
+                "Zugzwang's Tower"
+            ]
+        }
+    },
+    "mystic_king": {
+        "location_text": "Zugzwang's Tower",
+        "areas": {
+            "Rodentia": [
+                "Zugzwang's Tower"
+            ]
+        }
+    },
+    "mystic_knight": {
+        "location_text": "Zugzwang's Tower",
+        "areas": {
+            "Rodentia": [
+                "Zugzwang's Tower"
+            ]
+        }
+    },
+    "mystic_pawn": {
+        "location_text": "Zugzwang's Tower",
+        "areas": {
+            "Rodentia": [
+                "Zugzwang's Tower"
+            ]
+        }
+    },
+    "mystic_queen": {
+        "location_text": "Zugzwang's Tower",
+        "areas": {
+            "Rodentia": [
+                "Zugzwang's Tower"
+            ]
+        }
+    },
+    "mystic_rook": {
+        "location_text": "Zugzwang's Tower",
+        "areas": {
+            "Rodentia": [
+                "Zugzwang's Tower"
+            ]
+        }
+    },
+    "technic_bishop": {
+        "location_text": "Zugzwang's Tower",
+        "areas": {
+            "Rodentia": [
+                "Zugzwang's Tower"
+            ]
+        }
+    },
+    "technic_king": {
+        "location_text": "Zugzwang's Tower",
+        "areas": {
+            "Rodentia": [
+                "Zugzwang's Tower"
+            ]
+        }
+    },
+    "technic_knight": {
+        "location_text": "Zugzwang's Tower",
+        "areas": {
+            "Rodentia": [
+                "Zugzwang's Tower"
+            ]
+        }
+    },
+    "technic_pawn": {
+        "location_text": "Zugzwang's Tower",
+        "areas": {
+            "Rodentia": [
+                "Zugzwang's Tower"
+            ]
+        }
+    },
+    "technic_queen": {
+        "location_text": "Zugzwang's Tower",
+        "areas": {
+            "Rodentia": [
+                "Zugzwang's Tower"
+            ]
+        }
+    },
+    "technic_rook": {
+        "location_text": "Zugzwang's Tower",
+        "areas": {
+            "Rodentia": [
+                "Zugzwang's Tower"
+            ]
+        }
+    }
+}
