@@ -5,7 +5,7 @@
 	$mouse_list = json_decode(file_get_contents("mouse_list.json"));
 	$mouse_locations = json_decode(file_get_contents("mouse_locations.json"));
 	foreach ($groups as $group_tab) {
-		foreach ($group_tab->page->tabs[2]->subtabs[0]->categories as $group) {
+		foreach ($group_tab->page->tabs->{'2'}->subtabs[0]->categories as $group) {
 			if (!$group->initialized)
 				continue;
 			foreach ($group->subgroups[0]->mice as $mouse) {
